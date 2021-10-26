@@ -31,15 +31,17 @@ function Testimonials() {
           </div>
 
           {/* Items */}
-          <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-5">
+          <div className="max-w-sm md:max-w-4xl mx-auto grid gap-1 grid-cols-3 md:grid-cols-3">
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img className="rounded-full" src={require('../images/mentors/ainsley.jpeg').default} alt="Ainsley Laing" />
+              <img className="rounded-full" src={require('../images/mentors/ainsley.jpeg').default} alt="Ainsley Laing" width="225px" />
             </div>
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img className="rounded-full" src={require('../images/mentors/leon.jpg').default} alt="Leon Cox" />
+              <img className="rounded-full" src={require('../images/mentors/leon.jpg').default} alt="Leon Cox" width="225px" />
+              {/* <p className="text-center">Leon Cox</p> */}
             </div>
             <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img className="rounded-full" src={require('../images/mentors/richard.jpg').default} alt="Richard Ong" />
+              <img className="rounded-full" src={require('../images/mentors/richard.jpg').default} alt="Richard Ong" width="225px" />
+              {/* <p className="text-center" width="225px">Richard Ong</p> */}
             </div>
 
           </div>
