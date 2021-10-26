@@ -34,15 +34,20 @@ function Mentors() {
           <div className="max-w-sm md:max-w-4xl mx-auto grid gap-1 grid-cols-3 md:grid-cols-3">
             <div className="mentor flex items-center justify-center py-2 col-span-2 md:col-auto">
               <img className="rounded-full" src={require('../images/mentors/ainsley.jpeg').default} alt="Ainsley Laing" width="225px" />
-              <p className="text-center">Ainsley Laing</p>
+              <p className="text-center pt-3 text-2xl">Ainsley Laing</p>
+              <p className="text-center text-gray-500">Computer Science Teacher</p>
             </div>
+
             <div className="mentor flex items-center justify-center py-2 col-span-2 md:col-auto">
               <img className="rounded-full" src={require('../images/mentors/leon.jpg').default} alt="Leon Cox" width="225px" />
-              <p className="text-center">Leon Cox</p>
+              <p className="text-center pt-3 text-2xl">Leon Cox</p>
+              <p className="text-center text-gray-500">Manufacturing Professor</p>
             </div>
+
             <div className="mentor flex items-center justify-center py-2 col-span-2 md:col-auto">
               <img className="rounded-full" src={require('../images/mentors/richard.jpg').default} alt="Richard Ong" width="225px" />
-              <p className="text-center">Richard Ong</p>
+              <p className="text-center pt-3 text-2xl">Richard Ong</p>
+              <p className="text-center text-gray-500">Design Teacher</p>
             </div>
 
           </div>
