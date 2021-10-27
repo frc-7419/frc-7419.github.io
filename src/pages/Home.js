@@ -7,6 +7,7 @@ import FeaturesBlocks from '../partials/FeaturesBlocks';
 import Mentors from '../partials/Mentors';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
+import Sponsors from '../partials/Sponsors';
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
         <FeaturesHome />
         <FeaturesBlocks />
         <Mentors />
+        <Sponsors />
         <Newsletter />
 
       </main>
