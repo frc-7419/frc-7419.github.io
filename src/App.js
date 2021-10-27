@@ -53,6 +53,10 @@ function App() {
           window.location.href = 'https://www.facebook.com/7419-Tech-Support-FRC-1907516719310109/';
           return null;
         }}/>
+        <Route path='/reddit' component={() => {
+          window.location.href = 'https://old.reddit.com/user/7419Tech/';
+          return null;
+        }}/>
         <Route path="/signin">
           <SignIn />
         </Route>
