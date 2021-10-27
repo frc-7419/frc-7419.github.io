@@ -41,6 +41,18 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
+        <Route path='/twitter' component={() => { 
+          window.location.href = 'https://twitter.com/7419Tech'; 
+          return null;
+        }}/>
+        <Route path='/instagram' component={() => { 
+          window.location.href = 'https://www.instagram.com/7419tech/'; 
+          return null;
+        }}/>
+        <Route path='/facebook' component={() => {
+          window.location.href = 'https://www.facebook.com/7419-Tech-Support-FRC-1907516719310109/';
+          return null;
+        }}/>
         <Route path="/signin">
           <SignIn />
         </Route>
