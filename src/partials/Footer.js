@@ -167,7 +167,7 @@ function Footer() {
           </svg> */}
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">Copyright &copy; Tech Support 2021</div>
+          <div className="text-sm text-gray-600 mr-4">Copyright &copy; Tech Support {(new Date().getFullYear())}</div>
 
         </div>
 
