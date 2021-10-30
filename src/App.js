@@ -11,9 +11,10 @@ import AOS from 'aos';
 import { focusHandling } from 'cruip-js-toolkit';
 
 import Home from './pages/Home';
-import SignIn from './pages/SignIn';
-import SignUp from './pages/SignUp';
-import ResetPassword from './pages/ResetPassword';
+import Mentors from './pages/Mentors';
+import Sponsors from './pages/Sponsors';
+
+import NotFound from './pages/NotFound'
 
 function App() {
 
@@ -41,6 +42,10 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
+        <Route exact path="/about/mentors" component={Mentors} />
+        <Route exact path="/about/sponsors" component={Sponsors} />
+
+        {/* social medias */}
         <Route path='/twitter' component={() => { 
           window.location.href = 'https://twitter.com/7419Tech'; 
           return null;
@@ -57,15 +62,8 @@ function App() {
           window.location.href = 'https://old.reddit.com/user/7419Tech/';
           return null;
         }}/>
-        <Route path="/signin">
-          <SignIn />
-        </Route>
-        <Route path="/signup">
-          <SignUp />
-        </Route>
-        <Route path="/reset-password">
-          <ResetPassword />
-        </Route>
+        <Route component={NotFound} />
+
       </Switch>
     </>
   );
