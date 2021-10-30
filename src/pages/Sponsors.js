@@ -1,25 +1,12 @@
 import React from 'react';
 
+import Header from '../partials/Header';
+
 function Sponsors() {
   return (
     <section className="relative">
+      <Header />
 
-      {/* Illustration behind content */}
-      <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -mb-32" aria-hidden="true">
-        <svg width="1760" height="518" viewBox="0 0 1760 518" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="illustration-02">
-              <stop stopColor="#FFF" offset="0%" />
-              <stop stopColor="#EAEAEA" offset="77.402%" />
-              <stop stopColor="#DFDFDF" offset="100%" />
-            </linearGradient>
-          </defs>
-          <g transform="translate(0 -3)" fill="url(#illustration-02)" fillRule="evenodd">
-            <circle cx="1630" cy="128" r="128" />
-            <circle cx="178" cy="481" r="40" />
-          </g>
-        </svg>
-      </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
@@ -33,34 +20,34 @@ function Sponsors() {
           {/* Items */}
           <div className="max-w-sm md:max-w-4xl mx-auto grid gap-x-3 grid-cols-4 md:grid-cols-4 px-20">
             <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img src={require('../images/logos/apple-logo.png').default} alt="apple-logo.png" />
+              <img src={require('../images/sponsors/apple-logo.png').default} alt="apple-logo.png" />
             </div>
             <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img src={require('../images/logos/Brin-Wojcicki-logo.jpg').default} alt="Brin-Wojcicki-logo.jpg" />
+              <img src={require('../images/sponsors/Brin-Wojcicki-logo.jpg').default} alt="Brin-Wojcicki-logo.jpg" />
             </div>
             <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img src={require('../images/logos/FIRSTlogo.jpg').default} alt="FIRSTlogo.jpg" />
+              <img src={require('../images/sponsors/FIRSTlogo.jpg').default} alt="FIRSTlogo.jpg" />
             </div>
             <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img src={require('../images/logos/googleLogo.png').default} alt="googleLogo.png" />
+              <img src={require('../images/sponsors/googleLogo.png').default} alt="googleLogo.png" />
             </div>
             <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img src={require('../images/logos/limelight.jpg').default} alt="limelight.jpg" />
+              <img src={require('../images/sponsors/limelight.jpg').default} alt="limelight.jpg" />
             </div>
             <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img src={require('../images/logos/nasa.png').default} alt="nasa.png" />
+              <img src={require('../images/sponsors/nasa.png').default} alt="nasa.png" />
             </div>
             <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img src={require('../images/logos/notion-logo.png').default} alt="notion-logo.png" />
+              <img src={require('../images/sponsors/notion-logo.png').default} alt="notion-logo.png" />
             </div>
             <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img src={require('../images/logos/solidworks.png').default} alt="solidworks.png" />
+              <img src={require('../images/sponsors/solidworks.png').default} alt="solidworks.png" />
             </div>
             <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img src={require('../images/logos/steel.jpeg').default} alt="steel.jpeg" />
+              <img src={require('../images/sponsors/steel.jpeg').default} alt="steel.jpeg" />
             </div>
             <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-              <img src={require('../images/logos/TECO.png').default} alt="TECO.png" />
+              <img src={require('../images/sponsors/TECO.png').default} alt="TECO.png" />
             </div>
 
           </div>
