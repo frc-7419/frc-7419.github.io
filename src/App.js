@@ -14,6 +14,9 @@ import Home from './pages/Home';
 import Mentors from './pages/about/Mentors';
 import Sponsors from './pages/about/Sponsors';
 
+import BlogHome from './pages/blog/layouts/BlogHome';
+import Article from './pages/blog/layouts/Article';
+
 import NotFound from './pages/NotFound'
 
 function App() {
@@ -39,11 +42,25 @@ function App() {
   return (
     <>
       <Switch>
+
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path="/about/mentors" component={Mentors} />
-        <Route exact path="/about/sponsors" component={Sponsors} />
+
+        <Route exact path="/about/mentors">
+          <Mentors />
+        </Route>
+        <Route exact path="/about/sponsors">
+          <Sponsors />
+        </Route>
+
+        <Route exact path="/blog">
+          <BlogHome />
+        </Route>
+        <Route path="/blog/:slug">
+          <Article />
+        </Route>
+
 
         {/* social medias */}
         <Route path='/twitter' component={() => { 
