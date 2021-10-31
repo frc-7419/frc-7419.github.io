@@ -1,5 +1,6 @@
 import preval from 'babel-plugin-preval/macro'
 
+// need to use preval because fetch files from server side
 
 const posts = preval`
 const fs = require('fs');
