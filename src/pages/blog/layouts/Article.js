@@ -37,11 +37,12 @@ function Article() {
               <div className="py-14 md:py-20">
 
                 <h1 className="h1">{posts[post_index].frontMatter.title}</h1>
-                <div className="prose">
+                <article className="prose">
+                {/* https://github.com/tailwindlabs/tailwindcss-typography */}
                   <ReactMarkdown>
                     {posts[post_index].mdSource}
                   </ReactMarkdown>
-                </div>
+                </article>
               </div>
             </div>
           </section>
