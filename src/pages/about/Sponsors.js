@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from '../partials/Header';
+import Header from '../../partials/Header';
 
 function Sponsors() {
   return (
@@ -39,34 +39,34 @@ function Sponsors() {
               {/* Items */}
               <div className="max-w-sm md:max-w-4xl mx-auto grid gap-x-3 grid-cols-4 md:grid-cols-4 px-20">
                 <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img src={require('../images/sponsors/apple-logo.png').default} alt="apple-logo.png" />
+                  <img src={require('../../images/sponsors/apple-logo.png').default} alt="apple-logo.png" />
                 </div>
                 <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img src={require('../images/sponsors/Brin-Wojcicki-logo.jpg').default} alt="Brin-Wojcicki-logo.jpg" />
+                  <img src={require('../../images/sponsors/Brin-Wojcicki-logo.jpg').default} alt="Brin-Wojcicki-logo.jpg" />
                 </div>
                 <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img src={require('../images/sponsors/FIRSTlogo.jpg').default} alt="FIRSTlogo.jpg" />
+                  <img src={require('../../images/sponsors/FIRSTlogo.jpg').default} alt="FIRSTlogo.jpg" />
                 </div>
                 <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img src={require('../images/sponsors/googleLogo.png').default} alt="googleLogo.png" />
+                  <img src={require('../../images/sponsors/googleLogo.png').default} alt="googleLogo.png" />
                 </div>
                 <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img src={require('../images/sponsors/limelight.jpg').default} alt="limelight.jpg" />
+                  <img src={require('../../images/sponsors/limelight.jpg').default} alt="limelight.jpg" />
                 </div>
                 <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img src={require('../images/sponsors/nasa.png').default} alt="nasa.png" />
+                  <img src={require('../../images/sponsors/nasa.png').default} alt="nasa.png" />
                 </div>
                 <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img src={require('../images/sponsors/notion-logo.png').default} alt="notion-logo.png" />
+                  <img src={require('../../images/sponsors/notion-logo.png').default} alt="notion-logo.png" />
                 </div>
                 <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img src={require('../images/sponsors/solidworks.png').default} alt="solidworks.png" />
+                  <img src={require('../../images/sponsors/solidworks.png').default} alt="solidworks.png" />
                 </div>
                 <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img src={require('../images/sponsors/steel.jpeg').default} alt="steel.jpeg" />
+                  <img src={require('../../images/sponsors/steel.jpeg').default} alt="steel.jpeg" />
                 </div>
                 <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img src={require('../images/sponsors/TECO.png').default} alt="TECO.png" />
+                  <img src={require('../../images/sponsors/TECO.png').default} alt="TECO.png" />
                 </div>
 
               </div>
@@ -80,7 +80,7 @@ function Sponsors() {
                       <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
                         <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
                       </svg>
-                      <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
+                      <img className="relative rounded-full" src={require('../../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
                     </div>
                     <blockquote className="text-xl font-medium mb-4">
                       “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “

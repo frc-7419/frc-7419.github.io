@@ -11,8 +11,8 @@ import AOS from 'aos';
 import { focusHandling } from 'cruip-js-toolkit';
 
 import Home from './pages/Home';
-import Mentors from './pages/Mentors';
-import Sponsors from './pages/Sponsors';
+import Mentors from './pages/about/Mentors';
+import Sponsors from './pages/about/Sponsors';
 
 import NotFound from './pages/NotFound'
 

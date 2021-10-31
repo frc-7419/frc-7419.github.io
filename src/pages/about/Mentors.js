@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from '../partials/Header';
+import Header from '../../partials/Header';
 
 function Mentors() {
   return (
@@ -39,19 +39,19 @@ function Mentors() {
               {/* Items */}
               <div className="max-w-sm md:max-w-4xl mx-auto grid gap-1 grid-cols-3 md:grid-cols-3">
                 <div className="mentor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img className="rounded-full" src={require('../images/mentors/ainsley.jpeg').default} alt="Ainsley Laing" width="225px" />
+                  <img className="rounded-full" src={require('../../images/mentors/ainsley.jpeg').default} alt="Ainsley Laing" width="225px" />
                   <p className="text-center pt-3 text-2xl">Ainsley Laing</p>
                   <p className="text-center text-gray-500">Computer Science Teacher</p>
                 </div>
 
                 <div className="mentor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img className="rounded-full" src={require('../images/mentors/leon.jpg').default} alt="Leon Cox" width="225px" />
+                  <img className="rounded-full" src={require('../../images/mentors/leon.jpg').default} alt="Leon Cox" width="225px" />
                   <p className="text-center pt-3 text-2xl">Leon Cox</p>
                   <p className="text-center text-gray-500">Manufacturing Professor</p>
                 </div>
 
                 <div className="mentor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img className="rounded-full" src={require('../images/mentors/richard.jpg').default} alt="Richard Ong" width="225px" />
+                  <img className="rounded-full" src={require('../../images/mentors/richard.jpg').default} alt="Richard Ong" width="225px" />
                   <p className="text-center pt-3 text-2xl">Richard Ong</p>
                   <p className="text-center text-gray-500">Design Teacher</p>
                 </div>
@@ -68,7 +68,7 @@ function Mentors() {
                       <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-blue-500" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
                         <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
                       </svg>
-                      <img className="relative rounded-full" src={require('../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
+                      <img className="relative rounded-full" src={require('../../images/testimonial.jpg').default} width="96" height="96" alt="Testimonial 01" />
                     </div>
                     <blockquote className="text-xl font-medium mb-4">
                       “ I love this product and would recommend it to anyone. Could be not easier to use, and our multiple websites are wonderful. We get nice comments all the time. “
