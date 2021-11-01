@@ -1,4 +1,4 @@
-import { Link, withRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 import Header from '../../../partials/Header';
 import Footer from '../../../partials/Footer';
@@ -53,4 +53,4 @@ function BlogHome() {
 
 
 
-export default withRouter(BlogHome);
+export default BlogHome;
