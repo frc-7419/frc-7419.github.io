@@ -29,10 +29,10 @@
   "scripts": {
     "predeploy": "craco build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "craco start",
     "build": "craco build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "craco test",
+    "eject": "craco eject"
   },
   "eslintConfig": {
     "extends": "react-app"
