@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.0771798b.chunk.css",
-    "main.js": "/static/js/main.f1e18968.chunk.js",
-    "main.js.map": "/static/js/main.f1e18968.chunk.js.map",
+    "main.css": "/static/css/main.c6c63f1b.chunk.css",
+    "main.js": "/static/js/main.6d805c8b.chunk.js",
+    "main.js.map": "/static/js/main.6d805c8b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5c661781.js",
     "runtime-main.js.map": "/static/js/runtime-main.5c661781.js.map",
-    "static/js/2.f9233fa5.chunk.js": "/static/js/2.f9233fa5.chunk.js",
-    "static/js/2.f9233fa5.chunk.js.map": "/static/js/2.f9233fa5.chunk.js.map",
+    "static/js/2.a756e2dc.chunk.js": "/static/js/2.a756e2dc.chunk.js",
+    "static/js/2.a756e2dc.chunk.js.map": "/static/js/2.a756e2dc.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.0771798b.chunk.css.map": "/static/css/main.0771798b.chunk.css.map",
-    "static/js/2.f9233fa5.chunk.js.LICENSE.txt": "/static/js/2.f9233fa5.chunk.js.LICENSE.txt",
+    "static/css/main.c6c63f1b.chunk.css.map": "/static/css/main.c6c63f1b.chunk.css.map",
+    "static/js/2.a756e2dc.chunk.js.LICENSE.txt": "/static/js/2.a756e2dc.chunk.js.LICENSE.txt",
     "static/media/2020Robot.png": "/static/media/2020Robot.0d0a80cb.png",
     "static/media/7419TechSupport.jpg": "/static/media/7419TechSupport.ea37da4f.jpg",
-    "static/media/7419_light.png": "/static/media/7419_light.d3371521.png",
     "static/media/Brin-Wojcicki-logo.jpg": "/static/media/Brin-Wojcicki-logo.14ed7ca2.jpg",
     "static/media/FIRSTlogo.jpg": "/static/media/FIRSTlogo.ca7e9ee5.jpg",
     "static/media/TECO.png": "/static/media/TECO.3ad45b08.png",
@@ -27,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5c661781.js",
-    "static/js/2.f9233fa5.chunk.js",
-    "static/css/main.0771798b.chunk.css",
-    "static/js/main.f1e18968.chunk.js"
+    "static/js/2.a756e2dc.chunk.js",
+    "static/css/main.c6c63f1b.chunk.css",
+    "static/js/main.6d805c8b.chunk.js"
   ]
 }
