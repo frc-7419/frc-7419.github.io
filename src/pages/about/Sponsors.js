@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Header from '../../partials/Header';
+import Footer from '../../partials/Footer';
+
 
 function Sponsors() {
   return (
@@ -98,6 +100,7 @@ function Sponsors() {
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }

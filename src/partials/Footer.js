@@ -158,6 +158,14 @@ function Footer() {
                 </svg>
               </Link>
             </li>
+            <li className="ml-4">
+            {/* TODO: actual email */}
+              <Link target="_blank" rel="noopener noreferrer" to={{ pathname: "mailto:info@7419.tech" }} className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Facebook">
+              <svg className="w-8 h-8 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="-8 -8 32 32">
+                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+              </svg>
+              </Link>
+            </li>
             {/* https://icons.getbootstrap.com/ */}
           </ul>
 
