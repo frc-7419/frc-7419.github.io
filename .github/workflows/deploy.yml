@@ -4,8 +4,8 @@
 name: Node.js CI
 
 on:
-        #  push:
-        #    branches: [ main ]
+  push:
+    branches: [ main ]
 
   workflow_dispatch:
 
@@ -16,17 +16,26 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x, 14.x, 16.x]
+        node-version: [16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
     - uses: actions/checkout@v2
+    - name: Setup Git User
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - name: Install Node Deps
-      run: npm install --dev
-    - name: Deploy
-      run: npm run deploy
+      run: npm install --dev --loglevel=error
+    - name: Deploy with gh-pages
+      run: |
+        git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        npm run deploy
+      env:
+        CI: ""
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
