@@ -1,6 +1,6 @@
 {
   "name": "7419-website",
-  "homepage": "https://frc-7419.github.io/",
+  "homepage": "http://frc-7419.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
