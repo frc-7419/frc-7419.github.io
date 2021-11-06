@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 
 import Header from '../partials/Header';
 
+/* 404 Page */
+
 function NotFound() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
@@ -34,8 +36,9 @@ function NotFound() {
               <h2 className="h2 text-gray-700">404: Page not Found</h2>
             </div>
           </div>
-          <div className="py-6">
-            <p className="text-center text-2xl underline text-blue-600 hover:text-blue-800 visited:text-purple-600"><Link to="/">Home</Link></p>
+          <div className="py-14 flex items-center justify-center">
+            <Link to="/"><button className="btn text-white text-center font-bold bg-blue-500 hover:bg-blue-700 shadow">Home</button></Link>
+            {/* <p className="text-center text-2xl underline text-blue-600 hover:text-blue-800 visited:text-purple-600"><Link to="/">Home</Link></p> */}
           </div>
           
         </div>
