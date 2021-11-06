@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Transition from '../utils/Transition.js';
 
+function isTouchDevice() {
+  return 'ontouchstart' in window;
+}
+
 function Dropdown({
   children,
   title
@@ -21,7 +25,13 @@ function Dropdown({
         className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
         href="#0"
         aria-expanded={dropdownOpen}
-        onClick={(e) => e.preventDefault()}
+        // onClick={(e) => e.preventDefault()}
+        onClick={(e) => {
+          e.preventDefault();
+          if (isTouchDevice()) { // if the device is touch, allow opening dropdown by clicking title
+            setDropdownOpen(!dropdownOpen);
+          }
+        }}
       >
         {title}
         <svg className="w-3 h-3 fill-current text-gray-500 cursor-pointer ml-1 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
