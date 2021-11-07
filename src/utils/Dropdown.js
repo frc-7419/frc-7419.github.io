@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 import Transition from '../utils/Transition.js';
 
 function isTouchDevice() {
-  return 'ontouchstart' in window;
+  return (('ontouchstart' in window) ||
+     (navigator.maxTouchPoints > 0) ||
+     (navigator.msMaxTouchPoints > 0));
 }
 
 function Dropdown({
