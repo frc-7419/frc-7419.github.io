@@ -2,18 +2,18 @@
     <channel>
         <title><![CDATA[7419 Blog]]></title>
         <description><![CDATA[Description]]></description>
-        <link>https://frc-7419.github.io</link>
+        <link>http://frc-7419.github.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 06 Nov 2021 20:44:07 GMT</lastBuildDate>
-        <atom:link href="https://frc-7419.github.io/#/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Sun, 07 Nov 2021 03:09:43 GMT</lastBuildDate>
+        <atom:link href="http://frc-7419.github.io/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Test Post]]></title>
             <description><![CDATA[<h1 id="test">Test</h1>
 <p>e</p>
 <p><img src="https://multifiles.pressherald.com/uploads/sites/10/2021/10/manyJackolantern.jpg" alt="hi" /></p>
 <p>very scary</p>]]></description>
-            <link>https://frc-7419.github.io/#/blog/test</link>
-            <guid isPermaLink="true">https://frc-7419.github.io/#/blog/test</guid>
+            <link>http://frc-7419.github.io/blog/test</link>
+            <guid isPermaLink="true">http://frc-7419.github.io/blog/test</guid>
             <pubDate>Sun, 31 Oct 2021 00:00:00 GMT</pubDate>
         </item>
         <item>
@@ -37,8 +37,8 @@ int main() {
     return 0;
 }
 </code></pre>]]></description>
-            <link>https://frc-7419.github.io/#/blog/test2</link>
-            <guid isPermaLink="true">https://frc-7419.github.io/#/blog/test2</guid>
+            <link>http://frc-7419.github.io/blog/test2</link>
+            <guid isPermaLink="true">http://frc-7419.github.io/blog/test2</guid>
             <pubDate>Sun, 31 Oct 2021 00:00:00 GMT</pubDate>
         </item>
     </channel>

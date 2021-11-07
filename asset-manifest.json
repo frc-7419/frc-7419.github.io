@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.deebfd99.chunk.css",
-    "main.js": "/static/js/main.2d057a56.chunk.js",
-    "main.js.map": "/static/js/main.2d057a56.chunk.js.map",
+    "main.js": "/static/js/main.630cd973.chunk.js",
+    "main.js.map": "/static/js/main.630cd973.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5c661781.js",
     "runtime-main.js.map": "/static/js/runtime-main.5c661781.js.map",
     "static/js/2.f967856b.chunk.js": "/static/js/2.f967856b.chunk.js",
@@ -10,25 +10,24 @@
     "index.html": "/index.html",
     "static/css/main.deebfd99.chunk.css.map": "/static/css/main.deebfd99.chunk.css.map",
     "static/js/2.f967856b.chunk.js.LICENSE.txt": "/static/js/2.f967856b.chunk.js.LICENSE.txt",
-    "static/media/2020Robot.png": "/static/media/2020Robot.0d0a80cb.png",
+    "static/media/2020Robot.png": "/static/media/2020Robot.fcac7953.png",
     "static/media/7419TechSupport.jpg": "/static/media/7419TechSupport.ea37da4f.jpg",
-    "static/media/7419_light.png": "/static/media/7419_light.d3371521.png",
+    "static/media/7419_light.png": "/static/media/7419_light.bf72c238.png",
     "static/media/Brin-Wojcicki-logo.jpg": "/static/media/Brin-Wojcicki-logo.14ed7ca2.jpg",
-    "static/media/FIRSTlogo.jpg": "/static/media/FIRSTlogo.ca7e9ee5.jpg",
-    "static/media/TECO.png": "/static/media/TECO.3ad45b08.png",
-    "static/media/apple-logo.png": "/static/media/apple-logo.49525b88.png",
+    "static/media/FIRSTlogo.jpg": "/static/media/FIRSTlogo.3b4ab549.jpg",
+    "static/media/TECO.png": "/static/media/TECO.6ca3863b.png",
+    "static/media/apple-logo.png": "/static/media/apple-logo.8041890d.png",
     "static/media/googleLogo.png": "/static/media/googleLogo.85707a33.png",
     "static/media/leon.jpg": "/static/media/leon.ecfbc9c3.jpg",
-    "static/media/limelight.jpg": "/static/media/limelight.4fdfbef2.jpg",
-    "static/media/nasa.png": "/static/media/nasa.c6d44475.png",
-    "static/media/notion-logo.png": "/static/media/notion-logo.8ea62099.png",
-    "static/media/richard.jpg": "/static/media/richard.6807ddd7.jpg",
-    "static/media/steel.jpeg": "/static/media/steel.b6784a62.jpeg"
+    "static/media/limelight.jpg": "/static/media/limelight.f53e92de.jpg",
+    "static/media/nasa.png": "/static/media/nasa.1734c6bb.png",
+    "static/media/richard.jpg": "/static/media/richard.658074c5.jpg",
+    "static/media/steel.jpeg": "/static/media/steel.9d293e10.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.5c661781.js",
     "static/js/2.f967856b.chunk.js",
     "static/css/main.deebfd99.chunk.css",
-    "static/js/main.2d057a56.chunk.js"
+    "static/js/main.630cd973.chunk.js"
   ]
 }
