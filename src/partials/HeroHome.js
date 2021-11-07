@@ -24,7 +24,7 @@ function HeroHome() {
           </g>
         </svg>
       </div>
-      <div className="bg-black mx-auto w-full absolute mt-20"> <img className="opacity-40 " src={require('../images/7419TechSupport.jpg').default}alt="Hero" /> </div>
+      <div className="bg-black mx-auto w-full absolute mt-16 md:mt-20"> <img className="opacity-40 " src={require('../images/7419TechSupport.jpg').default}alt="Hero" /> </div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* Hero content */}
