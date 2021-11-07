@@ -26,11 +26,14 @@ const fs = require("fs");
 const showdown = require("showdown");
 const converter = new showdown.Converter();
 
+const root_url = require('../package.json').homepage;
+// its just a prebuild script so accessing package.json is ok
+
 var feed = new RSS({
   title: "7419 Blog",
   description: "Description",
-  feed_url: "https://frc-7419.github.io/#/rss.xml",
-  site_url: "https://frc-7419.github.io",
+  feed_url: `${root_url}/rss.xml`,
+  site_url: `${root_url}`,
   // image_url: "image",
 });
 
@@ -38,7 +41,7 @@ posts.map((post) => (
   feed.item({
     title: post.frontMatter.title,
     description: post.frontMatter.description,
-    url: "https://frc-7419.github.io/#/blog/" + post.slug,
+    url: `${root_url}/blog/${post.slug}`,
     date: post.frontMatter.date,
     description: converter.makeHtml(post.mdSource)
   })
