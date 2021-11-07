@@ -175,7 +175,7 @@ function Footer() {
           </svg> */}
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">Copyright &copy;{(new Date().getFullYear())} Quarry Lane School. All Rights Reserved.</div>
+          <div className="text-sm text-gray-600 mr-4">Copyright &copy;{new Date().getFullYear()} The Quarry Lane School. All Rights Reserved.</div>
 
         </div>
 
