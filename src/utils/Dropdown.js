@@ -2,11 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import Transition from '../utils/Transition.js';
 
-function isTouchDevice() {
-  return (('ontouchstart' in window) ||
-     (navigator.maxTouchPoints > 0) ||
-     (navigator.msMaxTouchPoints > 0));
-}
+
 
 function Dropdown({
   children,
@@ -14,13 +10,15 @@ function Dropdown({
 }) {
 
   const [dropdownOpen, setDropdownOpen] = useState(false);
-
+  const isTouchDevice = (('ontouchstart' in window) ||
+     (navigator.maxTouchPoints > 0) ||
+     (navigator.msMaxTouchPoints > 0));
   return (
     <li
       className="relative"
-      onMouseEnter={() => setDropdownOpen(true)}
+      onMouseEnter={isTouchDevice ? undefined : () => setDropdownOpen(true)}
       onMouseLeave={() => setDropdownOpen(false)}
-      onFocus={() => setDropdownOpen(true)}
+      onFocus={isTouchDevice ?  undefined : () => setDropdownOpen(true)}
       onBlur={() => setDropdownOpen(false)}
     >
       <a
@@ -30,7 +28,7 @@ function Dropdown({
         // onClick={(e) => e.preventDefault()}
         onClick={(e) => {
           e.preventDefault();
-          if (isTouchDevice()) { // if the device is touch, allow opening dropdown by clicking title
+          if (isTouchDevice) { // if the device is touch, allow opening dropdown by clicking title
             setDropdownOpen(!dropdownOpen);
           }
         }}
