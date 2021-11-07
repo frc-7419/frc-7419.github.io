@@ -1,6 +1,3 @@
-import preval from 'babel-plugin-preval/macro'
-// need to use preval because fetch files from server side
-const posts = preval`
 const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
@@ -16,13 +13,10 @@ const posts = files.map(filename => {
     mdSource
   }
 })
-module.exports = posts
-`
 
 // -- generate feed --
 
 const RSS = require("rss");
-const fs = require("fs");
 const showdown = require("showdown");
 const converter = new showdown.Converter();
 
