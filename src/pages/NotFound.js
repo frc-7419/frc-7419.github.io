@@ -2,16 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Header from '../partials/Header';
+import Footer from '../partials/Footer';
 
 /* 404 Page */
 
 function NotFound() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
-
         <Header />
-        <section className="relative">
-          <main className="flex-grow">
+        <main className="flex-grow">
+          <section className="relative">
 
             {/* Illustration behind content */}
             <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -mb-32" aria-hidden="true">
@@ -42,8 +42,10 @@ function NotFound() {
           </div>
           
         </div>
-        </main>
-      </section>
+
+        </section>
+      </main>
+      <Footer />
     </div>
   );
 }
