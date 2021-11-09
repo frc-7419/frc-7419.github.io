@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.0ce26794.chunk.css",
-    "main.js": "/static/js/main.e57ef4ed.chunk.js",
-    "main.js.map": "/static/js/main.e57ef4ed.chunk.js.map",
+    "main.js": "/static/js/main.f2d7ec40.chunk.js",
+    "main.js.map": "/static/js/main.f2d7ec40.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5c661781.js",
     "runtime-main.js.map": "/static/js/runtime-main.5c661781.js.map",
     "static/js/2.a1206416.chunk.js": "/static/js/2.a1206416.chunk.js",
@@ -11,7 +11,7 @@
     "static/css/main.0ce26794.chunk.css.map": "/static/css/main.0ce26794.chunk.css.map",
     "static/js/2.a1206416.chunk.js.LICENSE.txt": "/static/js/2.a1206416.chunk.js.LICENSE.txt",
     "static/media/2020Robot.png": "/static/media/2020Robot.fcac7953.png",
-    "static/media/7419TechSupport.jpg": "/static/media/7419TechSupport.ea37da4f.jpg",
+    "static/media/7419TechSupport.jpg": "/static/media/7419TechSupport.91269281.jpg",
     "static/media/7419_light.png": "/static/media/7419_light.bf72c238.png",
     "static/media/Brin-Wojcicki-logo.jpg": "/static/media/Brin-Wojcicki-logo.14ed7ca2.jpg",
     "static/media/FIRSTlogo.jpg": "/static/media/FIRSTlogo.3b4ab549.jpg",
@@ -28,6 +28,6 @@
     "static/js/runtime-main.5c661781.js",
     "static/js/2.a1206416.chunk.js",
     "static/css/main.0ce26794.chunk.css",
-    "static/js/main.e57ef4ed.chunk.js"
+    "static/js/main.f2d7ec40.chunk.js"
   ]
 }
