@@ -41,7 +41,7 @@ function Header() {
           <div
             className={
               "md:flex flex-grow items-center transition-opacity" +
-              (navbarOpen ? " flex" : " hidden") // TODO: make this transition
+              (navbarOpen ? " flex animate__animated animate__fadeIn animate__fast" : " hidden") // TODO: make this transition
             }
           >
           
