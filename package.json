@@ -9,7 +9,7 @@
     "preexport": "npm run build",
     "export": "next export -o build",
     "predeploy": "npm run export",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -t true",
     "start": "next start",
     "lint": "next lint"
   },
