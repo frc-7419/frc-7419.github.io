@@ -39,8 +39,6 @@ jobs:
       env:
         CI: ""
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Patch surge.sh routing
-      run: cp build/index.html build/200.html
     - name: Publish to 7419.surge.sh
       uses: dswistowski/surge-sh-action@v1
       with:
