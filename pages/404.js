@@ -31,7 +31,7 @@ export default function Custom404() {
           </div>
         </div>
         <div className="py-14 flex items-center justify-center">
-          <Link href="/"><button className="btn text-white text-center font-bold bg-blue-500 hover:bg-blue-700 shadow">Home</button></Link>
+          <Link href="/"><a><button className="btn text-white text-center font-bold bg-blue-500 hover:bg-blue-700 shadow">Home</button></a></Link>
           {/* <p className="text-center text-2xl underline text-blue-600 hover:text-blue-800 visited:text-purple-600"><Link to="/">Home</Link></p> */}
         </div>
         
