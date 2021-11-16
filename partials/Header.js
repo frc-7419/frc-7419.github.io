@@ -56,6 +56,7 @@ function Header() {
               {/* <li> */}
                 <Dropdown title="About">
                   <Link href="/about/team"><a className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 flex items-center transition duration-150 ease-in-out">The Team</a></Link>
+                  <Link href="/about/outreach"><a className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 flex items-center transition duration-150 ease-in-out">Outreach</a></Link>
                   <Link href="/about/mentors"><a className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 flex items-center transition duration-150 ease-in-out">Mentors</a></Link>
                   <Link href="/about/sponsors"><a className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sponsors</a></Link>
                 </Dropdown>
