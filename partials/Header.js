@@ -2,11 +2,25 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 import Dropdown from '../utils/Dropdown';
+import { useRouter } from 'next/router';
 
 function Header() {
 
+  const router = useRouter();
+
   const [top, setTop] = useState(true);
   const [navbarOpen, setNavbarOpen] = useState(false);
+
+  useEffect(() => { // close navbar when different page
+    const handleRouteChange = () => {
+      setNavbarOpen(false);
+    }
+    router.events.on('routeChangeStart', handleRouteChange);
+
+    return () => {
+      router.events.off('routeChangeStart', handleRouteChange);
+    }
+  })
 
   // detect whether user has scrolled the page down by 10px 
   useEffect(() => {
