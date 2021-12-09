@@ -1,6 +1,6 @@
-import { getAllPostIds, getPostData } from '../../lib/posts'
+import { getAllPostIds, getPostData } from '../../utils/Posts'
 import Head from 'next/head'
-import Date from '../../components/date'
+import Date from '../../utils/Date'
 
 
 export default function Post({ postData }) {
