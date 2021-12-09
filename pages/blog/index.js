@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import { getSortedPostsData } from '../../lib/posts'
+import { getSortedPostsData } from '../../utils/Posts'
 import Link from 'next/link'
-import Date from '../../components/date'
+import Date from '../../utils/Date'
 
 export default function Home({ allPostsData }) {
   return (

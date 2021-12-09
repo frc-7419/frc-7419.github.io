@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import Transition from '../utils/Transition.js';
-
 
 
 function Dropdown({
@@ -10,12 +9,15 @@ function Dropdown({
 }) {
 
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  var isTouchDevice;
-  if (typeof window !== "undefined") {
-     isTouchDevice = (('ontouchstart' in window) ||
-      (navigator.maxTouchPoints > 0) ||
-      (navigator.msMaxTouchPoints > 0));
-  }
+  const [isTouchDevice, setTouchDevice] = useState(true);
+
+  useEffect(() => { // useEffect ensures client-side
+    setTouchDevice(('ontouchstart' in window) ||
+    (navigator.maxTouchPoints > 0) ||
+    (navigator.msMaxTouchPoints > 0));
+  })
+  
+
   return (
     <li
       className="relative"
