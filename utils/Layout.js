@@ -3,6 +3,7 @@ import Footer from '../partials/Footer';
 
 import Head from 'next/head'
 
+import 'animate.css';
 
 export default function Layout({ children }) {
   return (
@@ -14,15 +15,11 @@ export default function Layout({ children }) {
         <meta name="theme-color" content="#000000" />
         <meta
         name="description"
-        content="Web site created using create-react-app"
+        content="7419 Tech Support"
         />
         <link rel="apple-touch-icon" href="/logo192.png" />
 
         <link rel="manifest" href="/manifest.json" />
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-        />
 
         <title>7419 Tech Support</title>
       </Head>
@@ -32,9 +29,7 @@ export default function Layout({ children }) {
           <div className="flex flex-col min-h-screen overflow-hidden">
               {children}
               <Footer />
-
           </div>
-
         </div>
     </>
   )

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import Transition from '../utils/Transition.js';
+import { useRouter } from 'next/router';
 
 
 function Dropdown({
@@ -8,8 +9,21 @@ function Dropdown({
   title
 }) {
 
+  const router = useRouter();
+
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [isTouchDevice, setTouchDevice] = useState(true);
+
+  useEffect(() => { // close dropdown when different page
+    const handleRouteChange = () => {
+      setDropdownOpen(false);
+    }
+    router.events.on('routeChangeStart', handleRouteChange);
+
+    return () => {
+      router.events.off('routeChangeStart', handleRouteChange);
+    }
+  })
 
   useEffect(() => { // useEffect ensures client-side
     setTouchDevice(('ontouchstart' in window) ||
