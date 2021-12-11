@@ -19,11 +19,17 @@ function MyApp({ Component, pageProps }) {
   });
 
   useEffect(() => {
-    document.querySelector('html').style.scrollBehavior = 'auto'
-    window.scroll({ top: 0 })
-    window.addEventListener('load', AOS.refresh);
-    document.querySelector('html').style.scrollBehavior = ''
-  }, [router.events]); // triggered on route change
+    const handleRouteChange = () => {
+      document.querySelector('html').style.scrollBehavior = 'auto'
+      window.scroll({ top: 0 })
+      window.addEventListener('load', AOS.refresh);
+      document.querySelector('html').style.scrollBehavior = ''
+    }
+    router.events.on('routeChangeComplete', handleRouteChange);
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange);
+    }
+  }, []); // triggered on route change
 
   return (
   <Layout>

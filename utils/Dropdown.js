@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import Transition from '../utils/Transition.js';
 import { useRouter } from 'next/router';
+import WindowDimensions from './WindowDimensions.js';
 
 
 function Dropdown({
@@ -10,6 +11,7 @@ function Dropdown({
 }) {
 
   const router = useRouter();
+  const { width, height } = WindowDimensions();
 
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [isTouchDevice, setTouchDevice] = useState(true);
@@ -18,12 +20,19 @@ function Dropdown({
     const handleRouteChange = () => {
       setDropdownOpen(false);
     }
-    router.events.on('routeChangeStart', handleRouteChange);
-
+    router.events.on('routeChangeComplete', handleRouteChange);
     return () => {
-      router.events.off('routeChangeStart', handleRouteChange);
+      router.events.off('routeChangeComplete', handleRouteChange);
     }
-  })
+  }, [])
+
+  // useEffect(() => {
+  //   if (window.innerWidth < 767) {
+  //     setDropdownOpen(true);
+  //   } else {
+  //     setDropdownOpen(false);
+  //   }
+  // })
 
   useEffect(() => { // useEffect ensures client-side
     setTouchDevice(('ontouchstart' in window) ||
@@ -34,7 +43,7 @@ function Dropdown({
 
   return (
     <li
-      className="relative"
+      className="relative border-gray-300 border-y md:border-0"
       onMouseEnter={isTouchDevice ? undefined : () => setDropdownOpen(true)}
       onMouseLeave={() => setDropdownOpen(false)}
       onFocus={isTouchDevice ?  undefined : () => setDropdownOpen(true)}
@@ -43,7 +52,7 @@ function Dropdown({
       <a
         className="text-gray-600 hover:text-gray-900 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out"
         href="#0"
-        aria-expanded={dropdownOpen}
+        aria-expanded={dropdownOpen || width < 767}
         // onClick={(e) => e.preventDefault()}
         onClick={(e) => {
           e.preventDefault();
@@ -53,14 +62,15 @@ function Dropdown({
         }}
       >
         {title}
-        <svg className="w-3 h-3 fill-current text-gray-500 cursor-pointer ml-1 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+        <svg className="md:block hidden w-3 h-3 fill-current text-gray-500 cursor-pointer ml-1 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
           <path d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" />
         </svg>
       </a>
+      
       <Transition
-        show={dropdownOpen}
+        show={dropdownOpen || width < 767}
         tag="ul"
-        className="origin-top-right absolute top-full right-0 w-40 bg-white py-2 ml-4 rounded shadow-lg"
+        className="origin-top-right md:absolute top-full right-0 w-40 bg-white py-2 ml-4 rounded shadow-lg"
         enter="transition ease-out duration-200 transform"
         enterStart="opacity-0 -translate-y-2"
         enterEnd="opacity-100 translate-y-0"
