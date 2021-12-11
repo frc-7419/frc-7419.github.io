@@ -15,12 +15,12 @@ function Header() {
     const handleRouteChange = () => {
       setNavbarOpen(false);
     }
-    router.events.on('routeChangeStart', handleRouteChange);
+    router.events.on('routeChangeComplete', handleRouteChange);
 
     return () => {
-      router.events.off('routeChangeStart', handleRouteChange);
+      router.events.off('routeChangeComplete', handleRouteChange);
     }
-  })
+  }, [])
 
   // detect whether user has scrolled the page down by 10px 
   useEffect(() => {
@@ -32,7 +32,7 @@ function Header() {
   }, [top]);  
 
   return (
-    <header className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out bg-white ${!top && 'bg-white blur shadow-lg'}`}>
+    <header className={`fixed w-full z-30 md:bg-opacity-90 transition duration-300 ease-in-out bg-white ${!top && 'bg-white backdrop-blur shadow-lg'}`}>
       <nav className="max-w-6xl mx-auto px-5 sm:px-6">
         <div className="flex flex-wrap items-center justify-between py-2 md:py-4">
 
@@ -70,25 +70,25 @@ function Header() {
             }
           >
           
-            <ul className="flex flex-grow flex-col md:flex-row md:justify-end flex-wrap items-center">
+            <ul className="flex flex-grow flex-col md:flex-row md:justify-end flex-wrap md:items-center">
               <li>
                 <Link href="/">
-                <a className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 flex items-center transition duration-150 ease-in-out">
-                  Home
+                  <a className="font-medium text-gray-600 hover:text-gray-800 md:px-5 px-2 py-3 flex items-center transition duration-150 ease-in-out">
+                    Home
                   </a>
                 </Link>
               </li>
               {/* <li> */}
                 <Dropdown title="About">
-                  <Link href="/about/team"><a className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 flex items-center transition duration-150 ease-in-out">The Team</a></Link>
-                  <Link href="/about/outreach"><a className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 flex items-center transition duration-150 ease-in-out">Outreach</a></Link>
-                  <Link href="/about/mentors"><a className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 flex items-center transition duration-150 ease-in-out">Mentors</a></Link>
-                  <Link href="/about/sponsors"><a className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 flex items-center transition duration-150 ease-in-out">Sponsors</a></Link>
+                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/team">{/*    */}<a>The Team</a></Link></li>
+                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/outreach">{/**/}<a>Outreach</a></Link></li>
+                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/mentors">{/* */}<a>Mentors</a></Link></li>
+                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/sponsors">{/**/}<a>Sponsors</a></Link></li>
                 </Dropdown>
               {/* </li> */}
               <li>
                 <Link href="/blog">
-                <a className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">
+                <a className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 md:ml-3 ml-2 mt-3 md:mt-0">
                   <span>Team Blog</span>
                   <svg className="w-3 h-3 fill-current text-gray-400 flex-shrink-0 ml-2 -mr-1" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                     <path d="M11.707 5.293L7 .586 5.586 2l3 3H0v2h8.586l-3 3L7 11.414l4.707-4.707a1 1 0 000-1.414z" fillRule="nonzero" />
