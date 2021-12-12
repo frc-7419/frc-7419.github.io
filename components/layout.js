@@ -14,7 +14,7 @@ export default function Layout({ children }) {
         <meta name="theme-color" content="#000000" />
         <meta
         name="description"
-        content="Web site created using create-react-app"
+        content="Official website for FRC 7419 Team"
         />
         <link rel="apple-touch-icon" href="/logo192.png" />
 
