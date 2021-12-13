@@ -24,9 +24,6 @@
     display: none;
 }
 
-.-z {
-    z-index: -99;
-}
 // AOS styles
 $aos-distance: 10px;
 @import 'node_modules/aos/src/sass/aos.scss';

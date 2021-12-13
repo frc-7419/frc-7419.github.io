@@ -15,7 +15,7 @@ function Home() {
 
         <FeaturesHome />
         <FeaturesBlocks />
-        {/* <Newsletter /> */}
+        <Newsletter />
 
       </main>
   );
