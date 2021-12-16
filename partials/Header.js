@@ -83,6 +83,7 @@ function Header() {
                   <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/team">{/*    */}<a>The Team</a></Link></li>
                   <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/outreach">{/**/}<a>Outreach</a></Link></li>
                   <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/mentors">{/* */}<a>Mentors</a></Link></li>
+                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/leadership">{/**/}<a>Leadership</a></Link></li>
                   <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/sponsors">{/**/}<a>Sponsors</a></Link></li>
                 </Dropdown>
               {/* </li> */}
