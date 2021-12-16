@@ -96,6 +96,7 @@ function Leadership() {
       img: "/static/images/Leadership/ViviChengHeadshot.jpg",
     },
   ];
+
   return (
     <main className="flex-grow">
       <section className="relative">
@@ -134,14 +135,14 @@ function Leadership() {
                 future will bring. */}
               </p>
             </div>
-            <div className="my-5 md:col-span-2 mx-auto">
-              <div className="grid grid-cols-1 sm:grid-cols-2  gap-8 auto-cols-auto">
-                {team.map((member) => { // fix id
+            <div className="my-5 mx-auto">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                {team.map((member, index) => { // fix id
                   return (
-                    <div key="1" className="flex justify-center space-x-6 "> 
+                    <div key={index} className="flex space-x-6 "> 
                       <img
                         src={member.img}
-                        className="h-16 object-cover  w-16 rounded-xl bg-gray-800 border-none shadow-sm"
+                        className="h-16 object-cover w-16 rounded-xl bg-gray-800 border-none shadow-sm"
                         alt=""
                       />
                       <div className="block text-lg">
