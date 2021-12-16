@@ -12,7 +12,7 @@ function Leadership() {
     },
     {
       name: "Dhruv Bisla",
-      position: "Programming",
+      position: "Mechanical",
       img: "/static/images/Leadership/DhruvBislaHeadshot.png",
     },
     {
@@ -22,8 +22,8 @@ function Leadership() {
     },
     {
       name: "Krithik Duvvuri",
-      position: "Non-technical",
-      img: "/static/images/Leadership/KrithikDuvvuriHeadshot.HEIC",
+      position: "Mechanical",
+      img: "/static/images/Leadership/KrithikDuvvuriHeadshot.jpg",
     },
     {
       name: "Brigitte Chung",
@@ -33,7 +33,7 @@ function Leadership() {
     {
       name: "Aarav Sharma",
       position: "Programming",
-      img: "/static/images/Leadership/AaravSharmaHeadshot.heic",
+      img: "/static/images/Leadership/AaravSharmaHeadshot.jpg",
     },
     {
       name: "Aarav Wattal",
@@ -47,12 +47,12 @@ function Leadership() {
     },
     {
       name: "Modakar Kurma",
-      position: "Programming",
+      position: "Mechanical",
       img: "/static/images/Leadership/ModaKurmaHeadshot.jpg",
     },
     {
       name: "Rohan Kumar",
-      position: "Programming",
+      position: "Mechanical",
       img: "/static/images/Leadership/RohanKumarHeadshot.png",
     },
     {
@@ -62,23 +62,18 @@ function Leadership() {
     },
     {
       name: "Ryan Biggee",
-      position: "Programming",
+      position: "Mechanical",
       img: "/static/images/Leadership/RyanB.jpg",
     },
     {
       name: "Sarp Gursel",
-      position: "Programming",
+      position: "Mechanical",
       img: "/static/images/Leadership/Sarp Gursel Headshot.JPG",
-    },
-    {
-      name: "Sidharth Anand",
-      position: "Programming",
-      img: "",
     },
     {
       name: "Sneha Gadekarla",
       position: "Programming",
-      img: "h/static/images/Leadership/SnehaGadekarlaHeadshot.HEIC",
+      img: "/static/images/Leadership/SnehaGadekarlaHeadshot.jpg",
     },
     {
       name: "Sudharsan Gopalakrishnan",
@@ -87,17 +82,17 @@ function Leadership() {
     },
     {
       name: "Mark Yang",
-      position: "Programming",
+      position: "Mechanical",
       img: "/static/images/Leadership/Mark.jpg",
     },
     {
       name: "Nancy Wu",
-      position: "Programming",
+      position: "Mechanical",
       img: "/static/images/Leadership/Nancy Wu Headshot.jpeg",
     },
     {
       name: "Vivi Cheng",
-      position: "Programming",
+      position: "Non-technical",
       img: "/static/images/Leadership/ViviChengHeadshot.jpg",
     },
   ];
