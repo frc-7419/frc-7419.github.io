@@ -39,10 +39,10 @@ jobs:
       env:
         CI: ""
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Publish to 7419.surge.sh
+    - name: Publish to 7419.tech
       uses: dswistowski/surge-sh-action@v1
       with:
-        domain: '7419.surge.sh'
+        domain: '7419.tech'
         project: './build'
         login: ${{ secrets.surge_login }}
         token: ${{ secrets.surge_token }}
