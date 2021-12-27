@@ -33,7 +33,7 @@ function Mentors() {
               </div>
 
               {/* Items */}
-              <div className="max-w-sm md:max-w-4xl mx-auto grid gap-1 grid-cols-3 md:grid-cols-3">
+              <div className="max-w-sm md:max-w-4xl mx-auto grid gap-1 grid-cols-1 md:grid-cols-3">
                 <div className="mentor flex items-center justify-center py-2 col-span-2 md:col-auto">
                   <img className="rounded-full" src='/static/images/mentors/ainsley.jpeg' alt="Ainsley Laing" width="225px" />
                   <p className="text-center pt-3 text-2xl">Ainsley Laing</p>
