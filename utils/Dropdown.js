@@ -24,7 +24,7 @@ function Dropdown({
     return () => {
       router.events.off('routeChangeComplete', handleRouteChange);
     }
-  }, [])
+  }, [router.events])
 
   // useEffect(() => {
   //   if (window.innerWidth < 767) {
@@ -38,7 +38,7 @@ function Dropdown({
     setTouchDevice(('ontouchstart' in window) ||
     (navigator.maxTouchPoints > 0) ||
     (navigator.msMaxTouchPoints > 0));
-  })
+  }, [])
   
 
   return (

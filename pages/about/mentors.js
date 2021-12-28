@@ -1,5 +1,33 @@
 import React from 'react';
 
+const mentors = [
+  {
+    name: 'Ainsley Laing',
+    description: 'Computer Science Teacher',
+    img: '/static/images/mentors/ainsley.jpeg'
+  },
+  {
+    name: 'Leon Cox',
+    description: 'Manufacturing Professor',
+    img: '/static/images/mentors/leon.jpg'
+  },
+  {
+    name: 'Richard Ong',
+    description: 'Design Teacher',
+    img: '/static/images/mentors/richard.jpg'
+  },
+  {
+    name: 'Lina Tannous',
+    description: 'Robotics Teacher',
+    img: '/static/images/mentors/lina.jpg'
+  },
+  {
+    name: 'Sebastian Wild',
+    description: 'Software Engineer',
+    img: '/static/images/mentors/sebastian.jpeg'
+  }
+]
+
 function Mentors() {
   return (
 
@@ -25,7 +53,7 @@ function Mentors() {
 
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="py-12 md:py-20">
-
+              
               {/* Section header */}
               <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
                 <h2 className="h2 mb-4">Our Mentors</h2>
@@ -34,24 +62,15 @@ function Mentors() {
 
               {/* Items */}
               <div className="max-w-sm md:max-w-4xl mx-auto grid gap-1 grid-cols-1 md:grid-cols-3">
-                
-                <div className="flex-col flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img className="rounded-full border-4 border-gray-300" src='/static/images/mentors/ainsley.jpeg' alt="Ainsley Laing" width="225px" />
-                  <p className="text-center pt-3 text-2xl">Ainsley Laing</p>
-                  <p className="text-center text-gray-500">Computer Science Teacher</p>
-                </div>
-
-                <div className="flex-col flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img className="rounded-full border-4 border-gray-300" src='/static/images/mentors/leon.jpg' alt="Leon Cox" width="225px" />
-                  <p className="text-center pt-3 text-2xl">Leon Cox</p>
-                  <p className="text-center text-gray-500">Manufacturing Professor</p>
-                </div>
-
-                <div className="flex-col flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img className="rounded-full border-4 border-gray-300" src='/static/images/mentors/richard.jpg' alt="Richard Ong" width="225px" />
-                  <p className="text-center pt-3 text-2xl">Richard Ong</p>
-                  <p className="text-center text-gray-500">Design Teacher</p>
-                </div>
+                {mentors.map((mentor, index) => {
+                  return (
+                    <div key={index} className="flex-col flex items-center justify-center py-2 col-span-2 md:col-auto">
+                      <img className="rounded-full border-4 border-gray-300" src={mentor.img} alt={mentor.name} width="225px" />
+                      <p className="text-center pt-3 text-2xl">{mentor.name}</p>
+                      <p className="text-center text-gray-500">{mentor.description}</p>
+                    </div>
+                  )
+                })}
 
               </div>
 

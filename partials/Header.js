@@ -20,7 +20,7 @@ function Header() {
     return () => {
       router.events.off('routeChangeComplete', handleRouteChange);
     }
-  }, [])
+  }, [router.events])
 
   // detect whether user has scrolled the page down by 10px 
   useEffect(() => {
