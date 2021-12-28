@@ -34,20 +34,21 @@ function Mentors() {
 
               {/* Items */}
               <div className="max-w-sm md:max-w-4xl mx-auto grid gap-1 grid-cols-1 md:grid-cols-3">
-                <div className="mentor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img className="rounded-full" src='/static/images/mentors/ainsley.jpeg' alt="Ainsley Laing" width="225px" />
+                
+                <div className="flex-col flex items-center justify-center py-2 col-span-2 md:col-auto">
+                  <img className="rounded-full border-4 border-gray-300" src='/static/images/mentors/ainsley.jpeg' alt="Ainsley Laing" width="225px" />
                   <p className="text-center pt-3 text-2xl">Ainsley Laing</p>
                   <p className="text-center text-gray-500">Computer Science Teacher</p>
                 </div>
 
-                <div className="mentor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img className="rounded-full" src='/static/images/mentors/leon.jpg' alt="Leon Cox" width="225px" />
+                <div className="flex-col flex items-center justify-center py-2 col-span-2 md:col-auto">
+                  <img className="rounded-full border-4 border-gray-300" src='/static/images/mentors/leon.jpg' alt="Leon Cox" width="225px" />
                   <p className="text-center pt-3 text-2xl">Leon Cox</p>
                   <p className="text-center text-gray-500">Manufacturing Professor</p>
                 </div>
 
-                <div className="mentor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img className="rounded-full" src='/static/images/mentors/richard.jpg' alt="Richard Ong" width="225px" />
+                <div className="flex-col flex items-center justify-center py-2 col-span-2 md:col-auto">
+                  <img className="rounded-full border-4 border-gray-300" src='/static/images/mentors/richard.jpg' alt="Richard Ong" width="225px" />
                   <p className="text-center pt-3 text-2xl">Richard Ong</p>
                   <p className="text-center text-gray-500">Design Teacher</p>
                 </div>
@@ -55,11 +56,11 @@ function Mentors() {
               </div>
 
               {/* Testimonials */}
-              <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
+              {/* <div className="max-w-3xl mx-auto mt-20" data-aos="zoom-y-out">
                 <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
 
                 </div>
-              </div>
+              </div> */}
 
             </div>
           </div>
