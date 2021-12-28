@@ -3,96 +3,115 @@ function Leadership() {
     {
       name: "Stephen Xie",
       position: "Programming",
+      year: '24',
       img: "/static/images/Leadership/StephenXieHeadShot.jpg",
     },
     {
       name: "Karan Saini",
       position: "Programming",
+      year: '22',
       img: "/static/images/Leadership/KaranSainiHeadshot.png",
     },
     {
       name: "Dhruv Bisla",
       position: "Mechanical",
+      year: '24',
       img: "/static/images/Leadership/DhruvBislaHeadshot.png",
     },
     {
       name: "Charles Jin",
       position: "Programming",
+      year: '23',
       img: "/static/images/Leadership/charlesJinheadshot.jpg",
     },
     {
       name: "Krithik Duvvuri",
       position: "Mechanical",
+      year: '24',
       img: "/static/images/Leadership/KrithikDuvvuriHeadshot.jpg",
     },
     {
       name: "Brigitte Chung",
       position: "Non-technical",
+      year: '22',
       img: "/static/images/Leadership/brigitte_headshot.png",
     },
     {
       name: "Aarav Sharma",
       position: "Programming",
+      year: '23',
       img: "/static/images/Leadership/AaravSharmaHeadshot.jpg",
     },
     {
       name: "Aarav Wattal",
       position: "Programming",
+      year: '23',
       img: "/static/images/Leadership/AaravWattalHeadshot.jpg",
     },
     {
       name: "Mimansa Kant",
       position: "Non-technical",
+      year: '23',
       img: "/static/images/Leadership/Screenshot_20211025-173212_Gallery.jpg",
     },
     {
       name: "Modakar Kurma",
       position: "Mechanical",
+      year: '24',
       img: "/static/images/Leadership/ModaKurmaHeadshot.jpg",
     },
     {
       name: "Rohan Kumar",
       position: "Mechanical",
+      year: '22',
       img: "/static/images/Leadership/RohanKumarHeadshot.png",
     },
     {
       name: "Poluk Sharma",
       position: "Programming",
+      year: '24',
       img: "/static/images/Leadership/Poluk)_Headshot.jpeg",
     },
     {
       name: "Ryan Biggee",
       position: "Mechanical",
+      year: '25',
       img: "/static/images/Leadership/RyanB.jpg",
     },
     {
       name: "Sarp Gursel",
       position: "Mechanical",
+      year: '23',
       img: "/static/images/Leadership/Sarp Gursel Headshot.JPG",
     },
     {
       name: "Sneha Gadekarla",
       position: "Programming",
+      year: '24',
       img: "/static/images/Leadership/SnehaGadekarlaHeadshot.jpg",
     },
     {
       name: "Sudharsan Gopalakrishnan",
       position: "Programming",
+      year: '23',
       img: "/static/images/Leadership/SudharsanGopalakrishnanHeadshot.png",
     },
     {
       name: "Mark Yang",
       position: "Mechanical",
+      year: '22',
       img: "/static/images/Leadership/Mark.jpg",
     },
     {
       name: "Nancy Wu",
       position: "Mechanical",
+      year: '23',
       img: "/static/images/Leadership/Nancy Wu Headshot.jpeg",
     },
     {
       name: "Vivi Cheng",
       position: "Non-technical",
+      year: '23',
       img: "/static/images/Leadership/ViviChengHeadshot.jpg",
     },
   ];
@@ -143,7 +162,7 @@ function Leadership() {
                       <img
                         src={member.img}
                         className="h-16 object-cover w-16 rounded-xl bg-gray-800 border-none shadow-sm"
-                        alt=""
+                        alt={member.name}
                       />
                       <div className="block text-lg">
                         <a
@@ -151,7 +170,7 @@ function Leadership() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <p className="font-semibold break-normal">{member.name}</p>
+                          <p className="font-semibold break-normal">{member.name} '{member.year}</p>
                         </a>
                         <p className="mt-1 text-base inline text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800 font-medium">
                           {member.position}
