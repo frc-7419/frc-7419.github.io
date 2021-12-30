@@ -158,7 +158,8 @@ function Leadership() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                 {team.map((member, index) => { // fix id
                   return (
-                    <div key={index} className="flex space-x-6 "> 
+                    <div key={index} className="flex space-x-6" style={{ marginLeft: '25%' }}
+> 
                       <img
                         src={member.img}
                         className="h-16 object-cover w-16 rounded-xl bg-gray-800 border-none shadow-sm"
