@@ -14,7 +14,7 @@ function Team() {
             <div className="max-w-sm md:max-w-4xl mx-auto grid">
               <p className="text-gray-800">
                 Our FRC team has grown out of a small FTC program that has been
-                with the FIRST community for many years - <a href="#" className="font-semibold underline decoration-blue-500 decoration-wavy decoration-2">FTC 5214</a> - Tech
+                with the FIRST community for many years - <a className="font-semibold underline decoration-blue-500 decoration-wavy decoration-2">FTC 5214</a> - Tech
                 Support. Due to graduating members, we experienced a “soft
                 restart” in 2015, as our team was left entirely with rookies who
                 struggled to even turn the robot on. Since the 2015 season, our
@@ -25,7 +25,7 @@ function Team() {
                 In 2018, we had a stellar season and were able to win the
                 Northern California FTC Championship. We earned a spot at the
                 Houston Championship, and were especially happy that we were
-                able to finish in the <a href="#" className="font-semibold underline decoration-blue-500 decoration-wavy decoration-2">top fourth</a> of all the teams that competed
+                able to finish in the <a className="font-semibold underline decoration-blue-500 decoration-wavy decoration-2">top fourth</a> of all the teams that competed
                 at Worlds. </p> <br/>
                 <p className="text-gray-800">
                 While participating at the Championship, we were exposed to two
@@ -34,13 +34,13 @@ function Team() {
                 try to participate in FRC. We were able to convince our school’s
                 administration to support us in our mission, allowing us to
                 recruit many new students, more technical mentors, and forge
-                partnerships with local companies. We officially established our <a href="#" className="font-semibold underline decoration-blue-500 decoration-wavy decoration-2">7419</a> FRC team in 2019, but were hit by Covid-19 and the many
+                partnerships with local companies. We officially established our <a className="font-semibold underline decoration-blue-500 decoration-wavy decoration-2">7419</a> FRC team in 2019, but were hit by Covid-19 and the many
                 obstacles it brought. </p> <br/>
                 <p className="text-gray-800">
                 While the pandemic created many challenges of its own, it did
                 offer us the unique opportunity to rethink the organization,
                 systems, and structure of our team. Since then, our team has
-                shifted to becoming almost entirely <a href="#" className="font-semibold underline decoration-blue-500 decoration-wavy decoration-2">student-run</a>, seeking to
+                shifted to becoming almost entirely <a className="font-semibold underline decoration-blue-500 decoration-wavy decoration-2">student-run</a>, seeking to
                 reinstate an effective and lasting framework — one that will not
                 be affected by graduating members or by the growth of the team
                 through an influx of new members. With knowledge from our past
