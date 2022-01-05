@@ -13,40 +13,44 @@ function Team() {
             {/* Items */}
             <div className="max-w-sm md:max-w-4xl mx-auto grid">
               <p className="text-gray-800">
-                Our FRC team has grown out of a small FTC program that has been
-                with the FIRST community for many years - <a className="font-semibold underline decoration-blue-500 decoration-wavy decoration-2">FTC 5214</a> - Tech
-                Support. Due to graduating members, we experienced a “soft
-                restart” in 2015, as our team was left entirely with rookies who
-                struggled to even turn the robot on. Since the 2015 season, our
-                team has rebuilt itself, found new mentorship, and grown in size
-                dramatically. We gained expertise by building community ties and
-                relying on other FTC teams for advice, and expanded our program
-                through our outreach events and forming bonds with new people.
-                In 2018, we had a stellar season and were able to win the
-                Northern California FTC Championship. We earned a spot at the
-                Houston Championship, and were especially happy that we were
-                able to finish in the <a className="font-semibold underline decoration-blue-500 decoration-wavy decoration-2">top fourth</a> of all the teams that competed
-                at Worlds. </p> <br/>
-                <p className="text-gray-800">
-                While participating at the Championship, we were exposed to two
-                different environments: FRC and FTC. After returning from
-                Houston, we had a team discussion and we decided that we would
-                try to participate in FRC. We were able to convince our school’s
-                administration to support us in our mission, allowing us to
-                recruit many new students, more technical mentors, and forge
-                partnerships with local companies. We officially established our <a className="font-semibold underline decoration-blue-500 decoration-wavy decoration-2">7419</a> FRC team in 2019, but were hit by Covid-19 and the many
-                obstacles it brought. </p> <br/>
-                <p className="text-gray-800">
-                While the pandemic created many challenges of its own, it did
-                offer us the unique opportunity to rethink the organization,
-                systems, and structure of our team. Since then, our team has
-                shifted to becoming almost entirely <a className="font-semibold underline decoration-blue-500 decoration-wavy decoration-2">student-run</a>, seeking to
-                reinstate an effective and lasting framework — one that will not
-                be affected by graduating members or by the growth of the team
-                through an influx of new members. With knowledge from our past
-                experiences, we are ready and excited for what the 2021-2022
-                season will bring us.</p>
-              
+                We’ve always been a part of the FIRST community, starting off as
+                a small FTC team and developing into the FRC team that made it
+                to the 2019 World Championship. Since the first group of members
+                graduated in 2015, we experienced a “soft restart” and rebuilt
+                our knowledge base with curious rookies. Since then, we’ve been
+                steadily gaining new members, mentors, and presence as a team
+                that promotes STEM education in our community. We gained
+                expertise by building friendships with other FTC teams and
+                expanded our program through our outreach events, even
+                recruiting new members. In 2018, we had a stellar season and
+                were able to win the Northern California FTC Championship. A
+                year later as an FRC rookie team, we earned a spot at the
+                Houston Championship and were especially happy that we were able
+                to finish in the top fourth of all the teams that competed at
+                Worlds.
+              </p>{" "}
+              <br />
+              <p className="text-gray-800">
+                Celebrating our accomplishment was important, but the graduation
+                of core leadership was coming up and as we began to ponder this
+                problem for the next season, the pandemic hit. Our team stayed
+                as a tight-knight community, checking in with each other and
+                hosting meetings over Zoom to discuss events beyond building the
+                robot. We sent care letters to hospitals, trained members who
+                were interested in virtual skills like programming and CAD
+                software, and still did FRC dances to keep the spirit alive.
+              </p>{" "}
+              <br />
+              <p className="text-gray-800">
+                While the pandemic created many challenges of its own, we took
+                this opportunity to rethink the organization, systems, and
+                structure of our team. Since then, our team has shifted to
+                becoming almost entirely student-run, seeking to reinstate an
+                effective and lasting framework — one that will not be affected
+                by graduating members and only grow stronger as we gain more new
+                members. With knowledge from our past experiences, we are ready
+                and excited for what the 2022 season will bring us.
+              </p>
             </div>
           </div>
         </div>
