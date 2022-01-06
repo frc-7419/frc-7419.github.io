@@ -8,15 +8,15 @@ function Team() {
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-14">
               <h2 className="h2 mb-4">Our Story</h2>
               <p className="text-xl text-gray-600" data-aos="zoom-y-out">
-                Tech Support is way more than robots. We solve problems. We help
-                people. We’re a family. We’ve done many great things and look
-                forward to many more in the future.
+                <p className="mb-3">Tech Support is way more than building robots. </p> <p className="text-md">We’re a family.
+                We’re a part of local communities. We’re constantly changing,
+                innovating, and working towards a brighter future together.</p>
               </p>
             </div>
             {/* Items */}
             <div className="max-w-sm md:max-w-4xl mx-auto grid">
               <p className="text-gray-800">
-                {/* <h4 className="h4 mb-3">Header</h4> */} 
+                {/* <h4 className="h4 mb-3">Header</h4> */}
                 We’ve always been a part of the FIRST community, starting off as
                 a small FTC team and developing into the FRC team that made it
                 to the 2019 World Championship. Since the first group of members
@@ -35,7 +35,7 @@ function Team() {
               </p>{" "}
               <br />
               <p className="text-gray-800">
-                {/* <h4 className="h4 mb-3">Header</h4> */} 
+                {/* <h4 className="h4 mb-3">Header</h4> */}
                 Celebrating our accomplishment was important, but the graduation
                 of core leadership was coming up and as we began to ponder this
                 problem for the next season, the pandemic hit. Our team stayed
@@ -47,7 +47,7 @@ function Team() {
               </p>{" "}
               <br />
               <p className="text-gray-800">
-                {/* <h4 className="h4 mb-3">Header</h4> */} 
+                {/* <h4 className="h4 mb-3">Header</h4> */}
                 While the pandemic created many challenges of its own, we took
                 this opportunity to rethink the organization, systems, and
                 structure of our team. Since then, our team has shifted to
