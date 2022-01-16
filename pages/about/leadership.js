@@ -40,7 +40,7 @@ function Leadership() {
       name: "Aarav Sharma",
       position: "Programming",
       year: '23',
-      img: "/static/images/Leadership/AaravSharmaHeadshot.jpg",
+      img: "/static/images/Leadership/SharmaNew.jpg",
     },
     {
       name: "Aarav Wattal",
