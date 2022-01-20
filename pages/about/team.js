@@ -58,6 +58,7 @@ function Team() {
                 and excited for what the 2022 season will bring us.
               </p>
             </div>
+            <div className="mt-10 mx-auto w-5/6"><img src='/static/images/TeamPhotos/group_pic.jpg' alt="OurTeam.png"></img></div>
           </div>
         </div>
       </section>
