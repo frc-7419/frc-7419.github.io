@@ -124,7 +124,7 @@ function Leadership() {
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-14">
               <h2 className="h2">Our Student Leadership</h2>
-              {/* <p className="text-xl text-gray-600" data-aos="zoom-y-out"></p> */}
+              <p className="text-lg text-gray-600 mt-10" data-aos="zoom-y-out">Our student leadership consists of three categories: Mechanical, Programming, and Non-Technical. All of these sections are important and play a vital role in having a successful team. In our team, leadership is not limited to any grade levels, but can be from all grades, 9th through 12th. Those who are in leadership have gone through training, shown proficiency, and are qualified to help others. </p>
             </div>
 
             {/* Items */}
