@@ -3,7 +3,7 @@ import React from 'react';
 
 
     
-class ImageSlider extends Component {
+class ImageSlider extends React.Component {
 
     state = {
         image: [
