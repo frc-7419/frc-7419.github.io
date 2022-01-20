@@ -29,16 +29,16 @@ class ImageSlider extends React.Component {
     };
     render() {
       return (
-        <div>
-          <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+        <div className="mx-auto flex flex-row items-center">
+          <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
            onClick={this.previous}>{'<'}</button>
-          <img alt=""
+          <img className="mx-auto"alt=""
           style={{ 
             width: 500,
             height: 500,
           }}
           src = {this.state.image[this.state.idx]} />
-          <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+          <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
            onClick={this.next}>{'>'}</button>
         </div>
 
