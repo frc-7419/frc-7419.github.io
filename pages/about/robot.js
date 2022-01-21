@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 
 
@@ -34,8 +34,8 @@ class ImageSlider extends Component {
            onClick={this.previous}>{'<'}</button>
           <img alt=""
           style={{ 
-            width: 500,
-            height: 500,
+            width: 300,
+            height: 300,
           }}
           src = {this.state.image[this.state.idx]} />
           <button class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
@@ -61,8 +61,8 @@ function Robot() {
                     </p>
                 </div>
                 {/* 2020 Robot */}
-                <ImageSlider />
-                {/* Items */}
+                <ImageSlider class = "object-center" />
+                
                 <div className="max-w-sm md:max-w-4xl mx-auto grid">
                     <p className="text-gray-800">
                     {/* <h4 className="h4 mb-3">Header</h4> */}
