@@ -15,7 +15,7 @@ function Team() {
             </div>
             {/* Items */}
             <div className="max-w-sm md:max-w-4xl mx-auto grid">
-              <p className="text-gray-800">
+              <p className="text-gray-800 prose lg:prose-lg mx-auto mb-4">
                 {/* <h4 className="h4 mb-3">Header</h4> */}
                 We’ve always been a part of the FIRST community, starting off as
                 a small FTC team and developing into the FRC team that made it
@@ -32,9 +32,8 @@ function Team() {
                 Houston Championship and were especially happy that we were able
                 to finish in the top fourth of all the teams that competed at
                 Worlds.
-              </p>{" "}
-              <br />
-              <p className="text-gray-800">
+              </p>
+              <p className="text-gray-800 prose lg:prose-lg mx-auto mb-4">
                 {/* <h4 className="h4 mb-3">Header</h4> */}
                 Celebrating our accomplishment was important, but the graduation
                 of core leadership was coming up and as we began to ponder this
@@ -45,8 +44,7 @@ function Team() {
                 were interested in virtual skills like programming and CAD
                 software, and still did FRC dances to keep the spirit alive.
               </p>{" "}
-              <br />
-              <p className="text-gray-800">
+              <p className="text-gray-800 prose lg:prose-lg mx-auto mb-4">
                 {/* <h4 className="h4 mb-3">Header</h4> */}
                 While the pandemic created many challenges of its own, we took
                 this opportunity to rethink the organization, systems, and
