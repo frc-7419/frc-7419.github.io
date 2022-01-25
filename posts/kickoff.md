@@ -1,6 +1,6 @@
 ---
-title: "Test Post"
-date: "2020-10-31"
+title: "This Week in FRC (Jan 24th)"
+date: "2022-01-24"
 ---
 Quarry Lane’s robotics team Tech Support is a third of the way through the build season of the FIRST Robotics Competition, and we’d love to share our progress with you!
 
