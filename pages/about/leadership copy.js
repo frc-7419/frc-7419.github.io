@@ -57,7 +57,7 @@ function Leadership() {
     {
       name: "Modakar Kurma",
       position: "Mechanical",
-      year: '23',
+      year: '24',
       img: "/static/images/Leadership/ModaKurmaHeadshot.jpg",
     },
     {
