@@ -110,7 +110,7 @@ function Leadership() {
     },
     {
       name: "Vivi Cheng",
-      position: "Non-technical",
+      position: "Programming",
       year: '23',
       img: "/static/images/Leadership/ViviChengHeadshot.jpg",
     },
