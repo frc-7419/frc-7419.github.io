@@ -40,8 +40,8 @@ function Outreach() {
                     <h4 className="h4 mb-3">2021 Kindness Week</h4>
                     <p className="text-gray-600 mb-4">During this week, we donated to shelters, sent letters to healthcare workers, and 3D printed toys. As a team that is part of the FRC community, we not only learn about STEM, but also recognize how crucial it is to help others and give back to those who made sacrifices during the pandemic to assist the sick.</p>
                     <div className='grid grid-cols-1'>
-                      <img className="rounded mb-4 mx-auto max-w-xl" src="/static/images/outreach/2021_kindness_week/letters.jpg" alt="Letters" />
-                      <img className="rounded mb-4 mx-auto max-w-lg" src="/static/images/outreach/2021_kindness_week/toilet_paper.png" alt="Toilet Paper" />
+                      <img className="rounded mb-4 mx-auto max-w-sm md:max-w-md xl:max-w-xl" src="/static/images/outreach/2021_kindness_week/letters.jpg" alt="Letters" />
+                      <img className="rounded mb-4 mx-auto max-w-sm md:max-w-md xl:max-w-xl" src="/static/images/outreach/2021_kindness_week/toilet_paper.png" alt="Toilet Paper" />
                     </div>
                   </li>
                   <li>
