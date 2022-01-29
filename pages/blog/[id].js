@@ -17,7 +17,7 @@ export default function Post({ postData }) {
           <div className="text-gray-600 mb-4">
             <Date dateString={postData.date} />
           </div>
-          <div className="prose" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          <div className="prose prose-img:rounded" dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         </article>
       </div>
       </div>
