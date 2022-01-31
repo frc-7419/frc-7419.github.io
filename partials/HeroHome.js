@@ -88,4 +88,4 @@ function HeroHome() {
   );
 }
 
-export default HeroHome;
+export default HeroHome;  
