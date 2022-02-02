@@ -46,6 +46,24 @@ function Outreach() {
                   </li>
                   <li>
                     <div>
+                      <h4 className="h4 mb-3">FLL/FTC (First Lego League/First Tech Challenge)</h4> 
+                      <p className="text-gray-600 mb-4">Along with our high school FRC team we also have a FTC middle school team. To help guide the middle schoolers, we regularly mentor their progress and provide valuable instruction based on prior experience. We provide any type of assistance we can offer, from teaching them essential skills such as CAD or programming, to utilizing the 3D printer, laser cutter, and CNC mill.</p>
+                      <p className="text-gray-600 mb-4">Along with mentoring, we have hosted 2 tournaments in the past in order to give more teams an opportunity to compete, as well as to help strengthen FIRST’s presence in the tri-valley area. We hosted and ran both an FLL and an FTC tournament, with many of 7419 members helping during planning, organization, and volunteering at the event. </p>
+                      <img className="my-4 rounded max-w-sm md:max-w-md lg:max-w-lg" src="/static/images/outreach/fll.jpg" alt="FLL Tournament" />
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <h4 className="h4 mb-3">Hosted FLL and FTC tournaments</h4>
+                      <ul>
+                        <li className="mb-3">
+                          <p className="text-gray-600">We hosted 2 tournaments this year in order to give more teams an opportunity to compete, and to help strengthen FIRST’s presence in the tri-valley area. We hosted and ran both an FLL and an FTC tournament, with many of 7419 members helping during planning, organization, and volunteering at the event.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
                       <h4 className="h4 mb-3">Lego Mindstorm</h4>
                       <ul>
                         <li className="mb-3">
@@ -67,16 +85,6 @@ function Outreach() {
                       <ul>
                         <li className="mb-3">
                           <p className="text-gray-600">It is an after-school enrichment program to present scientific and engineering concepts to young children in a captivating manner to open their eyes to the possibilities right at their fingertips! Our hope is that they are not only left with a little more technological intuition than an hour ago but are curious about the ingenious culture of FIRST robotics that our members come from. Our hope is that they are not only left with a little more technological intuition than an hour ago but are curious about the ingenious culture of FIRST robotics that our members come from.</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <h4 className="h4 mb-3">Hosted FLL and FTC tournaments</h4>
-                      <ul>
-                        <li className="mb-3">
-                          <p className="text-gray-600">We hosted 2 tournaments this year in order to give more teams an opportunity to compete, and to help strengthen FIRST’s presence in the tri-valley area. We hosted and ran both an FLL and an FTC tournament, with many of 7419 members helping during planning, organization, and volunteering at the event.</p>
                         </li>
                       </ul>
                     </div>
