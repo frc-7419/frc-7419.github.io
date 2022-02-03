@@ -1,10 +1,13 @@
 import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
-import { remark } from 'remark'
-import html from 'remark-html'
+
+const showdown = require("showdown")
 
 const postsDirectory = path.join(process.cwd(), 'posts')
+const converter = new showdown.Converter({
+  parseImgDimensions: true
+})
 
 export function getSortedPostsData() {
   // Get file names under /posts
@@ -55,10 +58,12 @@ export async function getPostData(id) {
   const matterResult = matter(fileContents)
 
   // Use remark to convert markdown into HTML string
-  const processedContent = await remark()
-    .use(html)
-    .process(matterResult.content)
-  const contentHtml = processedContent.toString()
+  // const processedContent = await remark()
+  //   .use(html)
+  //   .process(matterResult.content)
+  // const contentHtml = processedContent.toString()
+
+  const contentHtml = converter.makeHtml(matterResult.content)
 
   // Combine the data with the id and contentHtml
   return {
