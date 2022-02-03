@@ -2,7 +2,15 @@ import React, { useState } from 'react';
 import Modal from '../utils/Modal';
 
 function HeroHome() {
+  const [offsetY, setOffsetY] = useState(0);
+  const scrollMethod = () => setOffsetY(window.pageYOffset);
 
+  React.useEffect(() => { 
+    window.addEventListener("scroll", scrollMethod);
+
+    return () => window.removeEventListener("scroll", scrollMethod);
+  }, []);
+  
   const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   return (
@@ -24,9 +32,15 @@ function HeroHome() {
           </g>
         </svg>
       </div>
+
+      <div className="bg-black bg-fixed mx-auto w-full absolute mt-14 md:mt-20" 
+      style ={{ transform: `translateY(${offsetY *0.6}px)`}}> <img className="opacity-40 object-fill w-full " src='/static/images/7419TechSupport.jpg' alt="Hero" /> </div>
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 bg-scroll">
+
       <div className="bg-black mx-auto w-full absolute mt-14 md:mt-20"> <img className="opacity-30 object-fill w-full " src='/static/images/TeamPhotos/kickoff.jpg' alt="Hero" /> </div> 
       {/* src='/static/images/7419TechSupport.jpg' */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
+
 
         {/* Hero content */}
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
@@ -50,9 +64,9 @@ function HeroHome() {
 
           {/* Hero image */}
           <div>
-            <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
+            <div className="rela  tive flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="flex flex-col justify-center">
-                <img className="mx-auto w-1/2 rounded-xl" src='/static/images/2020Robot.png' width="768" height="432" alt="Hero" />
+                <img className="mx-auto w-1/2 rounded-xl opacity-80" src='/static/images/2020Robot.png' width="768" height="432" alt="Hero" />
               </div>
               {/* <button className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg" onClick={(e) => { e.preventDefault(); e.stopPropagation(); setVideoModalOpen(true); }} aria-controls="modal">
                 <svg className="w-6 h-6 fill-current text-gray-400 group-hover:text-blue-600 flex-shrink-0" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -80,4 +94,4 @@ function HeroHome() {
   );
 }
 
-export default HeroHome;
+export default HeroHome;  
