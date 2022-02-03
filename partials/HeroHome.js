@@ -33,10 +33,10 @@ function HeroHome() {
         </svg>
       </div>
 
-    
+      <div className="bg-black mx-auto w-full absolute mt-14 md:mt-20" style ={{ transform: `translateY(${offsetY *0.6}px)`}}> <img className="opacity-30 object-fill w-full " src='/static/images/TeamPhotos/kickoff.jpg' alt="Hero" /> </div> 
+
       <div className="max-w-6xl mx-auto px-4 sm:px-6 bg-scroll">
 
-      <div className="bg-black mx-auto w-full absolute mt-14 md:mt-20" style ={{ transform: `translateY(${offsetY *0.6}px)`}}> <img className="opacity-30 object-fill w-full " src='/static/images/TeamPhotos/kickoff.jpg' alt="Hero" /> </div> 
       {/* src='/static/images/7419TechSupport.jpg' */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
