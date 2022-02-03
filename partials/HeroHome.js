@@ -89,6 +89,7 @@ function HeroHome() {
         </div>
 
       </div>
+      </div>
       
     </section>
   );
