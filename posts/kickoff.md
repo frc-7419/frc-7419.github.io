@@ -13,9 +13,11 @@ Presented by The Boeing Company, 2022’s game _Rapid React_ challenges us to cr
 
 Our robot breaks down to three main major mechanisms: the shooter, the intake, and the “hangar” for the monkey bar challenge. In order to traverse around the field to operate these though, we need a drivetrain. After much consideration of scoring positions, mobility, and field terrain, we’ve finished this part of the robot. Here’s a few highlights of our build process, as well as our finished drivetrain:
 
-![](/static/images/blog/2022-01-24/1.png)
+<div class="flex flex-row">
+    <img class="basis-1/4" src="/static/images/blog/2022-01-24/1.png" />
+    <img class="ml-auto basis-1/4" src="/static/images/blog/2022-01-24/2.png" />
+</div>
 
-![](/static/images/blog/2022-01-24/2.png)
 
 The final drivetrain:
 
