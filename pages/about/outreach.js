@@ -51,17 +51,7 @@ function Outreach() {
                       <p className="text-gray-600 mb-4">Along with mentoring, we have hosted 2 tournaments in the past in order to give more teams an opportunity to compete, as well as to help strengthen FIRST’s presence in the tri-valley area. We hosted and ran both an FLL and an FTC tournament, with many of 7419 members helping during planning, organization, and volunteering at the event. </p>
                       <img className="my-4 rounded max-w-sm md:max-w-md lg:max-w-lg" src="/static/images/outreach/fll.jpg" alt="FLL Tournament" />
                     </div>
-                  </li>
-                  <li>
-                    <div>
-                      <h4 className="h4 mb-3">Hosted FLL and FTC tournaments</h4>
-                      <ul>
-                        <li className="mb-3">
-                          <p className="text-gray-600">We hosted 2 tournaments this year in order to give more teams an opportunity to compete, and to help strengthen FIRST’s presence in the tri-valley area. We hosted and ran both an FLL and an FTC tournament, with many of 7419 members helping during planning, organization, and volunteering at the event.</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
+                  </li>  
                   <li>
                     <div>
                       <h4 className="h4 mb-3">Lego Mindstorm</h4>
