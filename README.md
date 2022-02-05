@@ -6,8 +6,8 @@
 - see [package.json](https://github.com/frc-7419/frc-7419.github.io/blob/main/package.json) for more information
 
 ## Setup
-1. Clone the repository
-2. Run ```npm install```
+1. Clone the repository onto your computer
+2. Run ```npm install``` or ```npm i```
 3. Run ```npm run dev``` to run the project locally and see the live webpage in your browser
 
 ## Blog
