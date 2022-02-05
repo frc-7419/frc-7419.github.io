@@ -7,7 +7,7 @@
 
 ## Setup
 1. Clone the repository onto your computer
-2. Run ```npm install``` or ```npm i```
+2. Run ```npm install```
 3. Run ```npm run dev``` to run the project locally and see the live webpage in your browser
 
 ## Blog
