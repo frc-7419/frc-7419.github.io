@@ -7,7 +7,7 @@ function Carousel({images}) {
 
   const next = () => {
     console.log(idx);
-    setIdx((idx==images.length ? 0 : (idx + 1)));
+    setIdx((idx==images.length-1 ? 0 : (idx + 1)));
   };
   const previous = () => {
     console.log(idx);
