@@ -4,7 +4,7 @@ import Link from 'next/link';
 function FooterTemp() {
   return (
     <footer>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 z-1">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Bottom area */}
         <div className="md:flex md:items-center md:justify-between py-4 md:py-8 border-t border-gray-200">
 
