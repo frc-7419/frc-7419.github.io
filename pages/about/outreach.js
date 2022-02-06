@@ -54,37 +54,10 @@ function Outreach() {
                   </li>  
                   <li>
                     <div>
-                      <h4 className="h4 mb-3">Lego Mindstorm</h4>
-                      <ul>
-                        <li className="mb-3">
-                          <p className="text-gray-600">The kids are introduced to analytical problem solving and creative thinking in a team setting. By middle school, they are invited to compete in the First Tech Challenge with Team 14770.
-                      High school students regularly mentor their progress and provide valuable instruction based on prior experience.</p>
-                        </li>
-                        <li className="mb-3">
-                          <p className="text-gray-600">In high school, we have 3 FTC teams to train new members and give them a chance to decide what they want out of engaging in the robotics team. We teach them skills of CAD or programming, utilizing 3D printer, laser cutter, and CNC mill.</p>
-                        </li>
-                        <li className="mb-3">
-                          <p className="text-gray-600">Our hope is that they are not only left with a little more technological intuition than an hour ago but are curious about the ingenious culture of FIRST robotics that our members come from.</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
                       <h4 className="h4 mb-3">Genius Kids</h4>
                       <ul>
                         <li className="mb-3">
                           <p className="text-gray-600">It is an after-school enrichment program to present scientific and engineering concepts to young children in a captivating manner to open their eyes to the possibilities right at their fingertips! Our hope is that they are not only left with a little more technological intuition than an hour ago but are curious about the ingenious culture of FIRST robotics that our members come from. Our hope is that they are not only left with a little more technological intuition than an hour ago but are curious about the ingenious culture of FIRST robotics that our members come from.</p>
-                        </li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li>
-                    <div>
-                      <h4 className="h4 mb-3">Assisting FTC teams</h4>
-                      <ul>
-                        <li className="mb-3">
-                          <p className="text-gray-600">We assist FTC teams at other tournaments and donate them parts and electronics, and have volunteered to help out at the FTC state championships with setup, and provided referees and inspectors, and donated our practice field for the past 2 years.</p>
                         </li>
                       </ul>
                     </div>
