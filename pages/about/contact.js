@@ -21,21 +21,23 @@ class ContactUs extends React.Component {
                 Contact Us for questions? idk
               </p>
               <form>
-                <input class="appearance-none block w-full text-gray-400 border border-blue-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" id="name" name="name" 
-                placeholder="Enter Name" onfocus="this.placeholder=''" onblur="this.placeholder='Name'"size = "50"></input><br></br><br></br>
-                <input class="appearance-none block w-full  text-gray-400 border border-blue-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name"type="text" id="email" name="email" placeholder="Enter Email
-                " onfocus="this.placeholder=''" onblur="this.placeholder='Email'"size = "50"></input><br></br><br></br>
-                <input class="appearance-none block w-full  text-gray-400 border border-blue-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" id="grid-first-name" type="text" id="message" name="message" 
-                placeholder="Enter Message" onfocus="this.placeholder=''" 
-                onblur="this.placeholder='Message'" size = "50"></input><br></br><br></br>
+                <input class=" text-gray-400 border border-blue-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"  type="text" id="name" name="name" 
+                placeholder="Enter Name" onfocus="this.placeholder=''" onblur="this.placeholder='Name'"></input><br></br><br></br>
+                <input class="  text-gray-400 border border-blue-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white drop-shadow-lg" type="text" id="email" name="email" placeholder="Enter Email
+                " onfocus="this.placeholder=''" onblur="this.placeholder='Email'" ></input><br></br><br></br>
+                <input class="  text-gray-400 border border-blue-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"  type="text" id="phone" name="phone" 
+                placeholder="Enter Phone #" onfocus="this.placeholder=''" 
+                onblur="this.placeholder='Phone #'" ></input><br></br><br></br>
+                <input class="  text-gray-400 border border-blue-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"  type="text" id="team" name="team" 
+                placeholder="Enter Team #" onfocus="this.placeholder=''" 
+                onblur="this.placeholder='Message'" ></input><br></br><br></br>
+                <textarea class="  text-gray-400 border border-blue-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white drop-shadow-lg" name="your-message" cols="40" rows="10"  aria-required="true" aria-invalid="false" spellcheck="false" placeholder="Enter Message"></textarea>
             
                 
                 <br></br>
-                <div class="content-center">
-                <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                <button class="flex justify-center bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                   Submit
                 </button>
-                </div>
               </form>
             </div>
             
