@@ -18,7 +18,7 @@ const ContactUs = () => {
 
     setIsPending(true);
 
-    fetch('http://localhost:3000/about/contact', { //change to 7419.tech before pushing to main
+    fetch('https://sheet.best/api/sheets/22f4e307-da45-4fa8-880a-e84b25c39186', { 
       method: 'POST',
       headers: {"Content-Type": "application/json"},
       body: JSON.stringify(form)
