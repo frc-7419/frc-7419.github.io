@@ -1,9 +1,7 @@
 import React from 'react';
 
 import { useState } from "react";
-import { BrowserRouter as Router, Route, Link  } from 'react-router-dom';
 
-import _app from './pages/_app';
 
 const ContactUs = () => {
   const [name, setName] = useState('');
