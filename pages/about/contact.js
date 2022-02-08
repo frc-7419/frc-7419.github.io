@@ -56,7 +56,7 @@ const ContactUs = () => {
                 placeholder="Enter Phone #" ></input><br></br><br></br>
                 <input value ={team} onChange={(e) => setTeam(e.target.value)} className="  text-gray-400 border border-blue-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"  type="text" id="team" name="team" 
                 placeholder="Enter Team #"></input><br></br><br></br>
-                <textarea value ={msg} onChange={(e) => setMsg(e.target.value)} className="  text-gray-400 border border-blue-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white drop-shadow-lg" name="your-message" cols="40" rows="10"  aria-required="true" aria-invalid="false" spellcheck="false" required></textarea>
+                <textarea value ={msg} onChange={(e) => setMsg(e.target.value)} className="  text-gray-400 border border-blue-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white drop-shadow-lg" name="your-message" cols="40" rows="10"  aria-required="true" aria-invalid="false" spellCheck="false" required></textarea>
             
                 
                 <br></br>
