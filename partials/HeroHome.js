@@ -33,11 +33,10 @@ function HeroHome() {
         </svg>
       </div>
 
-      <div className="bg-black bg-fixed mx-auto w-full absolute mt-14 md:mt-20" 
-      style ={{ transform: `translateY(${offsetY *0.6}px)`}}> <img className="opacity-40 object-fill w-full " src='/static/images/7419TechSupport.jpg' alt="Hero" /> </div>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 bg-scroll"></div>
+      <div className="bg-black mx-auto w-full absolute mt-14 md:mt-20" style ={{ transform: `translateY(${offsetY *0.6}px)`}}> <img className="opacity-30 object-fill w-full " src='/static/images/TeamPhotos/kickoff.jpg' alt="Hero" /> </div> 
 
-      <div className="bg-black mx-auto w-full absolute mt-14 md:mt-20"> <img className="opacity-30 object-fill w-full " src='/static/images/TeamPhotos/kickoff.jpg' alt="Hero" /> </div> 
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 bg-scroll">
+
       {/* src='/static/images/7419TechSupport.jpg' */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
@@ -64,7 +63,7 @@ function HeroHome() {
 
           {/* Hero image */}
           <div>
-            <div className="rela  tive flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
+            <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="flex flex-col justify-center">
                 <img className="mx-auto w-1/2 rounded-xl opacity-80" src='/static/images/2020Robot.png' width="768" height="432" alt="Hero" />
               </div>
@@ -88,6 +87,7 @@ function HeroHome() {
           
         </div>
 
+      </div>
       </div>
       
     </section>
