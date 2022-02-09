@@ -75,7 +75,7 @@ const ContactUs = () => {
                   type="text"
                   id="phone"
                   name="phone"
-                  placeholder="Enter Phone #"
+                  placeholder="Enter Phone #(optional)"
                 ></input>
                 <input
                   value={team}
@@ -97,6 +97,7 @@ const ContactUs = () => {
                   aria-invalid="false"
                   placeholder="Enter Message"
                   spellCheck="false"
+                  placeholder="Enter Message"
                   required
                 ></textarea>
 
