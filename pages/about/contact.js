@@ -11,8 +11,9 @@ const ContactUs = () => {
   const router = useRouter();
   const handleSubmit = (e) => {
     e.preventDefault();
-    const form = { name, email, phone, team, msg };
-
+    
+    const time = Date().toLocaleString()
+    const form = {time, name, email, phone, team, msg };
     setIsPending(true);
 
     fetch(
