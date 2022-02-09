@@ -39,18 +39,14 @@ const ContactUs = () => {
     <main className="flex-grow">
       <section className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="py-12 md:py-20">
+          <div className="py-6 md:py-20">
             {/* Section header */}
-            <div className="max-w-3xl mx-auto text-center pb-12 md:pb-14">
+            <div className="max-w-3xl mx-auto text-center pb-10 md:pb-10">
               <h2 className="h2 mb-4">Contact Us</h2>
-              <p className="text-xl text-gray-600" data-aos="zoom-y-out"></p>
+              <p className="text-xl text-gray-600" data-aos="zoom-y-out">Contact Us for questions? idk</p>
             </div>
             {/* Items */}
             <div className="max-w-sm md:max-w-4xl mx-auto grid">
-              <p className="text-gray-800 prose lg:prose-lg mx-auto mb-4">
-                {/* <h4 className="h4 mb-3">Header</h4> */}
-                Contact Us for questions? idk
-              </p>
               <form className="mx-auto" onSubmit={handleSubmit}>
                 <input
                   value={name}
@@ -99,6 +95,7 @@ const ContactUs = () => {
                   rows="10"
                   aria-required="true"
                   aria-invalid="false"
+                  placeholder="Enter Message"
                   spellCheck="false"
                   required
                 ></textarea>
