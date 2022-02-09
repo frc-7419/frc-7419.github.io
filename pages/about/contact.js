@@ -51,7 +51,7 @@ const ContactUs = () => {
                 <input
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="block  mx-auto mb-5 text-gray-400 border border-blue-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
+                  className="block  mx-auto mb-5 text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
                   type="text"
                   required
                   id="name"
@@ -61,7 +61,7 @@ const ContactUs = () => {
                 <input
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="block  mx-auto mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
+                  className="block  mx-auto mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
                   type="text"
                   required
                   id="email"
@@ -71,7 +71,7 @@ const ContactUs = () => {
                 <input
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
-                  className="block  mx-auto mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
+                  className="block  mx-auto mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
                   type="text"
                   id="phone"
                   name="phone"
@@ -80,7 +80,7 @@ const ContactUs = () => {
                 <input
                   value={team}
                   onChange={(e) => setTeam(e.target.value)}
-                  className="block  mx-auto mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
+                  className="block  mx-auto mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
                   type="text"
                   id="team"
                   name="team"
@@ -89,7 +89,7 @@ const ContactUs = () => {
                 <textarea
                   value={msg}
                   onChange={(e) => setMsg(e.target.value)}
-                  className="block  mx-auto mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
+                  className="block  mx-auto mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
                   name="your-message"
                   cols="40"
                   rows="10"
