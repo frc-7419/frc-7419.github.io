@@ -46,12 +46,12 @@ const ContactUs = () => {
               <p className="text-xl text-gray-600" data-aos="zoom-y-out">Contact us for any questions!</p>
             </div>
             {/* Items */}
-            <div className="max-w-sm md:max-w-4xl mx-auto grid">
-              <form className="mx-auto" onSubmit={handleSubmit}>
+            <div >
+              <form onSubmit={handleSubmit}>
                 <input
                   value={name}
                   onChange={(e) => setName(e.target.value)}
-                  className="block  mx-auto mb-5 text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
+                  className="block mb-5 text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
                   type="text"
                   required
                   id="name"
@@ -61,7 +61,7 @@ const ContactUs = () => {
                 <input
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="block  mx-auto mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
+                  className="block mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
                   type="text"
                   required
                   id="email"
@@ -71,7 +71,7 @@ const ContactUs = () => {
                 <input
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
-                  className="block  mx-auto mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
+                  className="block mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
                   type="text"
                   id="phone"
                   name="phone"
@@ -80,7 +80,7 @@ const ContactUs = () => {
                 <input
                   value={team}
                   onChange={(e) => setTeam(e.target.value)}
-                  className="block  mx-auto mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
+                  className="block mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
                   type="text"
                   id="team"
                   name="team"
@@ -89,7 +89,7 @@ const ContactUs = () => {
                 <textarea
                   value={msg}
                   onChange={(e) => setMsg(e.target.value)}
-                  className="block  mx-auto mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
+                  className="block mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
                   name="your-message"
                   cols="40"
                   rows="10"
@@ -102,15 +102,16 @@ const ContactUs = () => {
 
                 <br></br>
                 {!ispending && (
-                  <button className="block  mx-auto bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                  <button className=" bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                     Submit
                   </button>
                 )}
                 {ispending && (
-                  <button className="block  mx-auto bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded opacity-50 cursor-not-allowed">
+                  <button className=" bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded opacity-50 cursor-not-allowed">
                     Submitting
                   </button>
                 )}
+                
               </form>
             </div>
           </div>
