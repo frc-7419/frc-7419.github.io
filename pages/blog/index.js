@@ -14,7 +14,7 @@ export default function Home({ allPostsData }) {
               {allPostsData.map(({ id, date, title, description, thumbnail }) => (
                 <li className="rounded mb-8 text-blue-600" key={id}>
                   <div className="flex flex-row gap-2">
-                    <img className="max-w-[3rem] rounded" src={thumbnail} alt="Thumbnail" />
+                    <img className="max-w-[3rem] rounded object-cover" src={thumbnail} alt="Thumbnail" />
                     <div className="flex flex-col">
                       <Link href={`/blog/${id}`}>
                         <a>{title}</a>
