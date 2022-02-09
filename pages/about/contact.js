@@ -26,7 +26,7 @@ const ContactUs = () => {
       console.log("form submitted:", form);
       setIsPending(false);
     });
-    router.back();
+    router.push('/');
     setName("");
     setEmail("");
     setPhone("");
