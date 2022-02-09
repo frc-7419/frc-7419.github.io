@@ -69,26 +69,56 @@ function Header() {
               (navbarOpen ? " flex animate__animated animate__fadeIn animate__fast" : " hidden") // TODO: make this transition
             }
           >
-          
+          {/* li */}
             <ul className="flex flex-grow flex-col md:flex-row md:justify-end flex-wrap md:items-center">
+            <Dropdown title="The Team">
+                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/team">{/*    */}<a>Our Story</a></Link></li>
+                  {/* <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/robot"><a>Our Robot</a></Link></li> */}
+                  
+                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/mentors">{/* */}<a>Mentors</a></Link></li>
+                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/leadership">{/**/}<a>Leadership</a></Link></li>
+                 
+                  
+                </Dropdown>
+              
               <li>
                 <Link href="/">
                   <a className="font-medium text-gray-600 hover:text-gray-800 md:px-5 px-2 py-3 flex items-center transition duration-150 ease-in-out">
-                    Home
+                    Our Robot
                   </a>
                 </Link>
               </li>
-              {/* <li> */}
-                <Dropdown title="About">
-                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/team">{/*    */}<a>The Team</a></Link></li>
-                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/robot">{/**/}<a>Our Robot</a></Link></li>
-                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/outreach">{/**/}<a>Outreach</a></Link></li>
-                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/mentors">{/* */}<a>Mentors</a></Link></li>
-                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/leadership">{/**/}<a>Leadership</a></Link></li>
-                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/sponsors">{/**/}<a>Sponsors</a></Link></li>
-                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/contact">{/**/}<a>Contact Us</a></Link></li>
-                </Dropdown>
-              {/* </li> */}
+              <li>
+                <Link href="/">
+                  <a className="font-medium text-gray-600 hover:text-gray-800 md:px-5 px-2 py-3 flex items-center transition duration-150 ease-in-out">
+                    Outreach
+                  </a>
+                </Link>
+              </li>
+              
+              
+              <li>
+                <Link href="/">
+                  <a className="font-medium text-gray-600 hover:text-gray-800 md:px-5 px-2 py-3 flex items-center transition duration-150 ease-in-out">
+                    Sponsors
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/">
+                  <a className="font-medium text-gray-600 hover:text-gray-800 md:px-5 px-2 py-3 flex items-center transition duration-150 ease-in-out">
+                    Contact Us
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/">
+                  <a className="font-medium text-gray-600 hover:text-gray-800 md:px-5 px-2 py-3 flex items-center transition duration-150 ease-in-out">
+                    Media
+                  </a>
+                </Link>
+              </li>
+              
               <li>
                 <Link href="/blog">
                 <a className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 md:ml-3 ml-2 mt-3 md:mt-0">
@@ -99,8 +129,9 @@ function Header() {
                   </a>              
                 </Link>
               </li>
+              
             </ul>
-
+            {/* li */}
           </div>
 
         </div>
