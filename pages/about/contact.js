@@ -39,7 +39,7 @@ const ContactUs = () => {
     <main className="flex-grow">
       <section className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
-          <div className="py-6 md:py-20">
+          <div className="py-12 md:py-20">
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-10 md:pb-10">
               <h2 className="h2 mb-4">Contact Us</h2>
@@ -89,7 +89,7 @@ const ContactUs = () => {
                 <textarea
                   value={msg}
                   onChange={(e) => setMsg(e.target.value)}
-                  className="block mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
+                  className="block mb-5 w-4/5  text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
                   name="your-message"
                   cols="40"
                   rows="10"
