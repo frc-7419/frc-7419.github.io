@@ -27,6 +27,11 @@ const ContactUs = () => {
       setIsPending(false);
     });
     router.back();
+    setName("");
+    setEmail("");
+    setPhone("");
+    setTeam("");
+    setMsg("");
   };
 
   return (
