@@ -88,7 +88,7 @@ const ContactUs = () => {
                   type="text"
                   id="team"
                   name="team"
-                  placeholder="Enter Team #"
+                  placeholder="Enter Team # (optional)"
                 ></input>
                 <textarea
                   value={msg}
