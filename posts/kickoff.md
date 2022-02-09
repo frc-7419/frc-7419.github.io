@@ -1,6 +1,6 @@
 ---
 title: "This Week in FRC"
-thumbnail: "/static/images/blog/thumbnails/2020-01-24.png"
+thumbnail: "/static/images/blog/2022-01-24/1.png"
 date: "2022-01-24"
 description: "Tech Support's update for the week of 1/24"
 ---
