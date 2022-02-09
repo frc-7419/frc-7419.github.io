@@ -95,7 +95,6 @@ const ContactUs = () => {
                   rows="10"
                   aria-required="true"
                   aria-invalid="false"
-                  placeholder="Enter Message"
                   spellCheck="false"
                   placeholder="Enter Message"
                   required
