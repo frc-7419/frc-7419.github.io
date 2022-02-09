@@ -1,6 +1,5 @@
-import React from "react";
-
-import { useState } from "react";
+import { useState } from 'react';
+import { useRouter } from 'next/router'
 
 const ContactUs = () => {
   const [name, setName] = useState("");
@@ -9,7 +8,7 @@ const ContactUs = () => {
   const [team, setTeam] = useState("");
   const [msg, setMsg] = useState("");
   const [ispending, setIsPending] = useState(false);
-
+  const router = useRouter();
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = { name, email, phone, team, msg };
@@ -27,6 +26,7 @@ const ContactUs = () => {
       console.log("form submitted:", form);
       setIsPending(false);
     });
+    router.back();
   };
 
   return (
