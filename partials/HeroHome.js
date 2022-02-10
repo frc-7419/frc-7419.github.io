@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
-
+import  useWindowDimensions  from '../utils/WindowDimensions';
 function HeroHome() {
   const [offsetY, setOffsetY] = useState(0);
   const scrollMethod = () => setOffsetY(window.pageYOffset);
-
+  const { height, width } = useWindowDimensions();
   React.useEffect(() => { 
     window.addEventListener("scroll", scrollMethod);
 
@@ -12,7 +12,6 @@ function HeroHome() {
   }, []);
   
   const [videoModalOpen, setVideoModalOpen] = useState(false);
-
   return (
     <section className="relative">
 
@@ -33,7 +32,7 @@ function HeroHome() {
         </svg>
       </div>
 
-      <div className="bg-black mx-auto w-full absolute mt-14 md:mt-20" style ={{ transform: `translateY(${offsetY *0.6}px)`}}> <img className="opacity-30 object-fill w-full " src='/static/images/TeamPhotos/kickoff.jpg' alt="Hero" /> </div> 
+      {width > 600 ? <div className="bg-black mx-auto w-full absolute mt-14 md:mt-20" style ={{ transform: `translateY(${offsetY *0.6}px)`}}> <img className="opacity-30 object-fill w-full " src='/static/images/TeamPhotos/kickoff.jpg' alt="Hero" /> </div> : <div> wow mobile screen imagine </div>}
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 md: bg-scroll">
 
