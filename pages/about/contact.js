@@ -89,7 +89,7 @@ const ContactUs = () => {
                 <textarea
                   value={msg}
                   onChange={(e) => setMsg(e.target.value)}
-                  className="block mb-5 w-4/5  text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
+                  className="block mb-5   text-gray-400 border border-blue-700 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white drop-shadow-lg"
                   name="your-message"
                   cols="40"
                   rows="10"
