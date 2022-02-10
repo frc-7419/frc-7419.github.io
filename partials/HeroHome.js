@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
-import  useWindowDimensions  from '../utils/WindowDimensions';
+import  WindowDimensions  from '../utils/WindowDimensions';
 function HeroHome() {
   const [offsetY, setOffsetY] = useState(0);
   const scrollMethod = () => setOffsetY(window.pageYOffset);
-  const { width,height } = useWindowDimensions();
+  const { width,height } = WindowDimensions();
   React.useEffect(() => { 
     window.addEventListener("scroll", scrollMethod);
 
