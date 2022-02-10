@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion';
+
 import Carousel from '../../utils/Carousel';
 
 const images = [
@@ -23,25 +23,13 @@ function Robot() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6" />
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <motion.div initial="hidden" animate="visible" variants={{
-            hidden: {
-              scale: .8,
-              opacity: 0
-            },
-            visible: {
-              scale: 1,
-              opacity: 1,
-              transition: {
-                delay: .4
-              }
-            }
-          }} className="max-w-3xl mx-auto text-center pb-12 md:pb-14">
+          <div className="mx-auto max-w-3xl text-center pb-12 md:pb-14" data-aos="zoom-y-out">
             <h2 className="h2 mb-4">Our Robot</h2>
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">
               <p className="mb-3">The design and execution of our robot </p>
               <p className="text-md">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
             </p>
-          </motion.div>
+          </div>
           {/* 2020 Robot */}
           <p className="text-xl text-gray-600" data-aos="zoom-y-out">
             <p className="mb-3 mx-auto text-center">2020 Robot </p>
