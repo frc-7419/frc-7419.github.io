@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import Transition from '../utils/Transition.js';
 import { useRouter } from 'next/router';
-import WindowDimensions from './WindowDimensions.js';
+import useWindowDimensions from './WindowDimensions.js';
 
 
 function Dropdown({
@@ -11,7 +11,7 @@ function Dropdown({
 }) {
 
   const router = useRouter();
-  const { width, height } = WindowDimensions();
+  const { width, height } = useWindowDimensions();
 
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [isTouchDevice, setTouchDevice] = useState(true);
