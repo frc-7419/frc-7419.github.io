@@ -4,7 +4,7 @@ import  useWindowDimensions  from '../utils/WindowDimensions';
 function HeroHome() {
   const [offsetY, setOffsetY] = useState(0);
   const scrollMethod = () => setOffsetY(window.pageYOffset);
-  const { height, width } = useWindowDimensions();
+  const { width,height } = useWindowDimensions();
   React.useEffect(() => { 
     window.addEventListener("scroll", scrollMethod);
 
