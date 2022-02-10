@@ -82,14 +82,14 @@ function Header() {
                 </Dropdown>
               
               <li>
-                <Link href="/">
+                <Link href="about/robot">
                   <a className="font-medium text-gray-600 hover:text-gray-800 md:px-5 px-2 py-3 flex items-center transition duration-150 ease-in-out">
                     Our Robot
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="about/outreach">
                   <a className="font-medium text-gray-600 hover:text-gray-800 md:px-5 px-2 py-3 flex items-center transition duration-150 ease-in-out">
                     Outreach
                   </a>
@@ -98,21 +98,21 @@ function Header() {
               
               
               <li>
-                <Link href="/">
+                <Link href="about/sponsors">
                   <a className="font-medium text-gray-600 hover:text-gray-800 md:px-5 px-2 py-3 flex items-center transition duration-150 ease-in-out">
                     Sponsors
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="about/contact">
                   <a className="font-medium text-gray-600 hover:text-gray-800 md:px-5 px-2 py-3 flex items-center transition duration-150 ease-in-out">
                     Contact Us
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link href="about/media">
                   <a className="font-medium text-gray-600 hover:text-gray-800 md:px-5 px-2 py-3 flex items-center transition duration-150 ease-in-out">
                     Media
                   </a>
