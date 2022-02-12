@@ -34,6 +34,9 @@ function Sponsors() {
               {/* Items */}
               <div className="max-w-sm md:max-w-4xl mx-auto grid gap-x-3 grid-cols-4 md:grid-cols-4 px-20">
                 <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
+                  <img src={'/static/images/sponsors/qls.png'} alt="qls.png" />
+                </div>
+                <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
                   <img src={'/static/images/sponsors/apple-logo.png'} alt="apple-logo.png" />
                 </div>
                 <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
