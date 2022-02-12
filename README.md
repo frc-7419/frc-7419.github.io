@@ -10,6 +10,14 @@
 2. Run ```npm install```
 3. Run ```npm run dev``` to run the project locally and see the live webpage in your browser
 
+## Structure
+- pages - different webpages
+  -  about - contains different js for each page
+  -  blog - process the md files in /posts
+  -  media - photos & videos pages
+- partials - parts such as the header or footer 
+- posts - markdown blog posts
+- utils - helper tools
 ## Blog
 
 Create a new `.md` file in `/posts`
