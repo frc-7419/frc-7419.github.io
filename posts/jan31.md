@@ -1,65 +1,50 @@
 ---
 title: "This Week in FRC"
-thumbnail: "https://lh6.googleusercontent.com/fNL99OCTtbg8iApxLTxQjC_RUBP-ONOdyLFTDDixIah3Y7Y4hhX_LZ9Msyo4R5cbrjKNyQvTfYRvKrcilDp7sdgmhbCi6lI8V1HJSBiRkVFYxvw8pz6C670WdEloymADgAvrZocM"
 date: "2022-01-31"
 description: "Tech Support's update for the week of 1/31"
+thumbnail: "/static/images/blog/jan31/image6.jpg"
 ---
 
 This past week has been fun, riveting, and so, so productive for all members of Quarry Lane’s 7419 Tech Support! At our weekly general meetings, we reflected on the state of the team and made internal changes to better equip us for the challenges that the FRC program presents.
 
-![](https://lh6.googleusercontent.com/fNL99OCTtbg8iApxLTxQjC_RUBP-ONOdyLFTDDixIah3Y7Y4hhX_LZ9Msyo4R5cbrjKNyQvTfYRvKrcilDp7sdgmhbCi6lI8V1HJSBiRkVFYxvw8pz6C670WdEloymADgAvrZocM)
+![](/static/images/blog/jan31/image6.jpg)
 
-Presented by The Boeing Company, 2022’s game,_Rapid React,_ challenges us to create a robot that can pick up and shoot cargo into a scoring hub and be able to climb its way up as many as four ascending rungs. Without further ado, here are a few highlights of what we’ve been working on!
+Presented by The Boeing Company, 2022’s game, Rapid React, challenges us to create a robot that can pick up and shoot cargo into a scoring hub and be able to climb its way up as many as four ascending rungs. Without further ado, here are a few highlights of what we’ve been working on!
 
   
-**Intake Prototype**
+Intake Prototype
 
 The intake is the part of the robot that allows us to collect cargo and score points. We tested the wooden prototype of the intake and found with much delight that it is quick and accurate. To meet specific criteria in the game manual, we designed a 4 bar mechanism that uses a pneumatic system to extend the intake.
 
-  
+![](/static/images/blog/jan31/image1.jpg)
 
-
-![](https://lh4.googleusercontent.com/OOQJLIKLgRB8SPUq7U7-j_rrwSLnbKAsoVnoaxkg8Zmyyl2w6ZwVE1OAEyqo7VD0AeUQTFn57i0fhr7UNGSE1cglY3zAyBt3x0-jJsV6IVezUaMTTskaHuZe_51bMasTxqy0yJ1m)
-
-**Shooter Prototype**
+Shooter Prototype
 
 The shooter mechanism takes the cargo collected by the intake to shoot it into the targets. Highlights of the shooter include the frame and flywheels. The frame holds the electrical board, which contains the wiring for all major mechanisms of the robot. Our shooter design uses two flywheels to propel the ball, as this gave us the best results during testing. The wheels compress the balls to increase speed and guide the cargo as it gets shot out.
 
-![](https://lh6.googleusercontent.com/ETbJdMQaUC08LrlSj2TBddR0JN76EeT5fzYt4XQK1Idq9UccHD0vBE-xmn10i5sBe6oGLT6kkwCMtPOXOAhkwDft3kF1bhymmdx7pAf_qL7IdljdweWtgql5LAvq27FXGxA8pBHh)
+![](/static/images/blog/jan31/image5.jpg)
 
-  
-  
-  
-  
-  
-  
-
-
-**Hangar Prototype**
+Hangar Prototype
 
 In the last 30 seconds of the game, each team is challenged to hang their robot onto a rung and move to a higher rung, similar to climbing ascending monkey bars. To allow us to get a visual idea of how it would work on the robot and how it would look overall, we created a scaled-down model of the hanger. We also built a field model of the hangar to test out future designs for the hanging mechanism next week.
 
-![](https://lh3.googleusercontent.com/aKC1C-iZXgbYWHeVGyUIMkAameQIfzlvssKDJanzEdv_z-7BwQzzXd6AFTatdC4FQArWK4ATZU8IrCw8ildTDO7aGJzYDgZ5J3Hr7Fnpa3UjsPQb9t6ltRawcocxSwhOr5KvzH7y)******
+![](/static/images/blog/jan31/image4.jpg)
 
 Beyond the physical developments of our robot, the programming team is hard at work juggling the code for the robot and updating the website.
 
-**Elevator with Limit Switches**
+Elevator with Limit Switches
 
 Limit switches make sure things do not extend too far or surpass their limit and in this case, we implemented them with the elevator. With the two limit switches placed on the top and the bottom of the elevator, they can help stop the elevator to make sure it does not extend too far or break the elevator altogether.
 
-**Our team website**, linked[here](https://www.7419.tech), contains a description of our team history and leadership, contact info, and any new developments in our team. We have been updating descriptions and implementing an “Our Robot” page to allow anyone to look and understand our robot in detail, so watch out for that!
+Our team website, linked [here](https://www.7419.tech), contains a description of our team history and leadership, contact info, and any new developments in our team. We have been updating descriptions and implementing an “Our Robot” page to allow anyone to look and understand our robot in detail, so watch out for that!
 
-  
-
-
-**Outreach Highlight of the Week: Push Cart Derby with Boys Scouts**
+Outreach Highlight of the Week: Push Cart Derby with Boys Scouts
 
 On January 31st, we attended a push cart derby hosted by Troop 941. Troop 941 used this event to help gain new scouts and introduce them to their troop. At the derby, we showcased our 2021 robot. We started off with showing a slideshow composed of pictures of our season so far and drove our robot through the course. True to the helpful and enthusiastic spirit of FIRST robotics, our pit crew helped another patrol fix a part of their push cart and we were all very happy to be there. It was an enriching and exciting experience for both us as a team and Troop 941!
 
-![](https://lh4.googleusercontent.com/IC1X-2CCiKTeyGvhOPl_-YzkFikaoTNjwjtdVZt15Kwq5ibvQlZSr4gvAyMxNW4bYbTVvTdfW-W0awABAH7snYmP8oZbvlqzrIhzifr_chIHiSGPW7eco3PQ0c_xW62vlHwpxkS-)![](https://lh4.googleusercontent.com/D0rJHXX3ZwGPfoXVL0RHlwe1MOiQC1qXPhmxs2OMdeo-yLHdDyR9xVwDk-52XFISlqs_tjNe5oQE3nSz9oV2lmtTd0SIhqFQ-zYLzKTNbd_U-918CeUqhYxRKzDL9EiWBatvnlPP)
+![](/static/images/blog/jan31/image3.png)
 
-  
-
+![](/static/images/blog/jan31/image2.png)
 
 With tournaments just around the corner, we are prepared to work even harder, since we will be shifting away from tinkering with prototypes to finalizing and fine-tuning our robot.
 
@@ -67,10 +52,4 @@ If you have any questions, please do not hesitate to contact the team at [suppor
 
 Until next week!
 
-  
-
-
 Written by: Kelly Wu, Rachelle Wang, Sarp Gursel, Verain Mahajan, Ridhima Motewar, Vivi Cheng, Shravan Arumugam, & Brigitte Chung
-
-  
-  
