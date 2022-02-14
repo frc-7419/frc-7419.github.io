@@ -46,7 +46,7 @@ function HeroHome() {
           {/*   ion header */}
           <div className="text-center pb-12 md:pb-16">
           
-            <h1 className="text-5xl md:text-6xl text-white font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">FRC 7419 <br/><span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"> {width > 600 ? <span> Tech Support </span> : <span className="text-3xl">Tech Support</span>} </span></h1>
+            <h1 className="text-5xl md:text-6xl text-white font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">FRC 7419 <br/><span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"> {width > 600 ? <span> QLS Tech Support </span> : <span className="text-3xl"> QLS Tech Support</span>} </span></h1>
             {/* <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">The official website for FRC Team 7419</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
