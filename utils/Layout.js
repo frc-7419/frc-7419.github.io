@@ -24,7 +24,7 @@ export default function Layout({ children }) {
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
 
-        <title>7419 Tech Support</title>
+        <title>QLS Tech Support</title>
       </Head>
 
       <Header />
