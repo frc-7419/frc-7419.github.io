@@ -2,19 +2,10 @@ const fs = require('fs');
 const path = require('path');
 const inquirer = require('inquirer');
 const extract = require('extract-zip')
-const turndown = require('turndown')
+const turndown = require('turndown');
+const { JSDOM } = require('jsdom');
 
-let slug; // global
 
-const turndownConverter = new turndown();
-turndownConverter.addRule('imgsrc', {
-    filter: ['img'],
-    replacement: function (content, node) {
-        let imgsrc = node.src.split('/');
-        imgsrc = imgsrc[imgsrc.length - 1]
-        return `![${node.alt}](/static/images/blog/${slug}/${imgsrc})`
-    }
-})
 
 async function import_gdoc() {
     const BASEDIR = path.join(__dirname, '../');
@@ -38,6 +29,7 @@ async function import_gdoc() {
             }
         ]))
     }
+    let title, slug, date, description;
     ({title, slug, date, description} = await inquirer.prompt([
         {
             type: 'input',
@@ -89,7 +81,51 @@ async function import_gdoc() {
             HTMLFILE = file;
         };
     })
+    const turndownConverter = new turndown();
+    turndownConverter.addRule('imgsrc', {
+        filter: ['img'],
+        replacement: function (content, node) {
+            let imgsrc = node.src.split('/');
+            imgsrc = imgsrc[imgsrc.length - 1]
+            return `![${node.alt}](/static/images/blog/${slug}/${imgsrc})`
+        }
+    })
+    // read html file
     const html = fs.readFileSync(path.join(TMPDIR, HTMLFILE)).toString();
+    // get bold and italic css classes
+    const dom = new JSDOM(html);
+    const boldClass = [];
+    const italicClass = [];
+    dom.window.document.getElementsByTagName('style')[0].sheet.cssRules.forEach((rule) => {
+        if (rule.style == undefined) return
+        if (rule.style['font-weight'] == "700") {
+            boldClass.push(rule.selectorText.substring(1));
+        }
+        if (rule.style['font-style'] == 'italic') {
+            italicClass.push(rule.selectorText.substring(1));
+        }
+    })
+    turndownConverter.addRule('imgsrc', {
+        filter: ['span'],
+        replacement: function (content, node) {
+            let bolded = false, italiced = false;
+            if (node['_attrsByQName'].class !== undefined) {
+                node['_attrsByQName'].class.data.split(' ').forEach((cls) => {
+                    if (boldClass.includes(cls) && !bolded) {
+                        content = "**" + content + "**"
+                        bolded = true;
+                    }
+                    if (italicClass.includes(cls) && !italiced) {
+                        content = "*" + content + "*"
+                        italiced = true
+                    }
+                })
+            }
+            return content;
+        }
+    })
+
+    // convert
     let markdown = `\
 ---
 title: "${title}"

@@ -7,7 +7,7 @@ thumbnail: "/static/images/blog/kickoff/image9.png"
 
 Quarry Lane’s robotics team Tech Support is a third of the way through the build season of the FIRST Robotics Competition, and we’d love to share our progress with you!
 
-Presented by The Boeing Company, 2022’s game Rapid React challenges us to create a robot that can pick up and shoot cargo into a scoring hub and be able to climb its way up as many as four ascending rungs. We’re so excited to share our progress in tackling this challenge!
+Presented by The Boeing Company, 2022’s game *Rapid React* challenges us to create a robot that can pick up and shoot cargo into a scoring hub and be able to climb its way up as many as four ascending rungs. We’re so excited to share our progress in tackling this challenge!
 
 Our robot breaks down to three main major mechanisms: the shooter, the intake, and the “hangar” for the monkey bar challenge. In order to traverse around the field to operate these though, we need a drivetrain. After much consideration of scoring positions, mobility, and field terrain, we’ve finished this part of the robot. Here’s a few highlights of our build process, as well as our finished drivetrain:
 
