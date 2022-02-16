@@ -19,7 +19,7 @@ import ReactPlayer from 'react-player'
               </div>
 
               {/* Items */}
-          <div class="max-w-sm md:max-w-7xl mx-auto grid grid-cols-3 gap-4 overflow-visible">
+          <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-3 gap-4 overflow-visible">
              <div className="max-w-sm rounded shadow-lg">
                 <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
                   <div className="text-center px-6 py-4 font-bold  text-xl mb-2">Robot</div>
