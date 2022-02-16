@@ -34,7 +34,7 @@ function Outreach() {
 
               {/* Items */}
               <div className="max-w-6xl mx-auto px-4 sm:px-6">
-                <p className="text-gray-600 mb-4 prose">A significant part of the FIRST experience heavily revolves around outreach. Outreach not only emphasizes the impact and benefits of robotics but also inspires people of all ages to pursue an interest in STEM. In our team, every student makes a commitment to participate in outreach, with our activities spanning from assisting FLL and FTC teams to holding workshops at after school programs like Genius Kids. Here are just a few examples of outreach events we’ve held:</p>
+                <p className="text-gray-600 mb-4">A significant part of the FIRST experience heavily revolves around outreach. Outreach not only emphasizes the impact and benefits of robotics but also inspires people of all ages to pursue an interest in STEM. In our team, every student makes a commitment to participate in outreach, with our activities spanning from assisting FLL and FTC teams to holding workshops at after school programs like Genius Kids. Here are just a few examples of outreach events we’ve held:</p>
                 <ul>
                   <li className="mb-3">
                     <h4 className="h4 mb-3">2021 Kindness Week</h4>
