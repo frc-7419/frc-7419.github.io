@@ -94,16 +94,7 @@ function Robot() {
               </div>
             </p>{" "}
             <br />
-            <p className="text-gray-800">
-              {/* <h4 className="h4 mb-3">Header</h4> */}
-              Lorem ipsum dolor sit amet, consectetur adipiscing
-              Lorem ipsum dolor sit amet, consectetur adipiscing
-              Lorem ipsum dolor sit amet, consectetur adipiscing
-              Lorem ipsum dolor sit amet, consectetur adipiscing
-              Lorem ipsum dolor sit amet, consectetur adipiscing
-              Lorem ipsum dolor sit amet, consectetur adipiscing
-
-            </p>{" "}
+            
             <br />
             <p className="text-gray-800" />
           </div>
