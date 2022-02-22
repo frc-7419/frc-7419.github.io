@@ -62,4 +62,4 @@ import ReactPlayer from 'react-player'
   );
 }
 
-export default MediaCapabilities;
+export default Media;
