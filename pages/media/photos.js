@@ -1,26 +1,65 @@
-function Photos() {
-    return (
-      <main className="flex-grow">
+import React, { useState } from 'react';
+import ReactPlayer from 'react-player'
+  function Photos() {
+  
+  
+  
+  return (
+    <main className="flex-grow">
         <section className="relative">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="py-12 md:py-20">
+
               {/* Section header */}
-              <div className="max-w-3xl mx-auto text-center pb-12 md:pb-14">
+              <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
                 <h2 className="h2 mb-4">Photos</h2>
-                {/* <p className="text-xl text-gray-600" data-aos="zoom-y-out">
-                  <p className="mb-3">Tech Support is way more than building robots. </p> <p className="text-md">We’re a family.
-                  We’re a part of local communities. We’re constantly changing,
-                  innovating, and working towards a brighter future together.</p>
-                </p> */}
+                <p className="text-xl text-gray-600" data-aos="zoom-y-out">A collection of media that represents our team</p>
               </div>
+              </div>
+              </div>
+
               {/* Items */}
-            
-            </div>
-          </div>
+          <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-3 gap-4 overflow-visible">
+             <div className="max-w-sm rounded shadow-lg">
+                <img src="/static/images/2020robot.png" alt="L" className="w-full"/>
+                  <div className="text-center px-6 py-4 font-bold  text-xl mb-2">Robot</div>
+             </div>
+             <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                <img src="/static/images/2020robot.png" alt="L" className="w-full"/>
+                  <div className="text-center px-6 py-4 font-bold  text-xl mb-2">Robot</div>
+             </div> 
+             <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                <img src="/static/images/2020robot.png" alt="L" className="w-full"/>
+                  <div className="text-center px-6 py-4 font-bold  text-xl mb-2">Robot</div>
+             </div> 
+             <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                <img src="/static/images/2020robot.png" alt="L" className="w-full"/>
+                  <div className="text-center px-6 py-4 font-bold  text-xl mb-2">Robot</div>
+             </div> 
+             <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                <img src="/static/images/2020robot.png" alt="L" className="w-full"/>
+                  <div className="text-center px-6 py-4 font-bold  text-xl mb-2">Robot</div>
+             </div> 
+             <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                <img src="/static/images/2020robot.png" alt="L" className="w-full"/>
+                  <div className="text-center px-6 py-4 font-bold  text-xl mb-2">Robot</div>
+             </div> 
+             <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                <img src="/static/images/2020robot.png" alt="L" className="w-full"/>
+                  <div className="text-center px-6 py-4 font-bold  text-xl mb-2">Robot</div>
+             </div>
+             <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                <img src="/static/images/2020robot.png" alt="L" className="w-full"/>
+                  <div className="text-center px-6 py-4 font-bold  text-xl mb-2">Robot</div>
+             </div>  
+          </div> 
+
+          
+             
         </section>
       </main>
-    );
-  }
-  
-  export default Photos;
-  
+
+  );
+}
+
+export default Photos;
