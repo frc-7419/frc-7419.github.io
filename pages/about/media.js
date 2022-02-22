@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import ReactPlayer from 'react-player'
-  function Outreach() {
+  function Media() {
   
   
   
@@ -62,4 +62,4 @@ import ReactPlayer from 'react-player'
   );
 }
 
-export default Outreach;
+export default MediaCapabilities;
