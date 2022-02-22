@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Modal from '../utils/Modal';
-
+import  WindowDimensions  from '../utils/WindowDimensions';
 function HeroHome() {
   const [offsetY, setOffsetY] = useState(0);
   const scrollMethod = () => setOffsetY(window.pageYOffset);
-
+  const { width,height } = WindowDimensions();
   React.useEffect(() => { 
     window.addEventListener("scroll", scrollMethod);
 
@@ -12,7 +12,6 @@ function HeroHome() {
   }, []);
   
   const [videoModalOpen, setVideoModalOpen] = useState(false);
-
   return (
     <section className="relative">
 
@@ -33,11 +32,10 @@ function HeroHome() {
         </svg>
       </div>
 
-      <div className="bg-black bg-fixed mx-auto w-full absolute mt-14 md:mt-20" 
-      style ={{ transform: `translateY(${offsetY *0.6}px)`}}> <img className="opacity-40 object-fill w-full " src='/static/images/7419TechSupport.jpg' alt="Hero" /> </div>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 bg-scroll"></div>
+      {width > 600 ? <div className="bg-black mx-auto w-full absolute mt-14 md:mt-20" style ={{ transform: `translateY(${offsetY *0.6}px)`}}> <img className="opacity-30 object-fill w-full " src='/static/images/TeamPhotos/kickoff.jpg' alt="Hero" /> </div> : <div className="bg-black mx-auto w-full absolute mt-14 md:mt-20" style ={{ transform: `translateY(${offsetY *0.6}px)`}}> <img className="opacity-30 object-fill w-full " src='/static/images/TeamPhotos/kickoff.jpg' alt="Hero" /> </div>}
 
-      <div className="bg-black mx-auto w-full absolute mt-14 md:mt-20"> <img className="opacity-30 object-fill w-full " src='/static/images/TeamPhotos/kickoff.jpg' alt="Hero" /> </div> 
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 md: bg-scroll">
+
       {/* src='/static/images/7419TechSupport.jpg' */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
@@ -48,7 +46,7 @@ function HeroHome() {
           {/*   ion header */}
           <div className="text-center pb-12 md:pb-16">
           
-            <h1 className="text-5xl md:text-6xl text-white font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">FRC 7419 <br/><span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">Tech Support</span></h1>
+            <h1 className="text-5xl md:text-6xl text-white font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">FRC 7419 <br/><span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"> {width > 600 ? <span> QLS Tech Support </span> : <span className="text-3xl"> QLS Tech Support</span>} </span></h1>
             {/* <div className="max-w-3xl mx-auto">
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">The official website for FRC Team 7419</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
@@ -64,7 +62,7 @@ function HeroHome() {
 
           {/* Hero image */}
           <div>
-            <div className="rela  tive flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
+            <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="flex flex-col justify-center">
                 <img className="mx-auto w-1/2 rounded-xl opacity-80" src='/static/images/2020Robot.png' width="768" height="432" alt="Hero" />
               </div>
@@ -88,6 +86,7 @@ function HeroHome() {
           
         </div>
 
+      </div>
       </div>
       
     </section>
