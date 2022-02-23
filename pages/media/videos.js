@@ -19,11 +19,23 @@ import ReactPlayer from 'react-player'
               </div>
 
               {/* Items */}
-          <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-3 gap-4 overflow-visible">
-             <div className="max-w-sm rounded shadow-lg">
-                <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
+          <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-2 gap-2 overflow-hidden">
+             <div className="max-w-lg rounded shadow-lg">
+             <iframe src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview" height="100%" 
+     width="100%" allow="autoplay"></iframe>
              </div>
-             
+             <div className="max-w-sm rounded shadow-lg">
+             <iframe src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview" width="672" height="378" allow="autoplay"></iframe>
+             </div>
+             <div className="max-w-sm rounded shadow-lg">
+             <iframe src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview" width="672" height="378" allow="autoplay"></iframe>
+             </div>
+             <div className="max-w-sm rounded shadow-lg">
+             <iframe src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview" width="672" height="378" allow="autoplay"></iframe>
+             </div>
+             <div className="max-w-sm rounded shadow-lg">
+             <iframe src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview" width="672" height="378" allow="autoplay"></iframe>
+             </div>
           </div> 
 
           
