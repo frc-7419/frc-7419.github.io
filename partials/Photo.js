@@ -6,7 +6,7 @@ const Photo = ({link, caption}) => {
         <img
           src={link}
           style={{ height: 400 }}
-          alt="L"
+          alt={caption}
           className="w-full object-cover"
         />
         <div className="text-center px-6 py-4 font-bold  text-xl mb-2">
