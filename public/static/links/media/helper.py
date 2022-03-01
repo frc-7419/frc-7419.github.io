@@ -1,5 +1,5 @@
 import json
-name = 'SoftwareTesting'
+name = 'Madtown2021'
 links = []
 with open(f'{name}.txt', 'r') as f:
     for line in f.readlines():
