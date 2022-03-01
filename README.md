@@ -1,8 +1,8 @@
 # [7419 Tech Support Website](https://www.7419.tech/)
 
 ## Beta sites
-[RobotPage](https://7419test.surge.sh/)  
-[Media](https://7419media.surge.sh/)
+- [RobotPage](https://7419test.surge.sh/)  
+- [Media](https://7419media.surge.sh/)
 ## Requirements
 - Tailwind CSS (https://tailwindcss.com/)
 - Next.js (https://nextjs.org/)
