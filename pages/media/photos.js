@@ -29,7 +29,7 @@ function Photos() {
           />
           <Photo link="/static/images/2020robot.png" caption="Robot" />
           {/* {SoftwareTestingPhotos.map((photo) => <Photo link={photo} caption="wow"/>)} */}
-          {Madtown2021Photos.map((photo) => <Photo link={photo} caption="madtown wow"/>)}
+          {Madtown2021Photos.map((photo) => <Photo link={photo} key={photo.id} caption="madtown wow"/>)}
         </div>
       </section>
     </main>
