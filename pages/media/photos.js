@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Photo from '../../partials/Photo';
 import ReactPlayer from 'react-player'
   function Photos() {
   
@@ -20,38 +21,8 @@ import ReactPlayer from 'react-player'
 
               {/* Items */}
           <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-3 gap-4 overflow-visible">
-             <div className="max-w-sm rounded shadow-lg">
-                <img src="/static/images/2020robot.png" alt="L" className="w-full"/>
-                  <div className="text-center px-6 py-4 font-bold  text-xl mb-2">Robot</div>
-             </div>
-             <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <img src="/static/images/2020robot.png" alt="L" className="w-full"/>
-                  <div className="text-center px-6 py-4 font-bold  text-xl mb-2">Robot</div>
-             </div> 
-             <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <img src="/static/images/2020robot.png" alt="L" className="w-full"/>
-                  <div className="text-center px-6 py-4 font-bold  text-xl mb-2">Robot</div>
-             </div> 
-             <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <img src="/static/images/2020robot.png" alt="L" className="w-full"/>
-                  <div className="text-center px-6 py-4 font-bold  text-xl mb-2">Robot</div>
-             </div> 
-             <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <img src="/static/images/2020robot.png" alt="L" className="w-full"/>
-                  <div className="text-center px-6 py-4 font-bold  text-xl mb-2">Robot</div>
-             </div> 
-             <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <img src="/static/images/2020robot.png" alt="L" className="w-full"/>
-                  <div className="text-center px-6 py-4 font-bold  text-xl mb-2">Robot</div>
-             </div> 
-             <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <img src="/static/images/2020robot.png" alt="L" className="w-full"/>
-                  <div className="text-center px-6 py-4 font-bold  text-xl mb-2">Robot</div>
-             </div>
-             <div className="max-w-sm rounded overflow-hidden shadow-lg">
-                <img src="/static/images/2020robot.png" alt="L" className="w-full"/>
-                  <div className="text-center px-6 py-4 font-bold  text-xl mb-2">Robot</div>
-             </div>  
+            <Photo link="https://drive.google.com/uc?id=1Vo7nFYwTWajHXoYMPRXdfYE_hkrZjnyt&export=download" caption="wow"/>
+            <Photo link="/static/images/2020robot.png" caption="Robot"/>
           </div> 
 
           
