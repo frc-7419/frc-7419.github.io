@@ -68,7 +68,7 @@ function FooterTemp() {
           </svg> */}
 
           {/* Copyrights note */}
-          <div className="text-sm text-gray-600 mr-4">Copyright &copy;{new Date().getFullYear()} The Quarry Lane School. All Rights Reserved.</div>
+          <div className="text-sm text-gray-600 mr-4">Copyright &copy;{new Date().getFullYear()} <a className="underline" href="https://www.quarrylane.org/">The Quarry Lane School.</a> All Rights Reserved.</div>
 
         </div>
 
