@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import Photo from "../../partials/Photo";
 import ReactPlayer from "react-player";
+import SoftwareTesting from "../../public/static/links/media/SoftwareTesting";
+import Madtown2021 from "../../public/static/links/media/Madtown2021";
 function Photos() {
+  const SoftwareTestingPhotos = SoftwareTesting.SoftwareTesting;
+  const Madtown2021Photos = Madtown2021.Madtown2021;
   return (
     <main className="flex-grow">
       <section className="relative">
@@ -24,6 +28,8 @@ function Photos() {
             caption="wow"
           />
           <Photo link="/static/images/2020robot.png" caption="Robot" />
+          {/* {SoftwareTestingPhotos.map((photo) => <Photo link={photo} caption="wow"/>)} */}
+          {Madtown2021Photos.map((photo) => <Photo link={photo} caption="madtown wow"/>)}
         </div>
       </section>
     </main>
