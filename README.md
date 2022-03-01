@@ -3,6 +3,7 @@
 ## Beta sites
 - [RobotPage](https://7419test.surge.sh/)  
 - [Media](https://7419media.surge.sh/)
+- [BusinessPage](https://7419business.surge.sh/)
 ## Requirements
 - Tailwind CSS (https://tailwindcss.com/)
 - Next.js (https://nextjs.org/)
