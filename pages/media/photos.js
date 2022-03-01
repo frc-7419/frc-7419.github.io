@@ -22,7 +22,7 @@ function Photos() {
         </div>
 
         {/* Items */}
-        <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-3 gap-4 overflow-visible">
+        <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 overflow-visible">
           <Photo
             link="https://drive.google.com/uc?id=1Vo7nFYwTWajHXoYMPRXdfYE_hkrZjnyt&export=download"
             caption="wow"
