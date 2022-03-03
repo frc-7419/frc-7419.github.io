@@ -64,7 +64,7 @@ function Modal({
         leaveEnd="opacity-0 scale-95"
       >
         <button className="font-bold text-lg text-red-600 absolute top-[122px] right-[522px]"> ╳</button>
-        <div className="bg-white overflow-auto max-w-6xl w-full max-h-full" ref={modalContent}>          
+        <div className="bg-white overflow-auto max-w-sm w-full max-h-full" ref={modalContent}>          
           
           {children}
         </div>
