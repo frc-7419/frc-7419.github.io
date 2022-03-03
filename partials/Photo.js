@@ -1,10 +1,17 @@
 import React, { useState } from "react";
 import Modal from "../utils/Modal";
+import WindowDimensions from '../utils/WindowDimensions.js';
 
 const Photo = ({ link, caption, capOn, modOn }) => {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
+  const { width, height } = WindowDimensions();
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg" onClick={() => {setVideoModalOpen(true)}}>
+    <div
+      className="max-w-sm rounded overflow-hidden shadow-lg"
+      onClick={() => {
+        setVideoModalOpen(true);
+      }}
+    >
       <img
         src={link}
         style={{ height: 400 }}
@@ -16,13 +23,14 @@ const Photo = ({ link, caption, capOn, modOn }) => {
           {caption}
         </div>
       )}
-      <Modal
+
+      { modOn && width>800 && <Modal
         id="modal"
         ariaLabel="modal-headline"
         show={videoModalOpen}
         handleClose={() => setVideoModalOpen(false)}
+        className=""
       >
-        
         <div className="relative max-w-sm mx-auto">
           <img
             src={link}
@@ -30,7 +38,7 @@ const Photo = ({ link, caption, capOn, modOn }) => {
             className="relative rounded w-full object-cover"
           />
         </div>
-      </Modal>
+      </Modal>}
     </div>
   );
 };
