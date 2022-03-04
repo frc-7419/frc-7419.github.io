@@ -33,7 +33,7 @@ function Videos() {
             <iframe
               className="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 w-full h-full"
               src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
-              allowfullscreen=""
+              allowFullScreen=""
               data-gtm-yt-inspected-2340190_699="true"
               id="240632615"
             ></iframe>
