@@ -42,7 +42,7 @@ function Header() {
           {/* <div className="w-full flex-grow flex-row justify-between md:w-auto mr-4"> !!!!!! mr-4 */}
             {/* Logo */}
             <Link href="/">
-              <a className="block" aria-label="Tech Support"><img src='/static/images/logos/7419_light.png' width='40px' alt="7419 Logo" /></a>
+              <a className="block" aria-label="Tech Support"><img src='/static/images/logos/7419_light.png' width='48px' alt="7419 Logo" /></a>
             </Link>
             <button onClick={() => setNavbarOpen(!navbarOpen)} className="focus:outline-none leading-none md:hidden" aria-label="Navbar Toggle">
               <svg className={"text-gray-800 hover:text-blue-600" + 
