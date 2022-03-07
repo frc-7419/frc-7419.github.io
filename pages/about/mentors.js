@@ -61,10 +61,10 @@ function Mentors() {
               </div>
 
               {/* Items */}
-              <div className="max-w-sm md:max-w-4xl mx-auto grid gap-1 grid-cols-1 md:grid-cols-3">
+              <div className="max-w-sm md:max-w-4xl mx-auto flex flex-row flex-wrap justify-center">
                 {mentors.map((mentor, index) => {
                   return (
-                    <div key={index} className="flex-col flex items-center justify-center py-2 col-span-2 md:col-auto">
+                    <div key={index} className="flex-col flex items-center justify-center mx-5 py-2 col-span-2 md:col-auto">
                       <img className="rounded-full border-4 border-gray-300" src={mentor.img} alt={mentor.name} width="225px" />
                       <p className="text-center pt-3 text-2xl">{mentor.name}</p>
                       <p className="text-center text-gray-500">{mentor.description}</p>
