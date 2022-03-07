@@ -127,7 +127,8 @@ function Leadership() {
 
               {/* <p className="text-lg text-gray-600 mt-10" data-aos="zoom-y-out">Our student leadership consists of three categories: Mechanical, Programming, and Non-Technical. All of these sections are important and play a vital role in having a successful team. In our team, leadership is not limited to any grade levels, but can be from all grades, 9th through 12th. Those who are in leadership have gone through training, shown proficiency, and are qualified to help others. </p> */}
 
-              <p className="text-lg text-gray-600 mt-10" data-aos="zoom-y-out">True to the FIRST® mission of sparking invention, creativity, and leadership, team operations are entirely student-led. We have three main groups: Mechanical, Programming, and Non-Technical. In each of these sub-teams, leadership positions are earned through continuous dedication to expanding their skill sets and a passion for not only what they do, but also in helping others in their respective field. </p>
+              <p className="text-lg text-gray-600 mt-10" data-aos="zoom-y-out">True to the FIRST® mission of sparking invention, creativity, and leadership, team operations are entirely student-led. We have three main departments: Mechanical, Programming, and Non-Technical. In each of these sub-teams, leadership positions are earned through continuous effort and dedication.
+7419 takes pride in having leaders that not only expand their own skills and passions, but also find joy in helping others.</p>
 
             </div>
 
