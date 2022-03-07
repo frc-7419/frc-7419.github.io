@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { useRouter } from 'next/router'
+import { useState } from "react";
+import { useRouter } from "next/router";
 
 const ContactUs = () => {
   const [name, setName] = useState("");
@@ -11,9 +11,9 @@ const ContactUs = () => {
   const router = useRouter();
   const handleSubmit = (e) => {
     e.preventDefault();
-    
-    const time = Date().toLocaleString()
-    const form = {time, name, email, phone, team, msg };
+
+    const time = Date().toLocaleString();
+    const form = { time, name, email, phone, team, msg };
     setIsPending(true);
 
     fetch(
@@ -27,7 +27,7 @@ const ContactUs = () => {
       console.log("form submitted:", form);
       setIsPending(false);
     });
-    router.push('/about/messageReceived');
+    router.push("/about/messageReceived");
     setName("");
     setEmail("");
     setPhone("");
@@ -43,10 +43,12 @@ const ContactUs = () => {
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-10 md:pb-10">
               <h2 className="h2 mb-4">Contact Us</h2>
-              <p className="text-xl text-gray-600" data-aos="zoom-y-out">Contact us for any questions!</p>
+              <p className="text-xl text-gray-600" data-aos="zoom-y-out">
+                Contact us for any questions!
+              </p>
             </div>
             {/* Items */}
-            <div >
+            <div>
               <form onSubmit={handleSubmit}>
                 <input
                   value={name}
@@ -111,7 +113,6 @@ const ContactUs = () => {
                     Submitting
                   </button>
                 )}
-                
               </form>
             </div>
           </div>
