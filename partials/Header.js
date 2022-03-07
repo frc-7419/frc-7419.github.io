@@ -85,9 +85,11 @@ function Header() {
                   <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/outreach">{/**/}<a>Outreach</a></Link></li>
                   <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/mentors">{/* */}<a>Mentors</a></Link></li>
                   <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/leadership">{/**/}<a>Leadership</a></Link></li>
-                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/sponsors">{/**/}<a>Sponsors</a></Link></li>
                   <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/contact">{/**/}<a>Contact Us</a></Link></li>
-                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/business">{/**/}<a>Business Plan</a></Link></li>
+                </Dropdown>
+                <Dropdown title="Sponsors">
+                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/sponsors">{/**/}<a>Our Sponsors</a></Link></li>
+                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/business">{/**/}<a>Support Us</a></Link></li>
                 </Dropdown>
               {/* </li> */}
               <li>
