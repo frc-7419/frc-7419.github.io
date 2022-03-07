@@ -11,7 +11,6 @@ This past week has been fun, riveting, and so, so productive for all members of 
 
 Presented by The Boeing Company, 2022’s game, *Rapid React,* challenges us to create a robot that can pick up and shoot cargo into a scoring hub and be able to climb its way up as many as four ascending rungs. Without further ado, here are a few highlights of what we’ve been working on!
 
-  
 **Intake Prototype**
 
 The intake is the part of the robot that allows us to collect cargo and score points. We tested the wooden prototype of the intake and found with much delight that it is quick and accurate. To meet specific criteria in the game manual, we designed a 4 bar mechanism that uses a  pneumatic system to extend the intake.

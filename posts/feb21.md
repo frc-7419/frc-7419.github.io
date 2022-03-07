@@ -7,7 +7,7 @@ thumbnail: "/static/images/blog/feb21/image2.jpg"
 
 During the 3 day weekend, we traveled to the Livermore Airport to assist the Livermore Robotics Team 6059 with robot practice. With about a week remaining, the team has been in structured chaos; all of the subteams are rushing to finish our prototype robot in time for Sunday. This season’s *Rapid React* game challenges us to create a robot that can pick up and shoot cargo into a scoring hub. Additionally, during the endgame phase, the robot needs to be able to climb its way up as many as four ascending rungs. Without further ado, here is what we’ve been finalizing and working on this week!
 
-**Intake****:**
+**Intake\*\***:\*\*
 
 The intake of our robot collects cargo, a field element used for scoring points. The intake subteam began working on a 4 bar mechanism several weeks ago but has since decided to move on to a more reliable design. The new design has a single pivot point with pneumatics actuating the rotation of the intake arm. The highlight of the new design is the cut-out in the bumper that serves as a backup method of intaking cargo if the actuated arm fails. It is a compromise between the reliability of an intake similar to the one on our 2020 robot, and the effectiveness of a wide intake. After several iterations over the last couple of weeks, here are photos of our current designs:
 
@@ -15,7 +15,7 @@ The intake of our robot collects cargo, a field element used for scoring points.
 
 ![](/static/images/blog/feb21/image6.png)
 
-**Loader****:**
+**Loader\*\***:\*\*
 
 The loader may seem like a small part of the robot, but it is quite important, sending balls up to the shooter from the intake. This week, we finalized the design of the shooter and began fabricating it out of aluminum.
 

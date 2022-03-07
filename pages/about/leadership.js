@@ -3,115 +3,115 @@ function Leadership() {
     {
       name: "Stephen Xie",
       position: "Programming",
-      year: '24',
+      year: "24",
       img: "/static/images/Leadership/StephenXieHeadShot.jpg",
     },
     {
       name: "Karan Saini",
       position: "Programming",
-      year: '22',
+      year: "22",
       img: "/static/images/Leadership/KaranSainiHeadshot.png",
     },
     {
       name: "Dhruv Bisla",
       position: "Mechanical",
-      year: '24',
+      year: "24",
       img: "/static/images/Leadership/DhruvBislaHeadshot.png",
     },
     {
       name: "Charles Jin",
       position: "Programming",
-      year: '23',
+      year: "23",
       img: "/static/images/Leadership/charlesJinheadshot.jpg",
     },
     {
       name: "Krithik Duvvuri",
       position: "Mechanical",
-      year: '24',
+      year: "24",
       img: "/static/images/Leadership/KrithikDuvvuriHeadshot.jpg",
     },
     {
       name: "Brigitte Chung",
       position: "Non-technical",
-      year: '22',
+      year: "22",
       img: "/static/images/Leadership/brigitte_headshot.png",
     },
     {
       name: "Aarav Sharma",
       position: "Programming",
-      year: '23',
+      year: "23",
       img: "/static/images/Leadership/SharmaNew.jpg",
     },
     {
       name: "Aarav Wattal",
       position: "Programming",
-      year: '23',
+      year: "23",
       img: "/static/images/Leadership/AaravWattalHeadshot.jpg",
     },
     {
       name: "Mimansa Kant",
       position: "Non-technical",
-      year: '23',
+      year: "23",
       img: "/static/images/Leadership/Screenshot_20211025-173212_Gallery.jpg",
     },
     {
       name: "Modakar Kurma",
       position: "Mechanical",
-      year: '23',
+      year: "23",
       img: "/static/images/Leadership/ModaKurmaHeadshot.jpg",
     },
     {
       name: "Rohan Kumar",
       position: "Mechanical",
-      year: '22',
+      year: "22",
       img: "/static/images/Leadership/RohanKumarHeadshot.png",
     },
     {
       name: "Poluk Sharma",
       position: "Programming",
-      year: '24',
+      year: "24",
       img: "/static/images/Leadership/Poluk)_Headshot.jpeg",
     },
     {
       name: "Ryan Biggee",
       position: "Mechanical",
-      year: '25',
+      year: "25",
       img: "/static/images/Leadership/RyanB.jpg",
     },
     {
       name: "Sarp Gursel",
       position: "Mechanical",
-      year: '23',
+      year: "23",
       img: "/static/images/Leadership/Sarp Gursel Headshot.JPG",
     },
     {
       name: "Sneha Gadekarla",
       position: "Programming",
-      year: '24',
+      year: "24",
       img: "/static/images/Leadership/SnehaGadekarlaHeadshot.jpg",
     },
     {
       name: "Sudharsan Gopalakrishnan",
       position: "Programming",
-      year: '23',
+      year: "23",
       img: "/static/images/Leadership/SudharsanGopalakrishnanHeadshot.png",
     },
     {
       name: "Mark Yang",
       position: "Mechanical",
-      year: '22',
+      year: "22",
       img: "/static/images/Leadership/Mark.jpg",
     },
     {
       name: "Nancy Wu",
       position: "Mechanical",
-      year: '23',
+      year: "23",
       img: "/static/images/Leadership/Nancy Wu Headshot.jpeg",
     },
     {
       name: "Vivi Cheng",
       position: "Programming",
-      year: '23',
+      year: "23",
       img: "/static/images/Leadership/ViviChengHeadshot.jpg",
     },
   ];
@@ -127,9 +127,15 @@ function Leadership() {
 
               {/* <p className="text-lg text-gray-600 mt-10" data-aos="zoom-y-out">Our student leadership consists of three categories: Mechanical, Programming, and Non-Technical. All of these sections are important and play a vital role in having a successful team. In our team, leadership is not limited to any grade levels, but can be from all grades, 9th through 12th. Those who are in leadership have gone through training, shown proficiency, and are qualified to help others. </p> */}
 
-              <p className="text-lg text-gray-600 mt-10" data-aos="zoom-y-out">True to the FIRST® mission of sparking invention, creativity, and leadership, team operations are entirely student-led. We have three main departments: Mechanical, Programming, and Non-Technical. In each of these sub-teams, leadership positions are earned through continuous effort and dedication.
-7419 takes pride in having leaders that not only expand their own skills and passions, but also find joy in helping others.</p>
-
+              <p className="text-lg text-gray-600 mt-10" data-aos="zoom-y-out">
+                True to the FIRST® mission of sparking invention, creativity,
+                and leadership, team operations are entirely student-led. We
+                have three main departments: Mechanical, Programming, and
+                Non-Technical. In each of these sub-teams, leadership positions
+                are earned through continuous effort and dedication. 7419 takes
+                pride in having leaders that not only expand their own skills
+                and passions, but also find joy in helping others.
+              </p>
             </div>
 
             {/* Items */}
@@ -161,10 +167,14 @@ function Leadership() {
             </div>
             <div className="my-5 mx-auto">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-                {team.map((member, index) => { // fix id
+                {team.map((member, index) => {
+                  // fix id
                   return (
-                    <div key={index} className="flex space-x-6" style={{ marginLeft: '25%' }}
-> 
+                    <div
+                      key={index}
+                      className="flex space-x-6"
+                      style={{ marginLeft: "25%" }}
+                    >
                       <img
                         src={member.img}
                         className="h-16 object-cover w-16 rounded-xl bg-gray-800 border-none shadow-sm"
@@ -176,7 +186,9 @@ function Leadership() {
                           target="_blank"
                           rel="noreferrer"
                         >
-                          <p className="font-semibold break-normal">{member.name} '{member.year}</p>
+                          <p className="font-semibold break-normal">
+                            {member.name} '{member.year}
+                          </p>
                         </a>
                         <p className="mt-1 text-base inline text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-800 font-medium">
                           {member.position}

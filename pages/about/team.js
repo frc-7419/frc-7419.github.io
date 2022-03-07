@@ -8,9 +8,14 @@ function Team() {
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-14">
               <h2 className="h2 mb-4">Our Story</h2>
               <p className="text-xl text-gray-600" data-aos="zoom-y-out">
-                <p className="mb-3">Tech Support is way more than building robots. </p> <p className="text-md">We’re a family.
-                We’re a part of local communities. We’re constantly changing,
-                innovating, and working towards a brighter future together.</p>
+                <p className="mb-3">
+                  Tech Support is way more than building robots.{" "}
+                </p>{" "}
+                <p className="text-md">
+                  We’re a family. We’re a part of local communities. We’re
+                  constantly changing, innovating, and working towards a
+                  brighter future together.
+                </p>
               </p>
             </div>
             {/* Items */}
@@ -56,7 +61,12 @@ function Team() {
                 and excited for what the 2022 season will bring us.
               </p>
             </div>
-            <div className="mt-10 mx-auto w-5/6"><img src='/static/images/TeamPhotos/group_pic.jpg' alt="OurTeam.png"></img></div>
+            <div className="mt-10 mx-auto w-5/6">
+              <img
+                src="/static/images/TeamPhotos/group_pic.jpg"
+                alt="OurTeam.png"
+              ></img>
+            </div>
           </div>
         </div>
       </section>

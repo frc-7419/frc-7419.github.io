@@ -49,6 +49,6 @@ To prepare for driving the robot around at tournaments, we held a short practice
 
 We wanted to take a moment to thank our biggest sponsor, The Quarry Lane School for providing us with the facilities and resources we need to practice and ultimately, grow together as a team. Build season has been tumultuous and hectic, but we're always having fun together. Go Cougars!
 
-Until next week! 
+Until next week!
 
 -Tech Support's Writing Crew

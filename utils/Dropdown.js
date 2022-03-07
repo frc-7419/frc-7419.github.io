@@ -1,30 +1,26 @@
-import React, { useEffect, useState } from 'react';
-import PropTypes from 'prop-types';
-import Transition from '../utils/Transition.js';
-import { useRouter } from 'next/router';
-import WindowDimensions from './WindowDimensions.js';
+import React, { useEffect, useState } from "react";
+import PropTypes from "prop-types";
+import Transition from "../utils/Transition.js";
+import { useRouter } from "next/router";
+import WindowDimensions from "./WindowDimensions.js";
 
-
-function Dropdown({
-  children,
-  title
-}) {
-
+function Dropdown({ children, title }) {
   const router = useRouter();
   const { width, height } = WindowDimensions();
 
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [isTouchDevice, setTouchDevice] = useState(true);
 
-  useEffect(() => { // close dropdown when different page
+  useEffect(() => {
+    // close dropdown when different page
     const handleRouteChange = () => {
       setDropdownOpen(false);
-    }
-    router.events.on('routeChangeComplete', handleRouteChange);
+    };
+    router.events.on("routeChangeComplete", handleRouteChange);
     return () => {
-      router.events.off('routeChangeComplete', handleRouteChange);
-    }
-  }, [router.events])
+      router.events.off("routeChangeComplete", handleRouteChange);
+    };
+  }, [router.events]);
 
   // useEffect(() => {
   //   if (window.innerWidth < 767) {
@@ -34,19 +30,21 @@ function Dropdown({
   //   }
   // })
 
-  useEffect(() => { // useEffect ensures client-side
-    setTouchDevice(('ontouchstart' in window) ||
-    (navigator.maxTouchPoints > 0) ||
-    (navigator.msMaxTouchPoints > 0));
-  }, [])
-  
+  useEffect(() => {
+    // useEffect ensures client-side
+    setTouchDevice(
+      "ontouchstart" in window ||
+        navigator.maxTouchPoints > 0 ||
+        navigator.msMaxTouchPoints > 0
+    );
+  }, []);
 
   return (
     <li
       className="relative border-gray-300 border-y md:border-0"
       onMouseEnter={isTouchDevice ? undefined : () => setDropdownOpen(true)}
       onMouseLeave={() => setDropdownOpen(false)}
-      onFocus={isTouchDevice ?  undefined : () => setDropdownOpen(true)}
+      onFocus={isTouchDevice ? undefined : () => setDropdownOpen(true)}
       onBlur={() => setDropdownOpen(false)}
     >
       <a
@@ -56,17 +54,22 @@ function Dropdown({
         // onClick={(e) => e.preventDefault()}
         onClick={(e) => {
           e.preventDefault();
-          if (isTouchDevice) { // if the device is touch, allow opening dropdown by clicking title
+          if (isTouchDevice) {
+            // if the device is touch, allow opening dropdown by clicking title
             setDropdownOpen(!dropdownOpen);
           }
         }}
       >
         {title}
-        <svg className="md:block hidden w-3 h-3 fill-current text-gray-500 cursor-pointer ml-1 flex-shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+        <svg
+          className="md:block hidden w-3 h-3 fill-current text-gray-500 cursor-pointer ml-1 flex-shrink-0"
+          viewBox="0 0 12 12"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <path d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z" />
         </svg>
       </a>
-      
+
       <Transition
         show={dropdownOpen || width < 767}
         tag="ul"
@@ -89,7 +92,7 @@ export default Dropdown;
 Dropdown.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.element),
-    PropTypes.element.isRequired
+    PropTypes.element.isRequired,
   ]),
   title: PropTypes.string.isRequired,
 };
