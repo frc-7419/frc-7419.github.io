@@ -17,7 +17,8 @@ function Videos() {
         </div>
 
         {/* Items */}
-        <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-2 gap-2 overflow-x-scroll">
+        
+        <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 overflow-x-scroll ">
           <div className="max-w-lg rounded shadow-lg ">
             <iframe
               src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
@@ -54,7 +55,15 @@ function Videos() {
               allow="autoplay"
             ></iframe>
           </div>
-          <div className="max-w-sm rounded shadow-lg overflow-hidden hover:overflow-visible">
+          <div className="max-w-sm rounded shadow-lg overflow-x-scroll hover:overflow-visible">
+            <iframe
+              src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
+              width="672"
+              height="378"
+              allow="autoplay"
+            ></iframe>
+          </div>
+          <div className="max-w-sm rounded shadow-lg overflow-x-scroll hover:overflow-visible">
             <iframe
               src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
               width="672"
