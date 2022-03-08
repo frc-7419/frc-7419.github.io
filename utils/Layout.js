@@ -1,5 +1,5 @@
 import Header from "../partials/Header";
-import FooterTemp from "../partials/FooterTemp";
+import Footer from "../partials/Footer";
 
 import Head from "next/head";
 
@@ -30,7 +30,7 @@ export default function Layout({ children }) {
       >
         <div className="flex flex-col min-h-screen overflow-hidden">
           {children}
-          <FooterTemp />
+          <Footer />
         </div>
       </div>
     </>
