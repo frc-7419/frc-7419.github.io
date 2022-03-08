@@ -17,8 +17,8 @@ function Videos() {
         </div>
 
         {/* Items */}
-        <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-2 gap-2 overflow-hidden">
-          <div className="max-w-lg rounded shadow-lg">
+        <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-2 gap-2 overflow-x-scroll">
+          <div className="max-w-lg rounded shadow-lg ">
             <iframe
               src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
               height="100%"
@@ -27,7 +27,7 @@ function Videos() {
             ></iframe>
           </div>
           <div
-            className="embed-responsive embed-responsive-21by9 relative w-full overflow-hidden"
+            className="embed-responsive embed-responsive-21by9 relative w-full overflow-x-scroll"
             style={{paddingTop: "42.857143%"}}
           >
             <iframe
@@ -38,7 +38,7 @@ function Videos() {
               id="240632615"
             ></iframe>
           </div>
-          <div className="max-w-sm rounded shadow-lg">
+          <div className="max-w-sm rounded shadow-lg overflow-x-scroll">
             <iframe
               src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
               width="672"
@@ -46,7 +46,7 @@ function Videos() {
               allow="autoplay"
             ></iframe>
           </div>
-          <div className="max-w-sm rounded shadow-lg">
+          <div className="max-w-sm rounded shadow-lg overflow-x-scroll">
             <iframe
               src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
               width="672"
@@ -54,7 +54,7 @@ function Videos() {
               allow="autoplay"
             ></iframe>
           </div>
-          <div className="max-w-sm rounded shadow-lg">
+          <div className="max-w-sm rounded shadow-lg overflow-hidden hover:overflow-visible">
             <iframe
               src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
               width="672"
