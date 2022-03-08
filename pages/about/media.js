@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
+
 function Media() {
   return (
-    <main className="flex-grow">
+    <main >
       <section className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="py-12 md:py-20">
@@ -88,7 +89,7 @@ function Media() {
           </div>
           <div className="max-w-sm rounded overflow-hidden shadow-lg">
             <img
-              src="/static/images/2020robot.png"
+              src="/static/images/7419TechSupport.png"
               alt="L"
               className="w-full"
             />
