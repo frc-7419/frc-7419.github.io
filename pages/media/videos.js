@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import Video from "../../partials/Video";
+import SoftwareTesting from "../../public/static/links/media/SoftwareTesting";
 function Videos() {
+  const SoftwareTestingVideos = SoftwareTesting.SoftwareTesting;
   return (
     <main className="flex-grow">
       <section className="relative">
@@ -20,42 +22,7 @@ function Videos() {
         {/* Items */}
         
         <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 overflow-x-scroll ">
-          <div className="videoWrapper max-w-lg rounded shadow-lg ">
-            <iframe
-              src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
-              height="100%"
-              width="100%"
-              allow="autoplay"
-              allowFullScreen={true} 
-            ></iframe>
-          </div>
-          <div className="videoWrapper max-w-lg rounded shadow-lg ">
-            <iframe
-              src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
-              height="100%"
-              width="100%"
-              allow="autoplay"
-              allowFullScreen={true}
-            ></iframe>
-          </div>
-          <div className="videoWrapper max-w-lg rounded shadow-lg ">
-            <iframe
-              src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
-              height="100%"
-              width="100%"
-              allow="autoplay"
-              allowFullScreen={true}
-            ></iframe>
-          </div>
-          <div className="videoWrapper max-w-lg rounded shadow-lg ">
-            <iframe
-              src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
-              height="100%"
-              width="100%"
-              allow="autoplay"
-              allowFullScreen={true}
-            ></iframe>
-          </div>
+          {SoftwareTestingVideos.map((video) => <Video link={video} />)}
           <div className="videoWrapper max-w-lg rounded shadow-lg ">
             <iframe
               src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
