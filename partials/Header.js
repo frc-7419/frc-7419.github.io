@@ -118,6 +118,13 @@ function Header() {
                   </a>
                 </Link>
               </li>
+              <li>
+                <Link href="about/resources">
+                  <a className="font-medium text-gray-600 hover:text-gray-800 md:px-5 px-2 py-3 flex items-center transition duration-150 ease-in-out">
+                    Resources
+                  </a>
+                </Link>
+              </li>
               
               <li>
                 <Link href="/blog">
