@@ -35,7 +35,7 @@ function FeaturesBlocks() {
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
             {/* 1st item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-            <FaHandshake className="h-16 w-16 p-1 -mt-1 mb-2 text-blue-600 hover:animate-bounce"/>
+            <FaHandshake className="h-16 w-16 p-1 -mt-1 mb-2 text-blue-600 hover:animate-spin"/>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
                 Teamwork
               </h4>
