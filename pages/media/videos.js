@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
+import Video from "../../partials/Video";
 function Videos() {
   return (
     <main className="flex-grow">
