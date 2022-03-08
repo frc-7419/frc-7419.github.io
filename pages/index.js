@@ -3,7 +3,6 @@ import React from "react";
 import HeroHome from "../partials/HeroHome";
 import FeaturesHome from "../partials/Features";
 import FeaturesBlocks from "../partials/FeaturesBlocks";
-import Newsletter from "../partials/Newsletter";
 
 function Home() {
   return (
@@ -13,7 +12,6 @@ function Home() {
 
       <FeaturesHome />
       <FeaturesBlocks />
-      {/* <Newsletter /> */}
     </main>
   );
 }

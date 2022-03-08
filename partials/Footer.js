@@ -86,7 +86,6 @@ function Footer() {
                 </svg>
               </a>
             </li>
-            {/* https://icons.getbootstrap.com/ */}
           </ul>
 
           {/* github icon
