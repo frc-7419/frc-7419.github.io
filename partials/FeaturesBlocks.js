@@ -1,5 +1,5 @@
 import React from "react";
-
+import Boop from "./Boop";
 function FeaturesBlocks() {
   return (
     <section className="relative">
@@ -33,7 +33,7 @@ function FeaturesBlocks() {
             {/* 1st item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <svg
-                className="w-16 h-16 p-1 -mt-1 mb-2"
+                className="w-16 h-16 p-1 -mt-1 mb-2 hover:animate-spin"
                 viewBox="0 0 64 64"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -79,7 +79,7 @@ function FeaturesBlocks() {
             {/* 2nd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <svg
-                className="w-16 h-16 p-1 -mt-1 mb-2"
+                className="w-16 h-16 p-1 -mt-1 mb-2 hover:animate-spin"
                 viewBox="0 0 64 64"
                 xmlns="http://www.w3.org/2000/svg"
               >
@@ -122,7 +122,7 @@ function FeaturesBlocks() {
             {/* 3rd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
               <svg
-                className="w-16 h-16 p-1 -mt-1 mb-2"
+                className="w-16 h-16 p-1 -mt-1 mb-2 hover:animate-spin"
                 viewBox="0 0 64 64"
                 xmlns="http://www.w3.org/2000/svg"
               >
