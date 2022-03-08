@@ -19,74 +19,49 @@ function Videos() {
         {/* Items */}
         
         <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 overflow-x-scroll ">
-          <div className="max-w-lg rounded shadow-lg ">
+          <div className="videoWrapper max-w-lg rounded shadow-lg ">
             <iframe
               src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
               height="100%"
               width="100%"
               allow="autoplay"
-              allowFullScreen="true" 
-              webkitallowfullscreen="true" 
-              mozallowfullscreen="true"
+              allowFullScreen={true} 
             ></iframe>
           </div>
-          <div
-            className="embed-responsive embed-responsive-21by9 relative w-full overflow-x-scroll"
-            style={{paddingTop: "42.857143%"}}
-          >
-            <iframe
-              className="embed-responsive-item absolute top-0 right-0 bottom-0 left-0 w-full h-full"
-              src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
-              allowFullScreen=""
-              data-gtm-yt-inspected-2340190_699="true"
-              id="240632615"
-              allowFullScreen="true" 
-              webkitallowfullscreen="true" 
-              mozallowfullscreen="true"
-            ></iframe>
-          </div>
-          <div className="max-w-sm rounded shadow-lg overflow-x-scroll">
+          <div className="videoWrapper max-w-lg rounded shadow-lg ">
             <iframe
               src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
-              width="672"
-              height="378"
+              height="100%"
+              width="100%"
               allow="autoplay"
-              allowFullScreen="true" 
-              webkitallowfullscreen="true" 
-              mozallowfullscreen="true"
+              allowFullScreen={true}
             ></iframe>
           </div>
-          <div className="max-w-sm rounded shadow-lg overflow-x-scroll">
+          <div className="videoWrapper max-w-lg rounded shadow-lg ">
             <iframe
               src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
-              width="672"
-              height="378"
+              height="100%"
+              width="100%"
               allow="autoplay"
-              allowFullScreen="true" 
-              webkitallowfullscreen="true" 
-              mozallowfullscreen="true"
+              allowFullScreen={true}
             ></iframe>
           </div>
-          <div className="max-w-sm rounded shadow-lg overflow-x-scroll hover:overflow-visible">
+          <div className="videoWrapper max-w-lg rounded shadow-lg ">
             <iframe
               src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
-              width="672"
-              height="378"
+              height="100%"
+              width="100%"
               allow="autoplay"
-              allowFullScreen="true" 
-              webkitallowfullscreen="true" 
-              mozallowfullscreen="true"
+              allowFullScreen={true}
             ></iframe>
           </div>
-          <div className="max-w-sm rounded shadow-lg overflow-x-scroll hover:overflow-visible">
+          <div className="videoWrapper max-w-lg rounded shadow-lg ">
             <iframe
               src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
-              width="672"
-              height="378"
+              height="100%"
+              width="100%"
               allow="autoplay"
-              allowFullScreen="true" 
-              webkitallowfullscreen="true" 
-              mozallowfullscreen="true"
+              allowFullScreen={true}
             ></iframe>
           </div>
         </div>
