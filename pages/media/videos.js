@@ -25,6 +25,9 @@ function Videos() {
               height="100%"
               width="100%"
               allow="autoplay"
+              allowFullScreen="true" 
+              webkitallowfullscreen="true" 
+              mozallowfullscreen="true"
             ></iframe>
           </div>
           <div
@@ -37,6 +40,9 @@ function Videos() {
               allowFullScreen=""
               data-gtm-yt-inspected-2340190_699="true"
               id="240632615"
+              allowFullScreen="true" 
+              webkitallowfullscreen="true" 
+              mozallowfullscreen="true"
             ></iframe>
           </div>
           <div className="max-w-sm rounded shadow-lg overflow-x-scroll">
@@ -45,6 +51,9 @@ function Videos() {
               width="672"
               height="378"
               allow="autoplay"
+              allowFullScreen="true" 
+              webkitallowfullscreen="true" 
+              mozallowfullscreen="true"
             ></iframe>
           </div>
           <div className="max-w-sm rounded shadow-lg overflow-x-scroll">
@@ -53,6 +62,9 @@ function Videos() {
               width="672"
               height="378"
               allow="autoplay"
+              allowFullScreen="true" 
+              webkitallowfullscreen="true" 
+              mozallowfullscreen="true"
             ></iframe>
           </div>
           <div className="max-w-sm rounded shadow-lg overflow-x-scroll hover:overflow-visible">
@@ -61,6 +73,9 @@ function Videos() {
               width="672"
               height="378"
               allow="autoplay"
+              allowFullScreen="true" 
+              webkitallowfullscreen="true" 
+              mozallowfullscreen="true"
             ></iframe>
           </div>
           <div className="max-w-sm rounded shadow-lg overflow-x-scroll hover:overflow-visible">
@@ -69,6 +84,9 @@ function Videos() {
               width="672"
               height="378"
               allow="autoplay"
+              allowFullScreen="true" 
+              webkitallowfullscreen="true" 
+              mozallowfullscreen="true"
             ></iframe>
           </div>
         </div>
