@@ -1,6 +1,6 @@
 import React from "react";
 
-const Video = (link) => {
+const Video = ({link}) => {
   return (
     <div className="videoWrapper max-w-lg rounded shadow-lg ">
       <iframe
