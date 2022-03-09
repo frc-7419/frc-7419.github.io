@@ -1,17 +1,16 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 
-
-function Carousel({images}) {
+function Carousel({ images }) {
   const [idx, setIdx] = useState(0);
 
   const next = () => {
     console.log(idx);
-    setIdx((idx + 1) % images.length);
+    setIdx(idx == images.length - 1 ? 0 : idx + 1);
   };
   const previous = () => {
     console.log(idx);
-    setIdx(idx <= 0 ? images.length - 1 : idx - 1);
+    setIdx(idx == 0 ? images.length - 1 : idx - 1);
   };
 
   return (
