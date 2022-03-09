@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Modal from "../utils/Modal";
 import WindowDimensions from '../utils/WindowDimensions.js';
 
-const Photo = ({ link, caption, capOn, modOn }) => {
+const Photo = ({ link, caption, capOn, modOn, onLoading }) => {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
   const { width, height } = WindowDimensions();
   return (
@@ -36,6 +36,7 @@ const Photo = ({ link, caption, capOn, modOn }) => {
             src={link}
             alt={caption}
             className="relative rounded w-full object-cover"
+            onLoad={onLoading}
           />
         </div>
       </Modal>}
