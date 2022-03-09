@@ -11,13 +11,12 @@ function Videos() {
   const SoftwareTestingVideos = SoftwareTesting.SoftwareTesting;
   const TotalVideos = SoftwareTestingVideos.length;
   const updateLoad = () => {
-    console.log("yes");
-    setNumberOfVideosLoaded(10);
+    console.log(numberOfVideosLoaded);
+    setNumberOfVideosLoaded(numberOfVideosLoaded+1);
     if (numberOfVideosLoaded >= TotalVideos) {
       setIsLoading(false);
     }
   }
-  useEffect(() => {console.log(numberOfVideosLoaded);} , [numberOfVideosLoaded]);
   return (
     <main className="flex-grow">
 
@@ -38,8 +37,8 @@ function Videos() {
         {/* Items */}
         
         <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 overflow-x-scroll ">
-          {SoftwareTestingVideos.map((video) => <Video key={video.toString()} link={video} onLoading={()=>{updateLoad();}}/>)}
-          <Video link="https://www.youtube.com/embed/dQw4w9WgXcQ" onLoading={()=>{updateLoad()}}/>
+          {SoftwareTestingVideos.map((video) => <Video key={video.toString()} link={video} onLoading={setTimeout(()=>{updateLoad();}, 200)}/>)}
+          <Video link="https://www.youtube.com/embed/dQw4w9WgXcQ" onLoading={setTimeout(()=>{updateLoad();}, 200)}/>
           {/* <div className="videoWrapper max-w-lg rounded shadow-lg ">
             <iframe
               src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
