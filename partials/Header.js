@@ -150,6 +150,10 @@ function Header() {
                   </Link>
                 </li>
               </Dropdown>
+              <Dropdown title="Media">
+                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/media/photos">{/*    */}<a>Photos</a></Link></li>
+                  <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/media/videos">{/*    */}<a>Videos</a></Link></li>
+              </Dropdown>
               {/* </li> */}
               <li>
                 <Link href="/blog">

@@ -61,7 +61,7 @@ function FeaturesBlocks() {
 
             {/* 3rd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <GoodRobot2020 className=""/>
+              <GoodRobot2020 size="4rem" color="#2563eb" autoSpin={false}/>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
                 Also Robots
               </h4>
