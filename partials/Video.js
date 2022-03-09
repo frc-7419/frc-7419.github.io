@@ -1,6 +1,6 @@
 import React from "react";
 
-const Video = ({ link, onLoad }) => {
+const Video = ({ link, onLoading }) => {
   return (
     <div className="videoWrapper max-w-lg rounded shadow-lg ">
       <iframe
@@ -9,9 +9,7 @@ const Video = ({ link, onLoad }) => {
         width="100%"
         allow="autoplay"
         allowFullScreen={true}
-        onLoadedData={() => {
-          onLoad();
-        }}
+        onLoad={() => onLoading}
       ></iframe>
     </div>
   );
