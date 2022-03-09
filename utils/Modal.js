@@ -56,9 +56,14 @@ function Modal({ children, id, ariaLabel, show, handleClose }) {
         leaveStart="opacity-100 scale-100"
         leaveEnd="opacity-0 scale-95"
       >
-        <button className="font-bold text-lg text-red-600 absolute top-[13%] right-[35%]"> ╳</button>
-        <div className="bg-white overflow-auto max-w-sm w-full max-h-full" ref={modalContent}>          
-          
+        <button className="font-bold text-lg text-red-600 absolute top-[13%] right-[35%]">
+          {" "}
+          ╳
+        </button>
+        <div
+          className="bg-white overflow-auto max-w-sm w-full max-h-full"
+          ref={modalContent}
+        >
           {children}
         </div>
       </Transition>

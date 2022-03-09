@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Modal from "../utils/Modal";
-import WindowDimensions from '../utils/WindowDimensions.js';
+import WindowDimensions from "../utils/WindowDimensions.js";
 
 const Photo = ({ link, caption, capOn, modOn, onLoading }) => {
   const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -24,22 +24,24 @@ const Photo = ({ link, caption, capOn, modOn, onLoading }) => {
         </div>
       )}
 
-      { modOn && width>800 && <Modal
-        id="modal"
-        ariaLabel="modal-headline"
-        show={videoModalOpen}
-        handleClose={() => setVideoModalOpen(false)}
-        className=""
-      >
-        <div className="relative max-w-sm mx-auto">
-          <img
-            src={link}
-            alt={caption}
-            className="relative rounded w-full object-cover"
-            onLoad={onLoading}
-          />
-        </div>
-      </Modal>}
+      {modOn && width > 800 && (
+        <Modal
+          id="modal"
+          ariaLabel="modal-headline"
+          show={videoModalOpen}
+          handleClose={() => setVideoModalOpen(false)}
+          className=""
+        >
+          <div className="relative max-w-sm mx-auto">
+            <img
+              src={link}
+              alt={caption}
+              className="relative rounded w-full object-cover"
+              onLoad={onLoading}
+            />
+          </div>
+        </Modal>
+      )}
     </div>
   );
 };

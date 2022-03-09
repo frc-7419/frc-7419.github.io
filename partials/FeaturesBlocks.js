@@ -1,9 +1,8 @@
 import React from "react";
-import { FaHandshake } from 'react-icons/fa';
-import {RiCommunityFill, RiRobotFill} from 'react-icons/ri';
-import GoodRobot2020 from '../public/static/images/GoodRobot2020.js';
+import { FaHandshake } from "react-icons/fa";
+import { RiCommunityFill, RiRobotFill } from "react-icons/ri";
+import GoodRobot2020 from "../public/static/images/GoodRobot2020.js";
 function FeaturesBlocks() {
-  
   return (
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
@@ -35,7 +34,7 @@ function FeaturesBlocks() {
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
             {/* 1st item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-            <FaHandshake className="h-16 w-16 p-1 -mt-1 mb-2 text-blue-600 hover:animate-spin"/>
+              <FaHandshake className="h-16 w-16 p-1 -mt-1 mb-2 text-blue-600 hover:animate-spin" />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
                 Teamwork
               </h4>
@@ -48,7 +47,7 @@ function FeaturesBlocks() {
 
             {/* 2nd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <RiCommunityFill className="h-16 w-16 p-1 -mt-1 mb-2 text-blue-600 hover:animate-spin duration-300"/>
+              <RiCommunityFill className="h-16 w-16 p-1 -mt-1 mb-2 text-blue-600 hover:animate-spin duration-300" />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
                 Community
               </h4>
@@ -61,7 +60,7 @@ function FeaturesBlocks() {
 
             {/* 3rd item */}
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <GoodRobot2020 size="4rem" color="#2563eb" autoSpin={false}/>
+              <GoodRobot2020 size="4rem" color="#2563eb" autoSpin={false} />
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
                 Also Robots
               </h4>
