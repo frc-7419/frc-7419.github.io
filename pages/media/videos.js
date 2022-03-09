@@ -26,7 +26,7 @@ function Videos() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="py-12 md:py-20">
               {/* Section header */}
-              <div className="max-w-3xl mx-auto text-center md:pb-16">
+              <div className="max-w-3xl mx-auto text-center">
                 <h2 className="h2 mb-4">Videos</h2>
                 <p className="text-xl text-gray-600" data-aos="zoom-y-out">
                   A collection of media that represents our team
@@ -37,7 +37,7 @@ function Videos() {
 
           {/* Items */}
 
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <div className="max-w-3xl mx-auto text-center pb-12 ">
               <h3 className="h3 mb-4">Software Testing</h3>
            </div>
             <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 ">
@@ -51,7 +51,7 @@ function Videos() {
               />
             ))}
             </div>
-            <div className="max-w-3xl mx-auto text-center py-12 md:pb-16">
+            <div className="max-w-3xl mx-auto text-center py-12">
               <h3 className="h3 mb-4">Featured Videos</h3>
            </div>
             <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 ">
