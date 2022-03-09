@@ -1,5 +1,5 @@
-import React from 'react';
-import { useSpring } from 'react-spring';
+import React from "react";
+import { useSpring } from "react-spring";
 function useBoop({
   x = 0,
   y = 0,

@@ -38,9 +38,9 @@ function Videos() {
           {/* Items */}
 
           <div className="max-w-3xl mx-auto text-center pb-12 ">
-              <h3 className="h3 mb-4">Software Testing</h3>
-           </div>
-            <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 ">
+            <h3 className="h3 mb-4">Software Testing</h3>
+          </div>
+          <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 ">
             {softwareTesting.map((video) => (
               <Video
                 key={video.toString()}
@@ -50,11 +50,11 @@ function Videos() {
                 }
               />
             ))}
-            </div>
-            <div className="max-w-3xl mx-auto text-center py-12">
-              <h3 className="h3 mb-4">Featured Videos</h3>
-           </div>
-            <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 ">
+          </div>
+          <div className="max-w-3xl mx-auto text-center py-12">
+            <h3 className="h3 mb-4">Featured Videos</h3>
+          </div>
+          <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 ">
             {featuredVids.map((video) => (
               <Video
                 key={video.toString()}
