@@ -1,13 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Photo from "../../partials/Photo";
-
+import LoadingScreen from "../../partials/LoadingScreen.js";
 import SoftwareTesting from "../../public/static/links/media/SoftwareTesting";
 import Madtown2021 from "../../public/static/links/media/Madtown2021";
 function Photos() {
-  const SoftwareTestingPhotos = SoftwareTesting.SoftwareTesting;
-  const Madtown2021Photos = Madtown2021.Madtown2021;
-  
+  const [isLoading, setIsLoading] = useState(true);
+  const [numberOfPhotosLoaded, setNumberOfPhotosLoaded] = useState(0);
+  const softwareTesting = SoftwareTesting.SoftwareTesting;
+  const madtown2021 = Madtown2021.Madtown2021;
+  const TotalPhotos = madtown2021.length;
+  useEffect(() => {
+    console.log(numberOfPhotosLoaded);
+    if (numberOfPhotosLoaded >= TotalPhotos) {
+      setIsLoading(false);
+    }
+  }, [numberOfPhotosLoaded]);
   return (
+    <>
+      {isLoading && <LoadingScreen />}
     <main className="flex-grow">
       <section className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -24,18 +34,14 @@ function Photos() {
 
         {/* Items */}
         <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 overflow-visible">
-          <Photo
-            link="https://drive.google.com/uc?id=1Vo7nFYwTWajHXoYMPRXdfYE_hkrZjnyt&export=download"
-            caption="wow"
-            capOn={true}
-            modOn={true}
-          />
-          <Photo link="/static/images/2020Robot.png" caption="Robot" capOn={true} modOn={true}/>
           {/* {SoftwareTestingPhotos.map((photo) => <Photo link={photo} caption="wow"/>)} */}
-          {Madtown2021Photos.map((photo) => <Photo link={photo} key={photo.id} capOn={true} caption="MadTown Tournament!"/>)}
+          {madtown2021.map((photo) => <Photo link={photo} key={photo.id} capOn={true} modOn={true} caption="MadTown Tournament" onLoading={() =>
+              setNumberOfPhotosLoaded(numberOfPhotosLoaded + 1)
+            }/>)}
         </div>
       </section>
     </main>
+    </>
   );
 }
 
