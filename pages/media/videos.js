@@ -64,12 +64,12 @@ function Videos() {
                 }
               />
             ))}
-            <Video
+            {/* <Video
               link="https://www.youtube.com/embed/dQw4w9WgXcQ"
               onLoading={() =>
                 setNumberOfVideosLoaded(numberOfVideosLoaded + 1)
               }
-            />
+            /> */}
             {/* <div className="videoWrapper max-w-lg rounded shadow-lg ">
             <iframe
               src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
