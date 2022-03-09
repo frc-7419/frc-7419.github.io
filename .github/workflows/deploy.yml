@@ -5,7 +5,7 @@ name: Node.js CI
 
 on:
   push:
-    branches: [main]
+    branches: [ media ]
 
   workflow_dispatch:
 
@@ -19,29 +19,29 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-      - uses: actions/checkout@v2
-      - name: Setup Git User
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: "npm"
-      - name: Install Node Deps
-        run: npm install --dev --loglevel=error
-      - name: Deploy with gh-pages
-        run: |
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-          npm run deploy
-        env:
-          CI: ""
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Publish to 7419.tech
-        uses: dswistowski/surge-sh-action@v1
-        with:
-          domain: "www.7419.tech"
-          project: "./build"
-          login: ${{ secrets.surge_login }}
-          token: ${{ secrets.surge_token }}
+    - uses: actions/checkout@v2
+    - name: Setup Git User
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v2
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    - name: Install Node Deps
+      run: npm install --dev --loglevel=error
+    - name: Deploy with gh-pages
+      run: |
+        git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
+        npm run deploy
+      env:
+        CI: ""
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Publish to 7419.tech
+      uses: dswistowski/surge-sh-action@v1
+      with:
+        domain: '7419media.surge.sh'
+        project: './build'
+        login: ${{ secrets.surge_login }}
+        token: ${{ secrets.surge_token }}
