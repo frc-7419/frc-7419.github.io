@@ -23,7 +23,8 @@ function Videos() {
         
         <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 overflow-x-scroll ">
           {SoftwareTestingVideos.map((video) => <Video link={video} />)}
-          <div className="videoWrapper max-w-lg rounded shadow-lg ">
+          <Video link="https://www.youtube.com/watch?v=dQw4w9WgXcQ" />
+          {/* <div className="videoWrapper max-w-lg rounded shadow-lg ">
             <iframe
               src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
               height="100%"
@@ -31,7 +32,7 @@ function Videos() {
               allow="autoplay"
               allowFullScreen={true}
             ></iframe>
-          </div>
+          </div> */}
         </div>
       </section>
     </main>
