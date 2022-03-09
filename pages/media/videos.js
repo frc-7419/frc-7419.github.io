@@ -1,11 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
+import GoodRobot2020 from '../../public/static/images/GoodRobot2020.js';
 import Video from "../../partials/Video";
 import SoftwareTesting from "../../public/static/links/media/SoftwareTesting";
 function Videos() {
+  
+  const [isLoading, setIsLoading] = useState(true);
   const SoftwareTestingVideos = SoftwareTesting.SoftwareTesting;
+  useEffect(() => {setIsLoading(false)}, [Videos]);
   return (
     <main className="flex-grow">
+
       <section className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="py-12 md:py-20">
@@ -16,14 +21,15 @@ function Videos() {
                 A collection of media that represents our team
               </p>
             </div>
+            {!isLoading && <GoodRobot2020 className=""/>}
           </div>
         </div>
 
         {/* Items */}
         
         <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 overflow-x-scroll ">
-          {SoftwareTestingVideos.map((video) => <Video key={video.id} link={video} />)}
-          <Video link="https://www.youtube.com/embed/dQw4w9WgXcQ" />
+          {SoftwareTestingVideos.map((video) => <Video key={video.id} link={video} onLoad={()=>setIsLoading(false)}/>)}
+          <Video link="https://www.youtube.com/embed/dQw4w9WgXcQ" onLoad={()=>setIsLoading(false)}/>
           {/* <div className="videoWrapper max-w-lg rounded shadow-lg ">
             <iframe
               src="https://drive.google.com/file/d/1Pp1uf2EfpJY_UaxEPM2c5FHC26ljEvN1/preview"
