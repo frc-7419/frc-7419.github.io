@@ -125,13 +125,13 @@ function Leadership() {
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-14">
               <h2 className="h2">Our Student Leadership</h2>
               <p className="text-lg text-gray-600 mt-10" data-aos="zoom-y-out">
-                True to the FIRST® mission of sparking invention, creativity,
-                and leadership, team operations are entirely student-led. We
-                have three main departments: Mechanical, Programming, and
-                Non-Technical. In each of these sub-teams, leadership positions
-                are earned through continuous effort and dedication. 7419 takes
-                pride in having leaders that not only expand their own skills
-                and passions, but also find joy in helping others.
+                True to the FIRST® mission of sparking invention and creativity,
+                team operations are entirely student-led. We have three main
+                departments: Mechanical, Programming, and Non-Technical. In each
+                of these sub-teams, leadership positions are earned through
+                continuous effort and dedication. We take pride in our team’s
+                culture that helps our leaders further explore their own skills
+                and passions and find joy in helping others.
               </p>
             </div>
 
