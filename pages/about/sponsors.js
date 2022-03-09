@@ -109,10 +109,16 @@ function Sponsors() {
                 <img src={"/static/images/sponsors/TECO.png"} alt="TECO.png" />
               </div>
               <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                <img src={"/static/images/sponsors/TapPlastics.png"} alt="TapPlastics.png" />
-              <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
-                <img src={"/static/images/sponsors/TheVillageOfDreams.png"} alt="TheVillageOfDreams.png" />
+                <img
+                  src={"/static/images/sponsors/TapPlastics.png"}
+                  alt="TapPlastics.png"
+                />
               </div>
+              <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
+                <img
+                  src={"/static/images/sponsors/TheVillageOfDreams.png"}
+                  alt="TheVillageOfDreams.png"
+                />
               </div>
             </div>
           </div>
