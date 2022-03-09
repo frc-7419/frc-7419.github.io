@@ -17,7 +17,10 @@ function Videos() {
     }
   }, [numberOfVideosLoaded]);
   return (
+    <>
+    {isLoading && <LoadingScreen />}
     <main className="flex-grow">
+      
       <section className="relative">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="py-12 md:py-20">
@@ -28,7 +31,6 @@ function Videos() {
                 A collection of media that represents our team
               </p>
             </div>
-            {isLoading && <LoadingScreen />}
           </div>
         </div>
 
@@ -60,6 +62,7 @@ function Videos() {
         </div>
       </section>
     </main>
+    </>
   );
 }
 
