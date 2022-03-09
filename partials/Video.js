@@ -9,7 +9,7 @@ const Video = ({ link, onLoading }) => {
         width="100%"
         allow="autoplay"
         allowFullScreen={true}
-        onLoad={() => onLoading}
+        onLoad={onLoading}
       ></iframe>
     </div>
   );
