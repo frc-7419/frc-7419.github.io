@@ -22,7 +22,7 @@ function Videos() {
         {/* Items */}
         
         <div className="max-w-sm md:max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 overflow-x-scroll ">
-          {SoftwareTestingVideos.map((video) => <Video link={video} />)}
+          {SoftwareTestingVideos.map((video) => <Video key={video.id} link={video} />)}
           <Video link="https://www.youtube.com/embed/dQw4w9WgXcQ" />
           {/* <div className="videoWrapper max-w-lg rounded shadow-lg ">
             <iframe
