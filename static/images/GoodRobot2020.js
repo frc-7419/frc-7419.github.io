@@ -1,12 +1,13 @@
 import React from 'react'
 
-const GoodRobot2020 = ({size, autoSpin, color}) => {
+const GoodRobot2020 = () => {
+    const color = "#2563eb";
     return (
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
  viewBox="0 0 376.680261 385.700028"
- preserveAspectRatio="xMidYMid meet" className={"p-1 -mt-1 mb-2 stroke-blue-600 "+(autoSpin ? "animate-spin": "hover:animate-spin")}  style={{height: size, width: size}}>
+ preserveAspectRatio="xMidYMid meet" className="h-16 w-16 p-1 -mt-1 mb-2 stroke-blue-600 hover:animate-spin duration-300">
 
-<g className="layer">
+<g class="layer">
   <g fill="#000000" id="svg_1" transform="translate(-8.31974 474.7) matrix(0.1 0 0 -0.1 0 0)">
    <path d="m2461,4729c-11,-31 -8,-33 18,-17c18,11 23,11 30,-1c10,-15 20,-16 226,-25c96,-4 155,-3 165,4c8,5 13,10 10,11c-36,7 -65,10 -120,13c-61,2 -205,14 -260,21c-14,1 -33,6 -42,10c-13,5 -20,1 -27,-16z" fill={color} id="svg_2"/>
    <path d="m2126,4673c-4,-16 -9,-36 -12,-45c-9,-30 21,-21 33,10c11,27 11,27 6,-5c-5,-29 -3,-33 16,-33c11,0 21,5 21,11c0,5 4,8 9,5c8,-6 21,15 21,35c0,14 -38,11 -42,-3c-3,-7 -11,2 -19,20c-17,39 -25,40 -33,5z" fill={color} id="svg_3"/>
