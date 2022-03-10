@@ -69,6 +69,22 @@ function Resources() {
               >
                 Rapid React Manual
               </a>
+              <a
+                href="https://firstfrc.blob.core.windows.net/frc2022/Manual/2022FRCGameManual.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-blue-600 hover:text-blue-800 md:px-5 px-2 py-1 flex items-center transition duration-150 ease-in-out"
+              >
+                Rapid React Manual
+              </a>
+              <a
+                href="https://firstfrc.blob.core.windows.net/frc2022/Manual/2022FRCGameManual.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-blue-600 hover:text-blue-800 md:px-5 px-2 py-1 flex items-center transition duration-150 ease-in-out"
+              >
+                Rapid React Field
+              </a>
             </div>
           </div>
         </div>
