@@ -127,16 +127,19 @@ const ContactUs = () => {
               ></iframe>
               <div className="flex flex-col">
                 <div className="flex flex-row items-center">
-                  <p className="">
-                    <GrMapLocation className="w-8 h-8" />
-                  </p>
-                  <p className="text-gray-500">6363 Tassajara Road</p>
+                  <GrMapLocation className="w-8 h-8 mr-2" />
+                  <a
+                    className="text-gray-500 underline"
+                    href="https://www.google.com/maps/place/6363+Tassajara+Rd,+Dublin,+CA+94568/@37.7278423,-121.8728147,17z/data=!3m1!4b1!4m5!3m4!1s0x808feec260437329:0x13b6be57f4b26820!8m2!3d37.7278381!4d-121.870626"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    6363 Tassajara Rd, Dublin, CA 94568
+                  </a>
                 </div>
                 <div className="flex flex-row items-center">
-                  <p className="">
-                    <AiOutlineMail className="w-8 h-8" />
-                  </p>
-                  <p className="text-gray-500">7419TechSupport@gmail.com</p>
+                  <AiOutlineMail className="w-8 h-8 mr-2" />
+                  <a className="text-gray-500 underline" href="mailto:support@7419.tech">support@7419.tech</a>
                 </div>
               </div>
             </div>
