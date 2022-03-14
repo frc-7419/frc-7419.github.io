@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useRouter } from "next/router";
-
+import { GrMapLocation } from "react-icons/gr";
+import { AiOutlineMail } from "react-icons/ai";
 const ContactUs = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -114,6 +115,43 @@ const ContactUs = () => {
                   </button>
                 )}
               </form>
+            </div>
+            <div className=" absolute right-60 top-60">
+              <iframe
+                className="mb-5"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.6521379950627!2d-121.8728146845589!3d37.72784232263103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808feec260437329%3A0x13b6be57f4b26820!2s6363%20Tassajara%20Rd%2C%20Dublin%2C%20CA%2094568!5e0!3m2!1sen!2sus!4v1646872787020!5m2!1sen!2sus"
+                width="300"
+                height="225"
+                allowFullScreen=""
+                loading="lazy"
+              ></iframe>
+              <div className="flex flex-col">
+                <div className="flex flex-row">
+                <p className="text-blue-500">
+                  <a href="https://www.google.com/maps/place/6363+Tassajara+Rd,+Dublin,+CA+94568/@37.7278423,-121.8728147,17z/data=!3m1!4b1!4m5!3m4!1s0x808feec260437329:0x13b6be57f4b26820!8m2!3d37.7278381!4d-121.870626">
+                    <GrMapLocation
+                      className="absolute bottom-{-1} right-60 "
+                      style={{ width: "50", height: "50" }}
+                    />
+                  </a>
+                </p>
+                <p className="text-gray-500 absolute bottom-{-1} right-60 mt-12">
+                  6363 Tassajara Road
+                </p>
+                </div>
+                <div className="flex flex-row">
+                <p className="">
+                  <AiOutlineMail
+                    className="absolute bottom-{-1} right-1 "
+                    style={{ width: "50", height: "50" }}
+                  />
+                  <br />
+                </p>
+                <p className="text-gray-500 absolute bottom-{-1} right-0 mt-10">
+                  7419TechSupport@gmail.com
+                </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
