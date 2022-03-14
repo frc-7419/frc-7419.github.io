@@ -136,7 +136,11 @@ const ContactUs = () => {
                 ></iframe>
                 <div className="flex">
                   <p className="text-gray-600">
-                    <a href="https://www.google.com/maps/place/6363+Tassajara+Rd,+Dublin,+CA+94568/@37.7278423,-121.8728147,17z/data=!3m1!4b1!4m5!3m4!1s0x808feec260437329:0x13b6be57f4b26820!8m2!3d37.7278381!4d-121.870626">
+                    <a
+                      href="https://www.google.com/maps/place/6363+Tassajara+Rd,+Dublin,+CA+94568/@37.7278423,-121.8728147,17z/data=!3m1!4b1!4m5!3m4!1s0x808feec260437329:0x13b6be57f4b26820!8m2!3d37.7278381!4d-121.870626"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <GoLocation
                         className="absolute bottom-{-1} right-60 "
                         style={{ width: "50", height: "50" }}
@@ -148,10 +152,16 @@ const ContactUs = () => {
                   </p>
 
                   <p className="text-gray-600">
-                    <AiOutlineMail
-                      className="absolute bottom-{-1} right-1 "
-                      style={{ width: "50", height: "50" }}
-                    />
+                    <a
+                      href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDZBJPxMWJDbcBXGfkPqktzwMCKrlgnWbXlbfjtxVQtdldCNCslQNNpbsRPQsLGzKcwLgCM"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <AiOutlineMail
+                        className="absolute bottom-{-1} right-1 "
+                        style={{ width: "50", height: "50" }}
+                      />
+                    </a>
                     <br />
                   </p>
                   <p className="text-gray-500 absolute bottom-{-1} right-0 mt-10">
