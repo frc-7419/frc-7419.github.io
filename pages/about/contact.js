@@ -126,29 +126,17 @@ const ContactUs = () => {
                 loading="lazy"
               ></iframe>
               <div className="flex flex-col">
-                <div className="flex flex-row">
-                <p className="text-blue-500">
-                  <a href="https://www.google.com/maps/place/6363+Tassajara+Rd,+Dublin,+CA+94568/@37.7278423,-121.8728147,17z/data=!3m1!4b1!4m5!3m4!1s0x808feec260437329:0x13b6be57f4b26820!8m2!3d37.7278381!4d-121.870626">
-                    <GrMapLocation
-                      style={{ width: "50", height: "50" }}
-                    />
-                  </a>
-                </p>
-                <p className="text-gray-500">
-                  6363 Tassajara Road
-                </p>
+                <div className="flex flex-row items-center">
+                  <p className="">
+                    <GrMapLocation className="w-8 h-8" />
+                  </p>
+                  <p className="text-gray-500">6363 Tassajara Road</p>
                 </div>
-                <div className="flex flex-row">
-                <p className="">
-                  <AiOutlineMail
-                    className=""
-                    style={{ width: "50", height: "50" }}
-                  />
-                  <br />
-                </p>
-                <p className="text-gray-500">
-                  7419TechSupport@gmail.com
-                </p>
+                <div className="flex flex-row items-center">
+                  <p className="">
+                    <AiOutlineMail className="w-8 h-8" />
+                  </p>
+                  <p className="text-gray-500">7419TechSupport@gmail.com</p>
                 </div>
               </div>
             </div>
