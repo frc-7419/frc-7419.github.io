@@ -118,6 +118,12 @@ function Header() {
                     <a>The Team</a>
                   </Link>
                 </li>
+                <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out">
+                  <Link href="/about/robot">
+                    {/*    */}
+                    <a>Our Robot</a>
+                  </Link>
+                </li>
                 {/* <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out"><Link href="/about/robot"><a>Our Robot</a></Link></li> */}
                 <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out">
                   <Link href="/about/outreach">
