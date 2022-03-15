@@ -1,14 +1,17 @@
 import React, { useState, useEffect } from "react";
 import Photo from "../../partials/Photo";
+import Video from "../../partials/Video";
 import LoadingScreen from "../../partials/LoadingScreen.js";
 import SoftwareTesting from "../../public/static/links/media/SoftwareTesting";
 import Madtown2021 from "../../public/static/links/media/Madtown2021";
+import TeamBuilding2021 from "../../public/static/links/media/TeamBuilding2021";
 function Photos() {
   const [isLoading, setIsLoading] = useState(true);
   const [numberOfPhotosLoaded, setNumberOfPhotosLoaded] = useState(0);
   const softwareTesting = SoftwareTesting.SoftwareTesting;
   const madtown2021 = Madtown2021.Madtown2021;
-  const TotalPhotos = madtown2021.length;
+  const teamBuilding2021 = TeamBuilding2021.TeamBuilding2021;
+  const TotalPhotos = madtown2021.length + teamBuilding2021.length;
   useEffect(() => {
     console.log(numberOfPhotosLoaded);
     if (numberOfPhotosLoaded >= TotalPhotos) {
@@ -47,6 +50,19 @@ function Photos() {
                 }
               />
             ))}
+            {teamBuilding2021.map((photo) => (
+              <Photo
+                link={photo}
+                key={photo.id}
+                capOn={true}
+                modOn={true}
+                caption="Team Building 2021"
+                onLoading={() =>
+                  setNumberOfPhotosLoaded(numberOfPhotosLoaded + 1)
+                }
+              />
+            ))}
+            
           </div>
         </section>
       </main>

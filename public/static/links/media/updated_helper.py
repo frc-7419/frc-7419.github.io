@@ -1,5 +1,5 @@
 import json
-name = 'FeaturedVids'
+name = 'TeamBuilding2021'
 links = []
 with open(f'{name}.txt', 'r') as f:
     for i in f.read().splitlines():
