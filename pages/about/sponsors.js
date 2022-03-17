@@ -120,6 +120,18 @@ function Sponsors() {
                   alt="TheVillageOfDreams.png"
                 />
               </div>
+              <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
+                <img
+                  src={"/static/images/sponsors/HansLaser.png"}
+                  alt="HansLaser.png"
+                />
+              </div>
+              <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
+                <img
+                  src={"/static/images/sponsors/IntuitiveFoundation.png"}
+                  alt="IntuitiveFoundation.png"
+                />
+              </div>
             </div>
           </div>
         </div>
