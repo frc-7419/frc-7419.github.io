@@ -49,8 +49,8 @@ function Sponsors() {
               </p>
             </div>
 
-            {/* Items */}
-            <div className="max-w-sm md:max-w-4xl mx-auto grid gap-x-3 grid-cols-4 md:grid-cols-4 px-20">
+            {/*  OLD SPONSORS     */}
+            {/* <div className="max-w-sm md:max-w-4xl mx-auto grid gap-x-3 grid-cols-4 md:grid-cols-4 px-20">
               <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
                 <img src={"/static/images/sponsors/qls.png"} alt="qls.png" />
               </div>
@@ -127,6 +127,35 @@ function Sponsors() {
                 />
               </div>
               <div className="sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
+                <img
+                  src={"/static/images/sponsors/IntuitiveFoundation.png"}
+                  alt="IntuitiveFoundation.png"
+                />
+              </div>
+            </div> */}
+            <div className="max-w-sm md:max-w-7xl mx-auto flex flex-auto  flex-row flex-wrap justify-center px-20">
+              <div className="basis-1/3 sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
+                <img src={"/static/images/sponsors/qls.png"} alt="qls.png" />
+              </div>
+              <div className="basis-1/3 sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
+                <img
+                  src={"/static/images/sponsors/notion-logo.png"}
+                  alt="notion-logo.png"
+                />
+              </div>
+              <div className=" basis-1/3 sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
+                <img
+                  src={"/static/images/sponsors/TheVillageOfDreams.png"}
+                  alt="TheVillageOfDreams.png"
+                />
+              </div>
+              <div className="basis-1/3 sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
+                <img
+                  src={"/static/images/sponsors/HansLaser.png"}
+                  alt="HansLaser.png"
+                />
+              </div>
+              <div className="basis-1/3 sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
                 <img
                   src={"/static/images/sponsors/IntuitiveFoundation.png"}
                   alt="IntuitiveFoundation.png"
