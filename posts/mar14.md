@@ -26,6 +26,8 @@ While testing the hanging mechanism, we realized that the motors were not powerf
 
 **Website Update**
 
-Our website now has a finalized media page that contains both photos and videos of our team. Check out the
+Our website now has a finalized media page that contains both photos and videos of our team. Check out the [photo page](https://www.7419.tech/media/photos) here and the [video page](https://www.7419.tech/media/videos) here!
 
-[photo page](https://www.7419.tech/media/photos)here and the[video page](https://www.7419.tech/media/videos) here!
+As we enter the final week of preparation, we're excited to see what the tournament holds for us!
+
+\-7419 Tech Support’s Writing Crew
