@@ -18,21 +18,8 @@ function Robot() {
               <p className="mb-3">The design and execution of our robot </p>
             </p>
           </div>
-          {/* 2020 Robot */}
-          <p className="text-xl" data-aos="zoom-y-out">
-              <h4 className="mb-3 h4 mx-auto text-center">2020 Robot </h4>
-            </p>
-            <p className="max-w-4xl w-full  mx-auto text-gray-800">
-              Dubbed “Everybot II”, our 2020 robot was made to accomplish the
-              goals of the FIRST’s challenge: INFINITE RECHARGE. The simple yet
-              effective robot features an intake that feeds cargo into the
-              shooter, launching out power cells to score points. In our current
-              season, we implement the robot as an exemplar to test out new code
-              and give new members an overview of the FRC program.
-            </p>
-          <RobotFeatures2020 />
           {/* 2022 Robot */}
-          <p className="text-xl mt-10 " data-aos="zoom-y-out">
+          <p className="text-xl" data-aos="zoom-y-out">
               <h4 className="mb-3 h4 mx-auto text-center">2022 Robot </h4>
             </p>
             <p className="max-w-4xl w-full  mx-auto text-gray-800">
@@ -44,6 +31,19 @@ function Robot() {
               and give new members an overview of the FRC program.
             </p>
           <RobotFeatures2022 />
+          {/* 2020 Robot */}
+          <p className="text-xl mt-10 " data-aos="zoom-y-out">
+              <h4 className="mb-3 h4 mx-auto text-center">2020 Robot </h4>
+            </p>
+            <p className="max-w-4xl w-full  mx-auto text-gray-800">
+              Dubbed “Everybot II”, our 2020 robot was made to accomplish the
+              goals of the FIRST’s challenge: INFINITE RECHARGE. The simple yet
+              effective robot features an intake that feeds cargo into the
+              shooter, launching out power cells to score points. In our current
+              season, we implement the robot as an exemplar to test out new code
+              and give new members an overview of the FRC program.
+            </p>
+          <RobotFeatures2020 />
         </div>
       </section>
     </main>
