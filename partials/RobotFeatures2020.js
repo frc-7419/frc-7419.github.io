@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import Transition from "../utils/Transition.js";
 import Carousel from "../utils/Carousel";
 import {GiSteeringWheel, GiKnifeFork, GiBowman, GiMuscleUp} from "react-icons/gi";
-function RobotFeatures() {
+function RobotFeatures2020() {
   const driveTrain = [
     [
       "https://lh3.googleusercontent.com/WLw1CltQ_heJ47s9EXv1mVtW3CxkD7O4SSedpiHLWzuKkVR2X0r0rnXAKlhrtIv46T-ALPNUaFq3iGyEm5wIBOCTTK335E9PBibSp2VpH6tE85vnzpVBCvG2RybIwDRFwDFUHw69",
@@ -386,4 +386,4 @@ function RobotFeatures() {
   );
 }
 
-export default RobotFeatures;
+export default RobotFeatures2020;

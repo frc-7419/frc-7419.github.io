@@ -1,8 +1,8 @@
 import React from "react";
 
-import RobotFeatures from "../../partials/RobotFeatures";
-
-function NewRobot() {
+import RobotFeatures2020 from "../../partials/RobotFeatures2020";
+import RobotFeatures2022 from "../../partials/RobotFeatures2022";
+function Robot() {
   return (
     <main className="flex-grow">
       <section className="relative">
@@ -17,9 +17,9 @@ function NewRobot() {
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">
               <p className="mb-3">The design and execution of our robot </p>
             </p>
-
-            {/* 2020 Robot */}
-            <p className="text-xl" data-aos="zoom-y-out">
+          </div>
+          {/* 2020 Robot */}
+          <p className="text-xl" data-aos="zoom-y-out">
               <h4 className="mb-3 h4 mx-auto text-center">2020 Robot </h4>
             </p>
             <p className="max-w-4xl w-full  mx-auto text-gray-800">
@@ -30,12 +30,24 @@ function NewRobot() {
               season, we implement the robot as an exemplar to test out new code
               and give new members an overview of the FRC program.
             </p>
-          </div>
-          <RobotFeatures />
+          <RobotFeatures2020 />
+          {/* 2022 Robot */}
+          <p className="text-xl mt-10 " data-aos="zoom-y-out">
+              <h4 className="mb-3 h4 mx-auto text-center">2022 Robot </h4>
+            </p>
+            <p className="max-w-4xl w-full  mx-auto text-gray-800">
+              Dubbed “Everybot II”, our 2020 robot was made to accomplish the
+              goals of the FIRST’s challenge: INFINITE RECHARGE. The simple yet
+              effective robot features an intake that feeds cargo into the
+              shooter, launching out power cells to score points. In our current
+              season, we implement the robot as an exemplar to test out new code
+              and give new members an overview of the FRC program.
+            </p>
+          <RobotFeatures2022 />
         </div>
       </section>
     </main>
   );
 }
 
-export default NewRobot;
+export default Robot;
