@@ -53,7 +53,7 @@ function HeroHome() {
           {" "}
           <img
             className="opacity-30 object-fill w-full "
-            src="/static/images/TeamPhotos/kickoff.jpg"
+            src="/static/images/TeamPhotos/kickoff.JPG"
             alt="Hero"
           />{" "}
         </div>
