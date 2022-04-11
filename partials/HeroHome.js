@@ -98,9 +98,16 @@ function HeroHome() {
                 data-aos-delay="450"
               >
                 <div className="flex flex-col justify-center">
-                  <img
+                  {/* <img
                     className="mx-auto w-1/2 rounded-xl opacity-80"
                     src="/static/images/2020Robot.png"
+                    width="768"
+                    height="432"
+                    alt="Hero"
+                  /> */}
+                  <img
+                    className="mx-auto w-1/2 rounded-xl opacity-80"
+                    src="/static/images/triple_svr.jpg"
                     width="768"
                     height="432"
                     alt="Hero"
