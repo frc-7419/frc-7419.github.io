@@ -19,13 +19,20 @@ function FeaturesBlocks() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-16">
           {/* Section header */}
-          <div className="md:pb-20 mb-24 flex flex-row">
+          <div className="md:pb-20 -ml-14 mb-24 flex flex-row space-x-10">
           <img
             className = "relative float-left rounded"
-            width = "35%"
+            width = "40%"
             src="/static/images/roboblur.png"
             alt="Hero"
           />
+          <div className="flex flex-col">
+          <h1
+                className="text-3xl md:text-4xl text-black font-extrabold leading-tighter tracking-tighter mb-4"
+                data-aos="zoom-y-out"
+              >
+                Recent News
+              </h1>
             <p className="text-xl text-gray-600 item-body px-2 ">
               We aim to create a diverse community unified by our shared
               excitement for STEM, bound by our commitment to assisting others,
@@ -33,6 +40,7 @@ function FeaturesBlocks() {
               to be a team that helps all teams, gives more than they receive,
               and makes children smile.
             </p>
+            </div>
           </div>
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
