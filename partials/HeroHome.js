@@ -79,15 +79,15 @@ function HeroHome() {
                 className="text-5xl md:text-6xl text-white font-extrabold leading-tighter tracking-tighter mb-4"
                 data-aos="zoom-y-out"
               >
-                FRC 7419 <br />
+                <span className="">FRC 7419</span><br />
                 <span
-                  className="TechSupport"
+                  className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"
                 >
                   {" "}
                   {width > 600 ? (
-                    <span className="text-5xl"> QLS Tech Support </span>
+                    <span className="text-6xl"> QLS Tech Support </span>
                   ) : (
-                    <span className="text-3xl"> QLS Tech Support</span>
+                    <span className="text-6xl"> QLS Tech Support</span>
                   )}{" "}
                 </span>
               </h1>
