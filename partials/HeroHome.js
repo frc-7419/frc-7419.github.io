@@ -80,10 +80,17 @@ function HeroHome() {
                 data-aos="zoom-y-out"
               >
                 FRC 7419 <br />
-                <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
+                <span
+                  className=""
+                  style={{
+                    textShadowColor: "rgba(0, 0, 0, 0.75)",
+                    textShadowOffset: { width: -1, height: 1 },
+                    textShadowRadius: 10,
+                  }}
+                >
                   {" "}
                   {width > 600 ? (
-                    <span> QLS Tech Support </span>
+                    <span className="text-5xl"> QLS Tech Support </span>
                   ) : (
                     <span className="text-3xl"> QLS Tech Support</span>
                   )}{" "}
@@ -97,21 +104,15 @@ function HeroHome() {
                 data-aos="zoom-y-out"
                 data-aos-delay="450"
               >
-                <div className="flex flex-col justify-center">
-                  {/* <img
-                    className="mx-auto w-1/2 rounded-xl opacity-80"
-                    src="/static/images/2020Robot.png"
-                    width="768"
-                    height="432"
-                    alt="Hero"
-                  /> */}
-                  <img
-                    className="mx-auto w-1/2 rounded-xl opacity-80"
-                    src="/static/images/triple_svr.jpg"
-                    width="768"
-                    height="432"
-                    alt="Hero"
-                  />
+                <div className="max-w-3xl mx-auto text-center text-white opacity-90 py-12 md:pb-20 mb-24 ">
+                  <h2 className="h2 mb-4">Mission and Vision Statement</h2>
+                  <p className="text-xl">
+                    We aim to create a diverse community unified by our shared
+                    excitement for STEM, bound by our commitment to assisting
+                    others, and dedicated to inspiring a lifelong love of
+                    learning. We aspire to be a team that helps all teams, gives
+                    more than they receive, and makes children smile.
+                  </p>
                 </div>
               </div>
             </div>
