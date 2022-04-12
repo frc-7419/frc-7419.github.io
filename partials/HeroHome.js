@@ -81,12 +81,7 @@ function HeroHome() {
               >
                 FRC 7419 <br />
                 <span
-                  className=""
-                  style={{
-                    textShadowColor: "rgba(0, 0, 0, 0.75)",
-                    textShadowOffset: { width: -1, height: 1 },
-                    textShadowRadius: 10,
-                  }}
+                  className="TechSupport"
                 >
                   {" "}
                   {width > 600 ? (
