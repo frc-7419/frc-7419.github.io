@@ -1,6 +1,7 @@
 import React from "react";
 import { FaHandshake } from "react-icons/fa";
 import { RiCommunityFill, RiRobotFill } from "react-icons/ri";
+import NewCarousel from "../utils/NewCarousel";
 import GoodRobot2020 from "../public/static/images/GoodRobot2020.js";
 function FeaturesBlocks() {
   return (
@@ -28,18 +29,13 @@ function FeaturesBlocks() {
           />
           <div className="flex flex-col">
           <h1
-                className="text-3xl md:text-4xl text-black font-extrabold leading-tighter tracking-tighter mb-4"
+                className="text-3xl  px-2 md:text-4xl text-black font-extrabold leading-tighter tracking-tighter mb-4"
                 data-aos="zoom-y-out"
               >
                 Recent News
               </h1>
             <p className="text-xl text-gray-600 item-body px-2 ">
-              We aim to create a diverse community unified by our shared
-              excitement for STEM, bound by our commitment to assisting others,
-              and dedicated to inspiring a lifelong love of learning. We aspire
-              to be a team that helps all teams, gives more than they receive,
-              and makes children smile.
-            </p>
+            We’re so happy to have qualified for the FRC World Championships after being part of the winning alliance at the Silicon Valley Regional! Along with our alliance partners, Team 254, the Cheesy Poofs and the Team 1678, Citrus Circuits, we set a new world record of 179 points!</p>
             </div>
           </div>
           {/* Items */}
