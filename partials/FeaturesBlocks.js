@@ -1,6 +1,7 @@
 import React from "react";
 import { FaHandshake } from "react-icons/fa";
 import { RiCommunityFill, RiRobotFill } from "react-icons/ri";
+import NewCarousel from "../utils/NewCarousel";
 import GoodRobot2020 from "../public/static/images/GoodRobot2020.js";
 function FeaturesBlocks() {
   return (
@@ -19,15 +20,23 @@ function FeaturesBlocks() {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-16">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center py-12 md:pb-20 mb-24 ">
-            <h2 className="h2 mb-4">Mission and Vision Statement</h2>
-            <p className="text-xl text-gray-600">
-              We aim to create a diverse community unified by our shared
-              excitement for STEM, bound by our commitment to assisting others,
-              and dedicated to inspiring a lifelong love of learning. We aspire
-              to be a team that helps all teams, gives more than they receive,
-              and makes children smile.
-            </p>
+          <div className="md:pb-20 -ml-14 mb-24 flex flex-row space-x-10">
+          <img
+            className = "relative float-left rounded"
+            width = "40%"
+            src="/static/images/roboblur.png"
+            alt="Hero"
+          />
+          <div className="flex flex-col">
+          <h1
+                className="text-3xl  px-2 md:text-4xl text-black font-extrabold leading-tighter tracking-tighter mb-4"
+                data-aos="zoom-y-out"
+              >
+                Recent News
+              </h1>
+            <p className="text-xl text-gray-600 item-body px-2 ">
+            We’re so happy to have qualified for the FRC World Championships after being part of the winning alliance at the Silicon Valley Regional! Along with our alliance partners, Team 254, the Cheesy Poofs and the Team 1678, Citrus Circuits, we set a new world record of 179 points!</p>
+            </div>
           </div>
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
