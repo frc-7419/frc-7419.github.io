@@ -2,7 +2,7 @@
 
 ## Beta sites
 
-- [RobotPage](https://7419test.surge.sh/)
+- [NewRobotPage](https://7419test.surge.sh/)
 - [BusinessPage](https://7419business.surge.sh/)
 <!-- - [Media](https://7419media.surge.sh/) -->
 
