@@ -10,73 +10,47 @@ import {
 function RobotFeatures2022() {
   const driveTrain = [
     [
-      "https://lh3.googleusercontent.com/WLw1CltQ_heJ47s9EXv1mVtW3CxkD7O4SSedpiHLWzuKkVR2X0r0rnXAKlhrtIv46T-ALPNUaFq3iGyEm5wIBOCTTK335E9PBibSp2VpH6tE85vnzpVBCvG2RybIwDRFwDFUHw69",
+      "https://lh6.googleusercontent.com/WekIublqmrJaTUt04gvw8ZQM67vtfg8H1RRupNCspI9tFtkhn-XYuM7c4HHOKNzYsrdXY_XTJXo4dpbF8aSs7T7t0aaSkfQnM9tEguSb6r72I5spn97xcm9T62HBOxtBgEAhZQyC",
       0,
       500,
-    ],
-    [
-      "https://lh3.googleusercontent.com/oNKPmk9dPLC_ZPkFuPByhqE9l9EjGWgRmGNnZEA4RSXoxMRmdBliURgYmTzHstAe-omULqSiMEpj-Ux9qjHG3W5sX7Pz31ifRwxakV1LbKFC7_QJ2UPHdfzEs7liPrvaRH8NmtTi",
-      0,
-      500,
-    ],
-    [
-      "https://lh4.googleusercontent.com/idROivrgd4f5xhwnKBm0JG2S5aSYC3O_inVJq20BSuO1EhwnhFT6xcUGVCbnQDIVx0sKYyPVOtiU_pncr66GEhCO-wzlaWTtHRF-F3t1IFMUUjEfbvMRnUJEJCd47JXuXBFFI_pp",
-      0,
-      500,
-    ],
-  ];
-
-  const intakeLoader = [
-    [
-      "https://lh3.googleusercontent.com/mnKyvdfCGl5HFhuHTT1UeW0AzguNVLZDNYXJU92-IdSvJ30fHqBc2XO1hH9ZhUEDhQswvwgZFItUKSkP9mYL6qa6mUpLkerIZpFc8sWFN6Vphmguu5Cf-57-zjKQULjOIewZ21px",
-      0,
-      500, //img page 7
-    ],
-
-    [
-      "https://lh6.googleusercontent.com/lrJkD6eWZInpH3IriQOeqf6gcRMil2BBY-xLDhY8r0x0UA2mep15U8wzu5lKHHacaSWohOym5PKX87_ZpkbM_lbd9HDcvYOjpK1xril7QRxKcnDDCnQTk5KOeF7-tj308XZF56z4",
-      0,
-      500, //img page 11
-    ],
-    [
-      "https://lh6.googleusercontent.com/blRs_SZlNuJcq1PdsbDwfY8lPPTuh03Vi5TQuPH_lPW44vf8pEZYKsRy7pKmh0QM5IyO1aULK7QhlkEYzhH9SjHOmo9ZK5d6_vzbiIhlPla54YCvCh7K7_sCqYSM-bIe5WBlX0pZ",
-      523,
-      406, //img page 12
     ],
   ];
 
   const turretShooter = [
     [
-      "https://lh4.googleusercontent.com/b0Q5xcTlhv-pZo8rNVl9k1Xc7YDaQykz6ElQwHrXHufS2kR4zSv1M9sm38TvA0QTNS3wYjhfG8CqZKEsYdLrYzFNChav6HfHHiCg82fYtirSSpJwaTsABTMYB8Op-CYxWBlVNigP",
+      "https://lh4.googleusercontent.com/x629ou6uWIg7DikKH4o2B753ZINtSlDKDfdKMUT2KELnNKhf_ae45TgwVaqoOEDIOvvr_eMKx_7B6uwSHZETS_2vXA65X-_Jh8HpmebZ28vZl5-IbXVlzuwOR1ztCJHVLU43WfSv",
       0,
-      500, //img page 4
-    ],
-    [
-      "https://lh4.googleusercontent.com/fBsvRpHQrUWxrIew0e5f6Zn9sxmwBOJeKoc5KYZtEhLjctasp4Dl1ueimPk4lqfx6yHqwGEGTsCTtJAnPaFlZ4T2Guq-sDaSss8vzhiO8Ss1tuIIG5EvaVZ9Oz068ayCYvv3OaLK",
-      0,
-      500, //img page 5
+      500, //img page 7
     ],
 
     [
-      "https://lh3.googleusercontent.com/v2EGst-53qsIjoHJiBMCgGMOYq8ihgtvPITSMV9OJArZ6ajgAcLf8C-Jnlg390_vKcU0HOtyPYBxhTBS_hHNtduSIo5kQnNXPJtHCIczT2IAUwMW8coUG7w_dHGCE82wcjpivQmE",
+      "https://lh4.googleusercontent.com/nl7GCcecTk67VngPTIj21hZj6zPn9qlfT2zS49Vmo2MXFiddOexpIS8at_Eoi_1vloGzAcluVSC10oTXgtQV369ylieCRoqyEWXq5N0Hqi6OT7kkmYoiBq1t24uit1sf8f00nt_t",
       0,
-      500, //img page 6
+      500, //img page 11
+    ],
+    [
+      "https://lh3.googleusercontent.com/7NoXysSm4X0IhMi3kJagCOr3MQ8lEfkuL14YUnHUeXPlvMkOUSJzizStnKnypjJ_t4aO1KRhwx6qV6OgUZT7Ou6kKjXbNO3xtiCRSQzd6tVsazT40snf9ECK2OLT_gRLfa5WlhsC",
+      523,
+      406, //img page 12
+    ],
+  ];
+
+  const intakeLoader = [
+    [
+      "https://lh4.googleusercontent.com/b0Q5xcTlhv-pZo8rNVl9k1Xc7YDaQykz6ElQwHrXHufS2kR4zSv1M9sm38TvA0QTNS3wYjhfG8CqZKEsYdLrYzFNChav6HfHHiCg82fYtirSSpJwaTsABTMYB8Op-CYxWBlVNigP",
+      0,
+      500, //img page 4
     ],
   ];
 
   const climber = [
     [
-      "https://lh4.googleusercontent.com/WjD2PMSe19rYhiNzrK9BDPmBBG0o8QQvXkY3EJ2ywq_zp7LQFv0-cHvpB5a2iFu-Yt3lJG1ra80oDNlO4nCAHTyZWYzLX3QPRfkliJybgPngsFqZU0akTgDJrc2aeZXW6HdNR3bB",
+      "https://lh3.googleusercontent.com/tppka5xBDGeK1u0WZw-ap5IWwnMwF23B6p_JLb79waQYdCgynWNPbTt8FTsPwDoRHcQgDuTjfzQLRRajseJQam_U747b9aAO9YvsEfxdWX8lAQvltx4fFf8ilwufdEoWQHJZHCoT",
       0,
       500, //img page 8
     ],
     [
-      "https://lh6.googleusercontent.com/KzNWP7zzz9TnNKJPXYA1aTXK9uLmdFonvMGrRmxCnq6UEZ8wx8zlOwfpueC6i_grW93Ca4dgbHVhuW11ivN15qfm0diMcgtgiRka7a29-MMbcWt18qpAAvn-8Rng5dQ66OTrNapk",
-      0,
-      500,
-    ],
-    [
-      "https://lh5.googleusercontent.com/0baPQ5eZFmMNG0BD-ijwwb8TrL_ctR7Zc9FxFo6Z4a1srl4YGVAvokUpmQJho-zaCG4jMb3pbMw0Oxtf2FpqXY_-tdzooerVZo_0nuJJNRg_4ORigvowyscX0OkO1H7y2r0_LLwB",
+      "https://lh3.googleusercontent.com/knBAukWAIu2cGZgyQO1m7g4jb0jXeCnvDpv2GhPkqkQwl8D7phaDJPnQZYTbWQsHR_Dx5t6Ex1vUW-iI0bX0hOOjiG6YPBGTDHA3wmrqqysQ9hbH-YidQJCUFQdtVFxj0K1q1jpv",
       0,
       500,
     ],
