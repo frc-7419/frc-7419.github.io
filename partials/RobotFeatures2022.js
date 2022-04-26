@@ -26,7 +26,7 @@ function RobotFeatures2022() {
     ],
   ];
 
-  const intake = [
+  const intakeLoader = [
     [
       "https://lh3.googleusercontent.com/mnKyvdfCGl5HFhuHTT1UeW0AzguNVLZDNYXJU92-IdSvJ30fHqBc2XO1hH9ZhUEDhQswvwgZFItUKSkP9mYL6qa6mUpLkerIZpFc8sWFN6Vphmguu5Cf-57-zjKQULjOIewZ21px",
       0,
@@ -45,7 +45,7 @@ function RobotFeatures2022() {
     ],
   ];
 
-  const shooterLoader = [
+  const turretShooter = [
     [
       "https://lh4.googleusercontent.com/b0Q5xcTlhv-pZo8rNVl9k1Xc7YDaQykz6ElQwHrXHufS2kR4zSv1M9sm38TvA0QTNS3wYjhfG8CqZKEsYdLrYzFNChav6HfHHiCg82fYtirSSpJwaTsABTMYB8Op-CYxWBlVNigP",
       0,
@@ -136,9 +136,9 @@ function RobotFeatures2022() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Drive Train
+                      Drivetrain
                     </div>
-                    <div className="text-gray-600">Moves robot</div>
+                    <div className="text-gray-600">Robot movements</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <GiSteeringWheel />
@@ -158,9 +158,9 @@ function RobotFeatures2022() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Intake
+                      Intake/Loader
                     </div>
-                    <div className="text-gray-600">Collects powercells</div>
+                    <div className="text-gray-600">Collects cargo from ground and against wall</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <GiKnifeFork />
@@ -180,10 +180,10 @@ function RobotFeatures2022() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Shooter/Loader
+                      Turret/Shooter
                     </div>
                     <div className="text-gray-600">
-                      Shoots powercells out of the robot
+                      Shoots cargo into upper/lower hub
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -242,17 +242,24 @@ function RobotFeatures2022() {
                           className="pl-5"
                           style={{ listStyleType: "circle" }}
                         >
-                          <li>Drop center drive</li>
-                          <li>Well rounded and quite fast</li>
+                          <li>Westcoast Drive</li>
                           <ul
                             className="pl-5"
                             style={{ listStyleType: "square" }}
                           >
-                            <li>4 Falcon 500 Motors</li>
+                            <li>2 Falcon 500 Motors on each side</li>
                             <li>11:1 Gear ratio</li>
                           </ul>
-                          <li>Four 6” HiGrip Wheels</li>
-                          <li>Two 6” Stealth Wheels</li>
+                          <li>Open chassis design</li>
+                          <ul
+                            className="pl-5"
+                            style={{ listStyleType: "square" }}
+                          >
+                            <li>
+                              Allows us to intake without bringing over bumper
+                            </li>
+                          </ul>
+                          <li>Six 6” HiGrip Wheels</li>
                         </ul>
                       </p>
                     </div>
@@ -271,26 +278,20 @@ function RobotFeatures2022() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <Carousel images={intake} />
+                    <Carousel images={intakeLoader} />
                     <div className="pl-5 text-left mt-2 text-gray-600">
                       <p>
                         <ul
                           className="pl-5"
                           style={{ listStyleType: "circle" }}
                         >
-                          <li>Wide rolling intake</li>
-                          <ul
-                            className="pl-5"
-                            style={{ listStyleType: "square" }}
-                          >
-                            <li>Compliant wheels for human player station</li>
-                          </ul>
-                          <li>High friction grip tape on rollers</li>
-                          <li>PVC rollers to ease movement</li>
+                          <li>Motorized using neo motor</li>
+                          <li>Loader hidden belt design</li>
+                          <li>Compliance wheels powered by 2 775 motors</li>
                           <li>
-                            Lexan sheet above to prevent balls from escaping
+                            2 rows of 2 inches compliance wheels on intake
                           </li>
-                          <li>90 degree gearbox to be compact</li>
+                          <li>9:1 gear ratio for bottom loader</li>
                         </ul>
                       </p>
                     </div>
@@ -309,24 +310,23 @@ function RobotFeatures2022() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <Carousel images={shooterLoader} />
+                    <Carousel images={turretShooter} />
                     <div className="pl-5 text-left mt-2 text-gray-600">
                       <p>
                         <ul
                           className="pl-5"
                           style={{ listStyleType: "circle" }}
                         >
-                          <li>Flywheel design</li>
-                          <ul
-                            className="pl-5"
-                            style={{ listStyleType: "square" }}
-                          >
-                            <li>Two 6” stealth wheels to shoot</li>
-                            <li>Weight of 5 pounds</li>
-                            <li>One 6” omni wheel to load</li>
-                          </ul>
-                          <li>Hood mechanism to direct shots</li>
-                          <li>Powered by a Falcon 500 motor</li>
+                          <li>
+                            Double flywheel design powered by 2 Falcon 500s
+                          </li>
+                          <li>
+                            270º rotational turret powered by a Falcon 500
+                          </li>
+                          <li>
+                            Limelight used for turret rotation and distance
+                            calculation
+                          </li>
                         </ul>
                       </p>
                     </div>
@@ -352,23 +352,31 @@ function RobotFeatures2022() {
                           className="pl-5"
                           style={{ listStyleType: "circle" }}
                         >
-                          <li>Scissors Jack</li>
+                          <li>Greyt Elevator (West Coast) </li>
                           <ul
                             className="pl-5"
                             style={{ listStyleType: "square" }}
                           >
-                            <li>Thin design</li>
-                            <li>Only one motor per side</li>
-                            <li>Easy to control</li>
+                            <li>
+                              Run by chain and two falcon motors with 100:1 gear
+                              ratio
+                            </li>
+                            <li>Two hooks on the side</li>
                           </ul>
-                          <li>Winch</li>
+                          <li>2 Arms</li>
                           <ul
                             className="pl-5"
                             style={{ listStyleType: "square" }}
                           >
-                            <li>Relatively thin design</li>
-                            <li>Very strong</li>
-                            <li>Separate mechanism to raise to bar</li>
+                            <li>
+                            Motorized using in house gearbox, neo motors, spark max motor controllers
+                            </li>
+                            <li>
+                            Geared down to 400:1 for torque
+                            </li>
+                            <li>
+                            Custom made hooks on CNC
+                            </li>
                           </ul>
                         </ul>
                       </p>
