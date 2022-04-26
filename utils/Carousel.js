@@ -23,7 +23,7 @@ function Carousel({ images }) {
         {"<"}
       </button>
       <img
-        className="mx-auto max-w-md   rounded-lg"
+        className="mx-auto object-cover max-w-md rounded-lg"
         alt=""
         style={Object.assign({},(images[idx][1] != 0? {
           width: images[idx][1],
