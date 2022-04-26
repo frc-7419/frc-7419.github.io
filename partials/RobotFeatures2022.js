@@ -37,7 +37,7 @@ function RobotFeatures2022() {
 
   const intakeLoader = [
     [
-      "https://lh4.googleusercontent.com/b0Q5xcTlhv-pZo8rNVl9k1Xc7YDaQykz6ElQwHrXHufS2kR4zSv1M9sm38TvA0QTNS3wYjhfG8CqZKEsYdLrYzFNChav6HfHHiCg82fYtirSSpJwaTsABTMYB8Op-CYxWBlVNigP",
+      "https://lh6.googleusercontent.com/BQP8Xwn269xHRQk3_SpkqJ2XdoxfFXgq7kVAUd59-P4VvbsJ02ZIo9fJC7c7OgWlG_uO3SJo2s9folwjoA-RrRhShHDgjzk7XV5AG4TdwxK1B65rX_DBBaoCx2IPw_GBgQLALDb_",
       0,
       500, //img page 4
     ],
