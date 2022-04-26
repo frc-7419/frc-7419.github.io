@@ -53,7 +53,7 @@ function HeroHome() {
           {" "}
           <img
             className="opacity-30 object-fill w-full "
-            src="/static/images/TeamPhotos/champion.png"
+            src="/static/images/TeamPhotos/FIRSTChampsCropped.jpg"
             alt="Hero"
           />{" "}
         </div>
@@ -65,7 +65,7 @@ function HeroHome() {
           {" "}
           <img
             className="opacity-30 object-fill w-full "
-            src="/static/images/TeamPhotos/champion.png"
+            src="/static/images/TeamPhotos/FIRSTChampsCropped.jpg"
             alt="Hero"
           />{" "}
         </div>
