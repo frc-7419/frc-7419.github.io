@@ -114,12 +114,6 @@ function Leadership() {
       year: "23",
       img: "/static/images/Leadership/ViviChengHeadshot.jpg",
     },
-    {
-      name: "Joey Zeng",
-      position: "Does Nothing",
-      year: '24',
-      img: "/static/images/Leadership/StephenXieHeadShot.jpg",
-    },
   ];
 
   return (

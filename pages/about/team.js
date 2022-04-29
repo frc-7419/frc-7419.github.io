@@ -57,8 +57,9 @@ function Team() {
                 becoming almost entirely student-run, seeking to reinstate an
                 effective and lasting framework — one that will not be affected
                 by graduating members and only grow stronger as we gain more new
-                members. With knowledge from our past experiences, we are ready
-                and excited for what the 2022 season will bring us.
+                members. With knowledge from our past experiences, along with our
+                recent qualification for the world championship, we are prepared and excited
+                 for what the 2023 season will entail.
               </p>
             </div>
             <div className="mt-10 mx-auto w-5/6">

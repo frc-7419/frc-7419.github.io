@@ -133,7 +133,7 @@ function Sponsors() {
                 />
               </div>
             </div> */}
-            <div className="max-w-sm md:max-w-7xl mx-auto flex flex-auto  flex-row flex-wrap justify-center px-20">
+            <div className="max-w-sm md:max-w-7xl mx-auto flex flex-auto flex-row flex-wrap justify-center px-20">
               <div className="basis-1/3 sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
                 <img src={"/static/images/sponsors/qls.png"} alt="qls.png" />
               </div>
@@ -155,7 +155,7 @@ function Sponsors() {
                   alt="HansLaser.png"
                 />
               </div>
-              <div className="basis-1/3 sponsor flex items-center justify-center py-2 col-span-2 md:col-auto">
+              <div className="basis-1/3 sponsor flex items-center justify-center ml-3 py-2 col-span-2 md:col-auto">
                 <img
                   src={"/static/images/sponsors/IntuitiveFoundation.png"}
                   alt="IntuitiveFoundation.png"
