@@ -5,7 +5,7 @@ name: Node.js CI
 
 on:
   push:
-    branches: [Robot2022]
+    branches: [main]
 
   workflow_dispatch:
 
@@ -41,7 +41,7 @@ jobs:
       - name: Publish to 7419.tech
         uses: dswistowski/surge-sh-action@v1
         with:
-          domain: "7419Robot2022.surge.sh"
+          domain: "www.7419.tech"
           project: "./build"
           login: ${{ secrets.surge_login }}
           token: ${{ secrets.surge_token }}
