@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=fallback");
+@import url('http://fonts.cdnfonts.com/css/berlin-sans-fb-demi?styles=15526');
 
 @tailwind base;
 @tailwind components;
@@ -9,6 +10,7 @@
 @import "additional-styles/toggle-switch.scss";
 @import "additional-styles/theme.scss";
 @import "additional-styles/custom_styles.scss";
+
 
 @tailwind utilities;
 
