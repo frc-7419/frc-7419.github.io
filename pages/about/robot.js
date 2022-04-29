@@ -22,12 +22,7 @@ function Robot() {
           <p className="text-xl">
             <h4 className="mb-3 h4 mx-auto text-center">2022 Robot </h4>
             <p className="text-base max-w-4xl w-full mx-auto text-gray-800">
-            Dubbed “Everybot II”, our 2020 robot was made to accomplish the
-            goals of the FIRST’s challenge: INFINITE RECHARGE. The simple yet
-            effective robot features an intake that feeds cargo into the
-            shooter, launching out power cells to score points. In our current
-            season, we implement the robot as an exemplar to test out new code
-            and give new members an overview of the FRC program.
+            We are proud to present our 2022 robot, <span class="underline decoration-wavy">Teri Ma</span>, which successfully took on all the game objectives of FIRST’s challenge, Rapid React. We hope to continue the momentum of our first season together after COVID and come back even better in 2023’s Charged Up!
           </p>
           </p>
           
@@ -36,7 +31,7 @@ function Robot() {
           <p className="text-xl mt-10">
             <h4 className="mb-3 h4 mx-auto text-center">2020 Robot </h4>
             <p className="max-w-4xl text-base w-full  mx-auto text-gray-800">
-            Dubbed “Everybot II”, our 2020 robot was made to accomplish the
+            Dubbed <span class="underline decoration-wavy">"Everybot II"</span>, our 2020 robot was made to accomplish the
             goals of the FIRST’s challenge: INFINITE RECHARGE. The simple yet
             effective robot features an intake that feeds cargo into the
             shooter, launching out power cells to score points. In our current
