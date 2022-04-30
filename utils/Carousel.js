@@ -24,7 +24,7 @@ function Carousel({ images }) {
       </button>
       <div className="flex flex-col">
         <img
-          className="mx-auto max-w-md   rounded-lg"
+          className="mx-auto max-w-md object-cover rounded-lg"
           alt=""
           style={Object.assign({},(images[idx][1] != 0? {
             width: images[idx][1],
