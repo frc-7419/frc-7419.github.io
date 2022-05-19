@@ -79,10 +79,9 @@ function HeroHome() {
                 className="text-5xl md:text-6xl text-white font-extrabold leading-tighter tracking-tighter mb-4"
                 data-aos="zoom-y-out"
               >
-                <span className="">FRC 7419</span><br />
-                <span
-                  className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400"
-                >
+                <span className="">FRC 7419</span>
+                <br />
+                <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400">
                   {" "}
                   {width > 600 ? (
                     <span className="text-6xl"> QLS Tech Support </span>
@@ -102,11 +101,13 @@ function HeroHome() {
                 <div className="max-w-3xl mx-auto text-center text-white opacity-90 py-12 md:pb-20 mb-24 ">
                   <h2 className="h2 mb-4">Mission and Vision Statement</h2>
                   <p className="text-xl">
-                    We aim to create a diverse community unified by our shared
-                    excitement for STEM, bound by our commitment to assisting
-                    others, and dedicated to inspiring a lifelong love of
-                    learning. We aspire to be a team that helps all teams, gives
-                    more than they receive, and makes children smile.
+                    Team 7419 QLS Tech Support strives to instill technical
+                    expertise and collaboration into every member on our
+                    student-led team. We are a supportive and dedicated family
+                    that works together to give back to the community with the
+                    technical and interpersonal skills gained through the FIRST
+                    Robotics Competition program. With every day of hard work,
+                    we are becoming the leaders of tomorrow.
                   </p>
                 </div>
               </div>
