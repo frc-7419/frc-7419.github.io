@@ -18,7 +18,7 @@ const ContactUs = () => {
     setIsPending(true);
 
     fetch(
-      "https://sheet.best/api/sheets/22f4e307-da45-4fa8-880a-e84b25c39186",
+      "https://formspree.io/f/xyyorjnj",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
