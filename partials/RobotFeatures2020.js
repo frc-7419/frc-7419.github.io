@@ -4,6 +4,8 @@ import Carousel from "../utils/Carousel";
 import {GiSteeringWheel, GiKnifeFork, GiBowman, GiMuscleUp} from "react-icons/gi";
 function RobotFeatures2020() {
   const driveTrain = [
+    ["https://drive.google.com/uc?id=1OIc-F0eI9xJiT3XqfTkBrCNT8zFR40wQ&export=download",0,500],
+    ["https://drive.google.com/uc?id=1OLdgPh_lQVBcRIJLzSawRN9JBUdyFjTC&export=download",0,500],
     [
       "https://lh3.googleusercontent.com/WLw1CltQ_heJ47s9EXv1mVtW3CxkD7O4SSedpiHLWzuKkVR2X0r0rnXAKlhrtIv46T-ALPNUaFq3iGyEm5wIBOCTTK335E9PBibSp2VpH6tE85vnzpVBCvG2RybIwDRFwDFUHw69",
       0,
@@ -65,6 +67,7 @@ function RobotFeatures2020() {
   ];
 
   const climber = [
+    ["https://drive.google.com/uc?id=1b6UzuKHCgMB-NMHdBVBEbJKczoJsS_p8&export=download",0,500],
     [
       "https://lh4.googleusercontent.com/WjD2PMSe19rYhiNzrK9BDPmBBG0o8QQvXkY3EJ2ywq_zp7LQFv0-cHvpB5a2iFu-Yt3lJG1ra80oDNlO4nCAHTyZWYzLX3QPRfkliJybgPngsFqZU0akTgDJrc2aeZXW6HdNR3bB",
       0,
