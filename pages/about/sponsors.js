@@ -161,6 +161,18 @@ function Sponsors() {
                   alt="IntuitiveFoundation.png"
                 />
               </div>
+              <div className="basis-1/3 sponsor flex items-center justify-center ml-3 py-2 col-span-2 md:col-auto">
+                <img
+                  src={"/static/images/sponsors/nasa.png"}
+                  alt="nasa.png"
+                />
+              </div>
+              <div className="basis-1/3 sponsor flex items-center justify-center ml-3 py-2 col-span-2 md:col-auto">
+                <img
+                  src={"/static/images/sponsors/FIRST-NorCal.png"}
+                  alt="FIRST-NorCal.png"
+                />
+              </div>
             </div>
           </div>
         </div>
