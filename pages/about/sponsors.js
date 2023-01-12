@@ -173,6 +173,12 @@ function Sponsors() {
                   alt="FIRST-NorCal.png"
                 />
               </div>
+              <div className="basis-1/3 sponsor flex items-center justify-center ml-3 py-2 col-span-2 md:col-auto">
+                <img
+                  src={"/static/images/sponsors/sf-cable.png"}
+                  alt="sf-cable.png"
+                />
+              </div>
             </div>
           </div>
         </div>

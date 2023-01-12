@@ -21,11 +21,11 @@ const mentors = [
     description: "Robotics Teacher",
     img: "/static/images/mentors/lina.jpg",
   },
-  {
-    name: "Sebastian Wild",
-    description: "Software Engineer",
-    img: "/static/images/mentors/sebastian.jpeg",
-  },
+  // {
+  //   name: "Sebastian Wild",
+  //   description: "Software Engineer",
+  //   img: "/static/images/mentors/sebastian.jpeg",
+  // },
 ];
 
 function Mentors() {
