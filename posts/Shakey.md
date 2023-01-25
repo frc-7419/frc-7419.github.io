@@ -1,13 +1,11 @@
 ﻿---
 title: "History of Robotics #2 - Shakey Paves the Way"
-date: "2030-01-18"
+date: "2023-01-18"
 description: "Tech Support's History of Robotics, #2"
 thumbnail: "/static/images/blog/jan18/Shakey-Intro.jpg"
 ---
 
 Shakey the Robot will amaze you. It can autonomously move through a floor covered in obstacles, pick up and deposit objects, and even understand over 100 English commands. Shakey’s creators have created designs and algorithms that will be the foundation for robotics for the next fifty years, and it only cost $750,000! If you haven’t seen Shakey on social media or in the news, it’s because Shakey the Robot lives at the Computer History Museum in Mountain View, CA. Shakey was built over fifty years ago, and it shows that the fundamental robotics challenges have not changed. By examining Shakey, we can better understand the present and future of robotics. 
-
-![](/static/images/blog/jan18/Shakey-Intro.jpg)
 
 Shakey the Robot, the first mobile, semi-autonomous robot because researchers were given time and money to invent something revolutionary. Charles Rosen, Peter Hart, Nil Nilsson, and their team invented Shakey at the Stanford Research Institute from 1966-1972. DARPA (Defense Advanced Research Projects Agency), a part of the US Military, gave the researchers $750,000 (more than $5 million in today’s money) to build the robot. Robotics researchers still struggle to get funding, so they can expand technology. Still, as Shakey demonstrates, research can create trillion dollar industries. 
 ![](/static/images/blog/jan18/Shakey_Team.jpg)
