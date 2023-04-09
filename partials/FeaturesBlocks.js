@@ -19,25 +19,25 @@ function FeaturesBlocks() {
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-16 px-12">
-          {/* Section header */}
-          <div className="md:pb-20 -ml-14 mb-24 flex flex-col md:flex-row items-center space-x-10">
-            <img
-              className="relative float-left rounded flex-1"
-              width="40%"
-              src="/static/images/roboblur.png"
-              alt="Hero"
-            />
-            <div className="flex flex-[2_2_0%] flex-col">
-              <h1
-                className="text-3xl  px-2 md:text-4xl text-black font-extrabold leading-tighter tracking-tighter mb-4"
-                data-aos="zoom-y-out"
-              >
-                Recent News
-              </h1>
-              <p className="text-xl text-gray-600 item-body px-2 ">
-                We’re so happy to have qualified for the FRC World Championships after being part of the winning alliance at the Silicon Valley Regional! Along with our alliance partners, Team 254, the Cheesy Poofs and the Team 1678, Citrus Circuits, we set a new world record of 179 points!</p>
-            </div>
-          </div>
+//           {/* Section header */}
+//           <div className="md:pb-20 -ml-14 mb-24 flex flex-col md:flex-row items-center space-x-10">
+//             <img
+//               className="relative float-left rounded flex-1"
+//               width="40%"
+//               src="/static/images/roboblur.png"
+//               alt="Hero"
+//             />
+//             <div className="flex flex-[2_2_0%] flex-col">
+//               <h1
+//                 className="text-3xl  px-2 md:text-4xl text-black font-extrabold leading-tighter tracking-tighter mb-4"
+//                 data-aos="zoom-y-out"
+//               >
+//                 Recent News
+//               </h1>
+//               <p className="text-xl text-gray-600 item-body px-2 ">
+//                 We’re so happy to have qualified for the FRC World Championships after being part of the winning alliance at the Silicon Valley Regional! Along with our alliance partners, Team 254, the Cheesy Poofs and the Team 1678, Citrus Circuits, we set a new world record of 179 points!</p>
+//             </div>
+//           </div>
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
             {/* 1st item */}
