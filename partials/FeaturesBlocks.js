@@ -31,7 +31,7 @@ function FeaturesBlocks() {
             <div className="relative w-1/4 h-full">
             <img
               className="relative shrink-0 object-cover float-left rounded h-full"
-              src="/static/images/2023balance2.jpg"
+              src="/static/images/2023balance2.JPG"
               alt="Hero"
             />
             </div>
