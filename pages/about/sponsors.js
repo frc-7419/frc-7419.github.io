@@ -179,6 +179,18 @@ function Sponsors() {
                   alt="sf-cable.png"
                 />
               </div>
+              <div className="basis-1/3 sponsor flex items-center justify-center ml-3 py-2 col-span-2 md:col-auto">
+                <img
+                  src={"/static/images/sponsors/googleLogo.png"}
+                  alt="googleLogo.png"
+                />
+              </div>
+              <div className="basis-1/3 sponsor flex items-center justify-center ml-3 py-2 col-span-2 md:col-auto">
+                <img
+                  src={"/static/images/sponsors/ldl.svg"}
+                  alt="ldl.svg"
+                />
+              </div>
             </div>
           </div>
         </div>
