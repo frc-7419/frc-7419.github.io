@@ -17,25 +17,42 @@ function FeaturesBlocks() {
       ></div>
       {/* <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div> */}
 
-      <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-16 px-12">
-          {/* Section header */}
-          <div className="md:pb-20 -ml-14 mb-24 flex flex-col md:flex-row items-center space-x-10">
+      <div className="relative max-w-6xl mx-auto px-2 sm:px-6">
+        <div className="py-12 md:py-16 px-8">
+                    {/* Section header */}
+                    <div className="md:pb-20 -ml-14 mb-24 flex h-96 flex-col md:flex-row items-center space-x-10">
+            <div className="relative w-1/4 h-full">
             <img
-              className="relative float-left rounded flex-1"
-              width="40%"
-              src="/static/images/roboblur.png"
+              className="relative rounded object-cover h-full"
+              src="/static/images/2023balance.jpg"
               alt="Hero"
             />
-            <div className="flex flex-[2_2_0%] flex-col">
+            </div>
+            <div className="relative w-1/4 h-full">
+            <img
+              className="relative shrink-0 object-cover float-left rounded h-full"
+              src="/static/images/2023balance2.JPG"
+              alt="Hero"
+            />
+            </div>
+            <div className="relative w-1/5 h-full">
+            <img
+              className="relative object-cover rounded h-full"
+              src="/static/images/2023scoring.jpg"
+              alt="Hero"
+            />
+            </div>
+            
+            <div className="flex flex-[2_2_0%] flex-col w-1/2 overflow-hidden">
               <h1
-                className="text-3xl  px-2 md:text-4xl text-black font-extrabold leading-tighter tracking-tighter mb-4"
+                className="text-3xl px-2 md:text-4xl text-black font-extrabold leading-tighter tracking-tighter mb-4"
                 data-aos="zoom-y-out"
               >
                 Recent News
               </h1>
               <p className="text-xl text-gray-600 item-body px-2 ">
-                We’re so happy to have qualified for the FRC World Championships after being part of the winning alliance at the Silicon Valley Regional! Along with our alliance partners, Team 254, the Cheesy Poofs and the Team 1678, Citrus Circuits, we set a new world record of 179 points!</p>
+                We had a wonderful season competing at Central Valley Regional, Idaho Regional, and Silicon Valley Regional, see you this offseason!
+              </p>
             </div>
           </div>
           {/* Items */}

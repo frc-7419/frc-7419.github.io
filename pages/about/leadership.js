@@ -60,6 +60,12 @@ function Leadership() {
         year: "24",
         img: "/static/images/Leadership/SnehaGadekarlaHeadshot.jpg",
       },
+      {
+        name: "Sudharsan Gopalakrishnan",
+        position: "Programming",
+        year: "23",
+        img: "/static/images/Leadership/SudharsanGopalakrishnanHeadshot.png",
+      },
     ];
   
     return (
