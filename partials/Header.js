@@ -177,6 +177,12 @@ function Header() {
                     <a>2021-2022 Leadership</a>
                   </Link>
                 </li>
+              <li className="font-medium text-gray-600 hover:text-gray-800 px-5 py-3 transition duration-150 ease-in-out">
+                  <Link href="/archive/leadership-23">
+                    {/*    */}
+                    <a>2022-2023 Leadership</a>
+                  </Link>
+                </li>
               </Dropdown>
               {/* </li> */}
               <li>
