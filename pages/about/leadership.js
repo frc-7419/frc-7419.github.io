@@ -116,6 +116,12 @@ function Leadership() {
       position: "Programming",
       year: 24,
       img: "/static/images/Leadership/kaival.png",
+    },
+    {
+      name: "Ansh Malviya",
+      position: "Mechanical",
+      year: 24,
+      img: "/static/images/Leadership/ansh.jpg",
     }
   ];
 
