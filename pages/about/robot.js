@@ -19,7 +19,6 @@ function Robot() {
               <p className="mb-3">The design and execution of our robot </p>
             </p>
           </div>
-          <RobotFeatures2024 />
           {/* 2024 Robot */}
           <p className="text-xl">
             <h4 className="mb-3 h4 mx-auto text-center">2024 Robot </h4>
@@ -27,17 +26,18 @@ function Robot() {
             We are proud to present our 2024 robot, <span className="underline decoration-wavy">Stereo</span>, which successfully took on all the game objectives of FIRST’s challenge, Crescendo. We were finalists at Arizona, and we went to Worlds. We hope to continue this momentum and come back even better in 2025’s challenge!
           </p>
           </p>
+
+          <RobotFeatures2024 />
           
-          <RobotFeatures2022 />
-          {/* 2023 Robot */}
+          {/* 
+          2023 Robot 
           <p className="text-xl">
             <h4 className="mb-3 h4 mx-auto text-center">2023 Robot </h4>
             <p className="text-base max-w-4xl w-full mx-auto text-gray-800">
             We are proud to present our 2023 robot, <span className="underline decoration-wavy">Stereo</span>, which successfully took on all the game objectives of FIRST’s challenge, Crescendo. We hope to continue this momentum and come back even better in 2025’s challenge!
           </p>
-          </p>
-          
-          <RobotFeatures2022 />
+          </p> */}
+
           {/* 2022 Robot */}
           <p className="text-xl">
             <h4 className="mb-3 h4 mx-auto text-center">2022 Robot </h4>
