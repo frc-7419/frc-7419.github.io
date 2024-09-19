@@ -46,7 +46,7 @@ function Header() {
             <Link href="/">
               <a className="block" aria-label="Tech Support">
                 <img
-                  src="/static/images/logos/7419_light.png"
+                  src="/static/images/logos/logonew.png"
                   width="48px"
                   alt="7419 Logo"
                 />

@@ -180,7 +180,7 @@ function RobotFeatures2024() {
                     <div className="font-bold leading-snug tracking-tight mb-1">
                       Climber
                     </div>
-                    <div className="text-gray-600">Climbs</div>
+                    <div className="text-gray-600">Climbs on the stage</div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <GiMuscleUp />

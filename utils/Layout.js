@@ -12,7 +12,7 @@ export default function Layout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <meta name="description" content="Official website for FRC 7419 Team" />
-        <link rel="apple-touch-icon" href="/logo192.png" />
+        <link rel="apple-touch-icon" href="Yellow Mascot.png" />
 
         <link rel="manifest" href="/manifest.json" />
         <link
