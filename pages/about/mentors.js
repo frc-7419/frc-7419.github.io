@@ -21,6 +21,11 @@ const mentors = [
     description: "Robotics Teacher",
     img: "/static/images/mentors/lina.jpg",
   },
+  {
+    name: "Nate Batchelder",
+    description: "Master Solderer",
+    img: "/static/images/mentors/nate_batchelder.jpg",
+  },
   // {
   //   name: "Sebastian Wild",
   //   description: "Software Engineer",
