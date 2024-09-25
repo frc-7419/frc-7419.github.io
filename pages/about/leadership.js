@@ -122,7 +122,18 @@ function Leadership() {
       position: "Mechanical",
       year: 24,
       img: "/static/images/Leadership/ansh.jpg",
-    }
+    },
+    {
+      name: "Sepandar Farhood",
+      position: "Software",
+      year: 26,
+      img: "/static/images/Leadership/sepandar.jpg",
+    },
+    {
+      name: "Jahaanshah Sheikh",
+      position: "Software",
+      year: 26,
+    },
   ];
 
   return (
